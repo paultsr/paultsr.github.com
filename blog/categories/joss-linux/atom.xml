@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: joss linux | Paul Shaiju]]></title>
+  <link href="http://paultsr.github.com/blog/categories/joss-linux/atom.xml" rel="self"/>
+  <link href="http://paultsr.github.com/"/>
+  <updated>2013-02-16T23:03:12+05:30</updated>
+  <id>http://paultsr.github.com/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[paulson.in to paultsr.in]]></title>
+    <link href="http://paultsr.github.com/blog/2013/02/16/paulson-dot-in-to-paultsr-dot-in/"/>
+    <updated>2013-02-16T22:45:00+05:30</updated>
+    <id>http://paultsr.github.com/blog/2013/02/16/paulson-dot-in-to-paultsr-dot-in</id>
+    <content type="html"><![CDATA[<p>I have shifted my Domain/Website from <strong>http://paulson.in</strong> to <strong>http://paultsr.in</strong>. Webspace is in <strong>http://paultsr.github.com</strong>.Also i have changed my blogging platform from <strong>Wordpress</strong> to <strong>Octopress</strong>. it is simple and easy to blog in Octopress by using its <em>markdown syntax</em>.</p>
+
+<h2>License</h2>
+
+<p>Paul S</p>
+
+<p><em>Free Software Supporter!</em></p>
+
+<p><em>Tested in Ubuntu 11.10 and JOSS Linux 1.10.3</em></p>
+]]></content>
+  </entry>
+  
+</feed>
