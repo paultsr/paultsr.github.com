@@ -1,0 +1,55 @@
+---
+layout: post
+title: "How to Crack/Hack Passwords"
+date: 2013-02-14 18:21
+comments: true
+categories: [hacking,crack,tweaks,tips,linux,ubuntu,joss linux,joss,passwords,john]
+---
+
+We can easily crack Linux passwords using the tool **John the Ripper**
+
+**John the Ripper** is a free password cracking software tool. It currently runs on fifteen different platforms (11 architecture-specific flavors of Unix, DOS, Win32, BeOS, and OpenVMS).
+
+It is one of the most popular password testing/breaking programs. It combines a number of password crackers into one package, auto detects password hash types, and includes a customizable cracker.
+
+It can be run against various encrypted password formats including several crypt password hash types most commonly found on various Unix flavors (based on DES, MD5, or Blowfish), Kerberos AFS, and Windows NT/2000/XP/2003 LM hash.
+
+To Install John the Ripper on Debian/Ubuntu, type the following command in a terminal
+
+`sudo apt-get install john`
+
+After installation, first use the unshadow command to combine the */etc/passwd* and */etc/shadow* files.
+
+`sudo /usr/sbin/unshadow /etc/passwd /etc/shadow > /tmp/crack.password`
+
+John the Ripper tool uses brute-force attack and is a CPU/Time consuming password cracking technique.
+
+John can work in the following modes:
+
+- Wordlist : John will simply use a file with a list of words that will be checked against the passwords.
+- Single crack : In this mode, john will try to crack the password using the login/GECOS information as passwords.
+- Incremental : This is the most powerful mode. John will try any character combination to resolve the password.
+ 
+
+To use John, you just need to supply it a password file created using *unshadow* command along with desired options. If no mode is specified, john will try *single* first, then *wordlist* and finally *incremental* password cracking methods.
+
+`john /tmp/crack.password`
+
+{% img center /images/passwdcrk.png crack_hack Password image1 %}
+
+You can suspend the process by pressing *ctrl + c* and later can be restored using the command
+
+`john -restore`
+
+To view cracked passwords, type
+
+`john -show /tmp/crack.password`
+
+License
+-
+
+Paul S
+
+*Free Software Supporter!*
+
+*Tested in Ubuntu and JOSS Linux*

@@ -1,0 +1,34 @@
+---
+layout: post
+title: "NS2 Installation on Ubuntu 9.10 and Above"
+date: 2013-02-14 16:26
+comments: true
+categories: [ns2,linux,joss,ubuntu,sensor,networks,wired,simulator]
+---
+I was searching for ns2 ubuntu .deb packages for a long time.I have written many blogs for the manual installation of ns2 on linux and windows.Still I do get many queries of ns2 installation errors.
+
+There is a ppa repository for ns2 created by *Wouter Horré*.Now its very easy to install ns2 on ubuntu.
+
+Since Ubuntu 9.10 is already being shipped with tcl,otcl,tk, you need not to install these packages, Only ns, nam & xgraph are needed to install.
+
+If you are behind a proxy, make sure you have $http_proxy variable configured in *~/.bashrc* or type the following in the terminal
+
+`export http_proxy=http://ipaddr:port`
+
+If you had followed my previous post to install ns2 on linux, delete the ns2 folder and paths using
+
+`sudo rm -rf /usr/local/ns-allinone-2.34 && sudo rm -f /etc/profile.d/ns2.sh`
+
+Type the following command on a terminal :
+
+`sudo add-apt-repository ppa:wouterh && sudo apt-get update && sudo apt-get install ns nam xgraph`
+
+There is no need to set-up any path, environment variables or make any changes in *~/.bashrc* or */etc/profile* file.
+
+Run it using the command
+
+`ns filename.tcl`
+
+{% img center /images/ns2-linux2.png ns2 installation on linux image2 %}
+
+{% img center /images/ns2-linux3.png ns2 installation on linux image3 %}

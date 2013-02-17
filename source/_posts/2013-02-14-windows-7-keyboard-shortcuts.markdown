@@ -1,0 +1,75 @@
+---
+layout: post
+title: "Windows 7 Keyboard Shortcuts"
+date: 2013-02-14 11:37
+comments: true
+categories: [windows,windows7,tips,shortcuts]
+---
+Windows 7 boasts a lot of great new shortcuts for switching between apps, moving windows around your screen, moving them to another monitor altogether, and much more. But I’m focusing on several of my favorites.
+
+{% img center /images/windows_7.jpg Windows7 image1 %}
+
+**Window Management Shortcuts**
+
+`Win+Home` Clear all but the active window.
+
+`Win+Space` All windows become transparent so you can see through to the desktop.
+
+`Win+Up arrow` Maximize the active window.
+
+`Shift+Win+Up arrow` Maximize the active window vertically.
+
+`Win+Down arrow` Minimize the window/Restore the window if it’s maximized.
+
+`Win+Left/Right arrows` Dock the window to each side of the monitor.
+
+`Shift+Win+Left/Right arrows` Move the window to the monitor on the left or right.
+
+`Win+P` Adjust presentation settings for your display.
+
+`Win+(+/-)` Zoom in/out.
+
+`Win+G` Cycle between the Windows Gadgets on your screen.
+
+`Win+X` Mobility Center.
+
+`Win+U` Ease of Access.
+
+**Taskbar Shortcuts**
+
+`Win+number (1-9)` Starts the application pinned to the taskbar in that position, or switches to that program.
+
+`Shift+Win+number (1-9)` Starts a new instance of the application pinned to the taskbar in that position.
+
+`Ctrl+Win+number (1-9)` Cycles through open windows for the application pinned to the taskbar in that position.
+
+`Alt+Win+number (1-9)` Opens the Jump List for the application pinned to the taskbar.
+
+`Win+T` Focus and scroll through items on the taskbar.
+
+`Win+B` Focuses the System Tray icons
+
+**Windows Explorer Shortcuts**
+
+`Ctrl+Shift+N` Creates a new folder in Windows Explorer.
+
+`Alt+Up` Goes up a folder level in Windows Explorer.
+
+`Alt+P` Toggles the preview pane in Windows Explorer.
+
+`Shift+Right-Click on a file` Adds Copy as Path, which copies the path of a file to the clipboard.
+
+`Shift+Right-Click on a file` Adds extra hidden items to the Send To menu.
+
+`Shift+Right-Click on a folder` Adds Command Prompt Here, which lets you easily open a command prompt in that folder.
+
+*Share your favorite keyboard shortcuts in the comments*
+
+License
+-
+
+Paul S
+
+*Free Software Supporter!*
+
+*Tested in Windows 7*

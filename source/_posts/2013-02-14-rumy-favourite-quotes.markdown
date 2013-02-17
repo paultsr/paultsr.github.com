@@ -1,0 +1,64 @@
+---
+layout: post
+title: "My Favourite Quotes"
+date: 2013-02-14 16:56
+comments: true
+categories: [quotes,motivation,inspiration,life]
+---
+**Following are the Quotes which have always inspired me**
+
+*“The most beautiful discovery true friends make is that they can grow separately without growing apart” - Elisabeth Foley*
+
+*“Live with Chivalry”*
+
+*“Happiness held is the seed. Happiness shared is the flower” - John Harrigan*
+
+*“There is a great value in disaste because you can start all over again” - Thomas Edison*
+
+*“Doing nothing is very hard to do.. you never know when you're finished” - Leslie Nielson*
+
+*“Do not go where the path may lead, go instead where there is no path and leave a trail” - Ralph Waldo*
+
+*“Be fearful when others are greedy and Be greedy when others are fearful” - Warren Buffet*
+
+*“Great men are eccentric”*
+
+*“Live what you love, don't be bored”*
+
+*“Dream is not what you see in sleep, dream is the thing which does not let you sleep”*
+
+*“Education is when you read the fine print, Experience is what you get if you don’t”*
+
+*“I Love you, not for what you are, but for what I am when I am with you”*
+
+*“We are what we Love, not what Loves us”*
+
+*“Count your age by friends, Count your life by smiles”*
+
+*“I am not in this world to live up to your expectations, and you are not in this world to live up to mine.
+You are you, and I am I, and if by chance we find each other, it’s beautiful”*
+
+*“പൊക്കമില്ലായ്മയാനെന്റെ പൊക്കം” — കുഞ്ഞുണ്ണി മാഷ്*
+
+*“ഒരു വളപ്പോട്ടുന്ടെന്‍ കയ്യില്‍ , ഒരു മയില്‍ പീലി ഉണ്ടുള്ളില്‍ , വിരസ നിമിഷങ്ങള്‍ സരസമാക്കനിവ ധാരലമാനെനിക്കെന്നും” — കുഞ്ഞുണ്ണി മാഷ്*
+
+*“If you have an apple and I have an apple and we exchange these apples then you and I will still each have one apple. But if you have an idea and I have an idea and we exchange these ideas, then each of us will have two ideas” –George Bernard Shaw*
+
+*“Beauty and color may attract the eye, but only a smile can catch the attention of the hearts”*
+
+*“All the beautiful things in life are not seen, nor touched, but are felt in the heart”*
+
+*“He who asks a question is a fool for five minutes; he who does not ask a question remains a fool forever”*
+
+*“Dream as if you’ll live for ever, live as if you’ll die today” –James Dean*
+
+*“We are what we think. All that we are arises with our thoughts” –Budha*
+
+*“Making too many friends is not a big thing….!! Only those who having gud character and who understand us will stay for ever…and ever”*
+
+License
+-
+
+Paul S
+
+*Free Software Supporter!*

@@ -1,0 +1,93 @@
+---
+layout: post
+title: "Installing Google GO on Ubuntu"
+date: 2013-02-14 11:49
+comments: true
+categories: [GO,google,programming,programs,linux,joss]
+---
+GO is a new programming language released by Google in November 2009. GO is a simple, concurrent, garbage-collected language with fast compilation. The language is still in development stage and there is no readymade package available for ubuntu. You can install it and try out the features from the version control repository of GO.
+
+## Installation Steps  
+
+ **Install Pre-requisites on ubuntu**
+
+You need gcc and some supporting software like bison to compile go. Install the following :
+
+`sudo apt-get install mercurial bison libc6-dev python-setuptools python-dev`
+
+ **Install GO**
+
+Download the go source package from *here*.Copy *go-path_syntax_build.tbz* file to the */usr/local* directory.
+
+`sudo cp go-path_syntax_build.tbz /usr/local/`
+
+Then type the following commands in a terminal.
+
+`cd /usr/local/`
+
+`sudo tar –jxvf go-path_syntax_build.tbz`
+
+To change the default 386 architecture, edit the folowing file :
+
+`sudo gedit /usr/local/go/.paulson/go.sh`
+
+Replace the value of environmental variable *$GOARCH* to *amd64*
+Save the file and follow the steps below :
+
+`cd /usr/local/go/src`
+
+`sudo ./all.bash`
+
+Now wait for some time. The compilations will proceed and will be completed with the following message
+
+*— cd ../test*
+
+*0 known bugs; 0 unexpected bugs*
+
+ **Test GO**
+
+Your go language system is now installed.Now let us test it.I had already placed a simple hello program (*hello.go*) inside */usr/local/go/examples* directory.
+
+You can check it using *vim* editor or *gedit*(with go syntax)
+
+`gedit /usr/local/go/examples/hello.go`
+
+{% img center /images/hellogo.png Google GO installation on windows image1 %}
+
+To compile hello.go
+
+`8g hello.go`
+
+*8g is the Go compiler for 386; it will write the output in hello.8. The ‘8’ identifies files for the 386 architecture. The identifier letters for amd64 and arm are ‘6’ and ‘5’. That is, if you were compiling for amd, you would use 6g and the output would be named file.6*
+
+The above command produces an intermediate file *hello.8*.Next you have to link it.
+
+`8l hello.8`
+
+The executable is placed as *8.out*. Finally run the executable using
+
+`./8.out`
+
+**Keeping up with releases**
+
+New releases are announced on the Go Nuts mailing list. To update an existing tree to the latest release, you can run:
+
+`cd $GOROOT/src`
+
+`hg pull`
+
+`hg update release`
+
+`make all`
+
+To know more about GO programming language, visit :
+
+*GO Official Site* 
+
+*GO Google Group*
+
+There is an *unofficial* Windows port available, you can download it from *GO-windows*.
+
+
+
+

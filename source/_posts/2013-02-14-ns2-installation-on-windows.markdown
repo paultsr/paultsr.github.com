@@ -1,0 +1,91 @@
+---
+layout: post
+title: "Ns2 Installation on Windows"
+date: 2013-02-14 10:32
+comments: true
+categories: [ns2,windows,joss,windows7,sensor,networks,wireless,simulator]
+---
+I have heard from my friends that installing ns2 on windows is like a nightmare.Actually it is not so difficult to install NS2 on windows.In this article I will show you how to install NS2.34 (latest version as for today)on Windows Vista SP1.You can install it on Windows XP also.
+
+## Installation Steps  
+
+Follow the below steps for an easy installation of NS2 on Windows
+Download the Cygwin setup from here
+
+Double Click the setup file.Click on the Next button and select *Install from Internet*.Then Click Next.
+
+( NOTE : If you had already downloaded all the packages, select *Install from Local Directory* and specify the Local Package Directory path )
+
+{% img center /images/ns2-win1.jpg ns2 installation on windows image1 %}
+Select the root Install directory as *C\cygwin*. Don’t Change it.Then Click Next
+{% img center /images/ns2-win2.jpg ns2 installation on windows image2 %}
+Select the local package directory.Don’t change the default path
+{% img center /images/ns2-win3.jpg ns2 installation on windows image3 %}
+Select your network connection and click Next
+{% img center /images/ns2-win4.jpg ns2 installation on windows image4 %}
+Select any one server from the list and click Next
+{% img center /images/ns2-win5.jpg ns2 installation on windows image5 %}
+Click on the circled arrow between *All* and *Install* to change the *Default* value to *Install*. By doing we are going to install all packages in the Cygwin repository.ClickNext
+{% img center /images/ns2-win6.jpg ns2 installation on windows image6 %}
+It will take time n space to install all these packages.After the installation, Click Next
+{% img center /images/ns2-win7.jpg ns2 installation on windows image7 %}
+It will create a Cygwin shortcut on your Desktop.
+
+Now copy the NS2.34 setup from *here*
+
+Copy the ns-allinone-withpath-2.34.tbz file to *C:\cygwin\usr\local*
+
+Now click on the Cygwin shortcut on the Desktop.You will get a terminal window as in linux.Type the following command
+
+`cd /usr/local/`
+
+`tar -jxvf ns-allinone-withpath-2.34.tbz`
+
+`cd ns-allinone-2.34`
+
+Now install the NS2 package
+
+`./install`
+
+{% img center /images/ns2-win8.jpg ns2 installation on windows image8 %}
+Press *y* whenever asked to proceed
+{% img center /images/ns2-win9.jpg ns2 installation on windows image9 %}
+After installing, copy the ns2.sh file to */etc/profile.d* folder
+
+`cp /usr/local/ns-allinone-2.34/paulson/.set/ns2.sh /etc/profile.d/.`
+
+Then type the following command in the terminal
+
+`source /etc/profile.d/ns2.sh`
+
+Close the terminal
+
+Click the Start menu >All programs>Cygwin-X>Xwin-Server.It will open an xwin terminal.You can also drag n drop this to Desktop.Alternatively you can start the Xwin server from *C:\cygwin\bin\startxwin.bat* or from *C:\CYGWIN\usr\X11R6\bin\startxwin.bat*.
+
+Press unblock button when asked by the Windows Firewall.
+{% img center /images/ns2-win10.jpg ns2 installation on windows image10 %}
+Now u can execute your ns2 programs from this terminal.
+
+`ns filename.tcl`
+
+I had placed some sample programs in the */usr/local/ns-allinone-2.34/paulson/sample-codes* directory.Run it using the command
+
+`ns filename.tcl`
+
+{% img center /images/ns2-linux2.png ns2 installation on linux image2 %}
+
+{% img center /images/ns2-linux3.png ns2 installation on linux image3 %}
+
+
+*NOTE : For any installation problems, read the comments for this blog.*
+
+License
+-
+
+Paul S
+
+*Free Software Supporter!*
+
+*Tested in Windows XP, Windows Vista SP1 and Windows 7*
+
+

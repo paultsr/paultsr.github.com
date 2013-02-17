@@ -1,0 +1,60 @@
+---
+layout: post
+title: "NS2 installation on Linux"
+date: 2013-02-14 10:09
+comments: true
+categories: [ns2,linux,joss,ubuntu,sensor,networks,simulator] 
+---
+NS2 is a popular discrete event simulator for simulating different types of networks.In this article i will show you how to install NS2.34 on Linux.I had modified the original NS2 package so that you dont have to set any paths after the installation.I had installed NS2 on Ubuntu 9.04.You can use the following steps to install it in any flavour of Linux.
+
+## Installation Steps 
+
+Before installing NS2 on Linux, you should have already installed the tcl, tk, gcc, g++ and other required packages.if not, install it using the following command
+
+( open up the terminal and paste the following commands one by one )
+
+`sudo apt-get install build-essential autoconf automake libxmu-dev`
+
+Download ns-allinone-withpath-2.34.tbz from *here*
+
+Copy it to the */usr/local* directory
+
+`sudo cp /tmp/ns-allinone-withpath-2.34.tbz /usr/local/`
+
+Change directory to */usr/local*
+
+`cd /usr/local/`
+
+Extract it using the following command
+
+`sudo tar -jxvf ns-allinone-withpath-2.34.tbz`
+
+Change directory to ns-allinone-2.34
+
+`cd ns-allinone-2.34/`
+
+Now Install ns2
+
+`sudo ./install`
+
+{% img center /images/ns2-linux1.png ns2 installation on linux image1 %}
+After installation type the following command in a terminal
+
+`source /etc/profile.d/ns2.sh`
+
+I had placed some sample programs in the */usr/local/ns-allinone-2.34/paulson/sample-codes* directory.Run it using the command
+
+`ns filename.tcl`
+
+{% img center /images/ns2-linux2.png ns2 installation on linux image2 %}
+
+{% img center /images/ns2-linux3.png ns2 installation on linux image3 %}
+
+License
+-
+
+Paul S
+
+*Free Software Supporter!*
+
+*Tested in Ubuntu and JOSS Linux*
