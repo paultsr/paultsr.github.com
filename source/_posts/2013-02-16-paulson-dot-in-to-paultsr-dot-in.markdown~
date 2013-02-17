@@ -6,7 +6,7 @@ comments: true
 categories: [paultsr,paulson,octopress,blogging,wordpress,joss linux,website]
 ---
 
-I have shifted my Domain/Website from **http://paulson.in** to **http://paultsr.in**. Webspace is in **http://paultsr.github.com**.Also i have changed my blogging platform from **Wordpress** to **Octopress**. it is simple and easy to blog in Octopress by using its *markdown syntax*.
+I have migrated my Domain/Website from **http://paulson.in** to **http://paultsr.in**. Webspace is in **http://paultsr.github.com**.Also i have changed my blogging platform from **Wordpress** to **Octopress**. it is easy to read and write blogs in Octopress by using its *markdown syntax*.
 
 License
 -

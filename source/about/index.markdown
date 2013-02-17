@@ -10,6 +10,8 @@ footer: true
 
 Presently Working as Asst. Professor in Department of Computer Science and Engineering at Jyothi Engineering College, Thrissur.
 
+[Know More](http://about.me/paulson)
+
 My Present Address : 
 	Shaiju Paul
 	Assistant Professor
@@ -17,7 +19,7 @@ My Present Address :
 	Jyothi Engineering College
 	Cheruthuruthy, Thrissur
 	Kerala, India
-	Email-id : paulson@jecc.ac.in
+	Email-id : <paulson@jecc.ac.in>
 
 
 License

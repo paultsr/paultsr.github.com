@@ -1,8 +1,7 @@
 <section>
   <h1>About Me</h1>
-  <p>
-{% img center /about/shaiju_paul.jpg Shaiju Paul %}
-
-Presently Working as Asst. Professor in Department of Computer Science and Engineering at Jyothi Engineering College, Thrissur.
-</p>
+ {% img /about/shaiju_paul_me.jpg Shaiju Paul %}
+ <br>Presently Working as Asst. Professor in Department of CSE at Jyothi Engg. College, Thrissur.
+ <br><a href="http://about.me/paulson">Know More</a>
 </section>
+
