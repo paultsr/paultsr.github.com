@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: rbenv | Paul Shaiju]]></title>
+  <link href="http://paultsr.github.com/blog/categories/rbenv/atom.xml" rel="self"/>
+  <link href="http://paultsr.github.com/"/>
+  <updated>2013-02-17T22:37:15+05:30</updated>
+  <id>http://paultsr.github.com/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[How to install Ruby with rbenv on Ubuntu / JOSS Linux]]></title>
+    <link href="http://paultsr.github.com/blog/2013/01/26/how-to-install-ruby-with-rbenv-on-ubuntu-slash-joss-linux/"/>
+    <updated>2013-01-26T00:41:00+05:30</updated>
+    <id>http://paultsr.github.com/blog/2013/01/26/how-to-install-ruby-with-rbenv-on-ubuntu-slash-joss-linux</id>
+    <content type="html"><![CDATA[<h2>Installation Steps</h2>
+
+<p>( open up the terminal and paste the following commands one by one )</p>
+
+<ol>
+<li><code>cd</code></li>
+<li><code>sudo apt-get install zlib1g-dev openssl libopenssl-ruby1.9.1 libssl-dev libruby1.9.1 libreadline-dev git-core</code></li>
+<li><code>git clone git://github.com/sstephenson/rbenv.git .rbenv</code></li>
+<li><code>echo 'export PATH="$HOME/.rbenv/bin:$PATH"' &gt;&gt; ~/.bashrc</code></li>
+<li><code>echo 'eval "$(rbenv init -)"' &gt;&gt; ~/.bashrc</code></li>
+<li><code>exec $SHELL</code></li>
+<li><code>mkdir -p ~/.rbenv/plugins</code></li>
+<li><code>cd ~/.rbenv/plugins</code></li>
+<li><code>git clone git://github.com/sstephenson/ruby-build.git</code></li>
+<li><code>cd ruby-build</code></li>
+<li><code>sudo sh ./install.sh</code></li>
+<li><code>rbenv install 1.9.3-p194</code></li>
+<li><code>rbenv rehash</code></li>
+<li><code>rbenv global 1.9.3-p194</code></li>
+</ol>
+
+
+<h2>License</h2>
+
+<p>Paul S
+<em>Free Software!</em></p>
+
+<p><em>Tested in Ubuntu 11.10 and JOSS Linux 1.10.3</em></p>
+]]></content>
+  </entry>
+  
+</feed>

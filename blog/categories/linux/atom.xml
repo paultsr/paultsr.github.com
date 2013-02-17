@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: linux | Paul Shaiju]]></title>
+  <link href="http://paultsr.github.com/blog/categories/linux/atom.xml" rel="self"/>
+  <link href="http://paultsr.github.com/"/>
+  <updated>2013-02-17T22:37:15+05:30</updated>
+  <id>http://paultsr.github.com/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[How to Crack/Hack Passwords]]></title>
+    <link href="http://paultsr.github.com/blog/2013/02/14/how-to-crack-slash-hack-passwords/"/>
+    <updated>2013-02-14T18:21:00+05:30</updated>
+    <id>http://paultsr.github.com/blog/2013/02/14/how-to-crack-slash-hack-passwords</id>
+    <content type="html"><![CDATA[<p>We can easily crack Linux passwords using the tool <strong>John the Ripper</strong></p>
+
+<p><strong>John the Ripper</strong> is a free password cracking software tool. It currently runs on fifteen different platforms (11 architecture-specific flavors of Unix, DOS, Win32, BeOS, and OpenVMS).</p>
+
+<p>It is one of the most popular password testing/breaking programs. It combines a number of password crackers into one package, auto detects password hash types, and includes a customizable cracker.</p>
+
+<p>It can be run against various encrypted password formats including several crypt password hash types most commonly found on various Unix flavors (based on DES, MD5, or Blowfish), Kerberos AFS, and Windows NT/2000/XP/2003 LM hash.</p>
+
+<p>To Install John the Ripper on Debian/Ubuntu, type the following command in a terminal</p>
+
+<p><code>sudo apt-get install john</code></p>
+
+<p>After installation, first use the unshadow command to combine the <em>/etc/passwd</em> and <em>/etc/shadow</em> files.</p>
+
+<p><code>sudo /usr/sbin/unshadow /etc/passwd /etc/shadow &gt; /tmp/crack.password</code></p>
+
+<p>John the Ripper tool uses brute-force attack and is a CPU/Time consuming password cracking technique.</p>
+
+<p>John can work in the following modes:</p>
+
+<ul>
+<li>Wordlist : John will simply use a file with a list of words that will be checked against the passwords.</li>
+<li>Single crack : In this mode, john will try to crack the password using the login/GECOS information as passwords.</li>
+<li>Incremental : This is the most powerful mode. John will try any character combination to resolve the password.</li>
+</ul>
+
+
+<p>To use John, you just need to supply it a password file created using <em>unshadow</em> command along with desired options. If no mode is specified, john will try <em>single</em> first, then <em>wordlist</em> and finally <em>incremental</em> password cracking methods.</p>
+
+<p><code>john /tmp/crack.password</code></p>
+
+<p><img class="center" src="/images/passwdcrk.png" title="crack_hack Password image1" ></p>
+
+<p>You can suspend the process by pressing <em>ctrl + c</em> and later can be restored using the command</p>
+
+<p><code>john -restore</code></p>
+
+<p>To view cracked passwords, type</p>
+
+<p><code>john -show /tmp/crack.password</code></p>
+
+<h2>License</h2>
+
+<p>Paul S</p>
+
+<p><em>Free Software Supporter!</em></p>
+
+<p><em>Tested in Ubuntu and JOSS Linux</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Developing Web Services in Linux]]></title>
+    <link href="http://paultsr.github.com/blog/2013/02/14/madeveloping-web-services-in-linux/"/>
+    <updated>2013-02-14T17:40:00+05:30</updated>
+    <id>http://paultsr.github.com/blog/2013/02/14/madeveloping-web-services-in-linux</id>
+    <content type="html"><![CDATA[<p><strong>Web services</strong> enable software components such as application functions, objects and processes from heterogeneous systems to be exposed as services over the Internet.</p>
+
+<p>To develop Web Services on Linux, we need the following packages.</p>
+
+<p><strong>1.Java SE Development Kit (JDK)</strong></p>
+
+<p><strong>2.NetBeans IDE</strong></p>
+
+<p>To install these packages, follow the below steps :-</p>
+
+<p>First install Java SE Development Kit</p>
+
+<p>To install proprietary Java, you must have the Multiverse repository enabled. Click on <em>System</em> > <em>Administration</em> > <em>Software Source</em> > <em>Select Multiverse</em> Close.</p>
+
+<p>When ask to reload the package informations, Click <em>Reload</em>.</p>
+
+<p>Open a terminal and type the following command :-</p>
+
+<p><code>sudo apt-get install sun-java6-jdk</code></p>
+
+<p><img class="center" src="/images/ws16.png" title="Developing Web Services in linux image1" ></p>
+
+<p>To setup the default java version</p>
+
+<p><code>sudo update-java-alternatives -s java-6-sun</code></p>
+
+<p>Next setup the environment variable</p>
+
+<p>You also need to setup <em>JAVA_HOME</em> and <em>PATH</em> variable.Open your <em>.bash_profile</em> file:</p>
+
+<p><code>sudo gedit $HOME/.bashrc</code></p>
+
+<p>Append following line:</p>
+
+<p><code>export JAVA_HOME=/usr/lib/jvm/java-6-sun</code></p>
+
+<p><code>export PATH=$PATH:$JAVA_HOME/bin</code></p>
+
+<p>Save and close the file.</p>
+
+<p>Then download NetBeans IDE from <em>here</em></p>
+
+<p>Open a terminal and <em>cd</em> to the downloaded location.Then type</p>
+
+<p>'sudo sh netbeans-6.7.1-ml-linux.sh'</p>
+
+<p><img class="center" src="/images/ws1.png" title="Developing Web Services in linux image2" ></p>
+
+<p>Click <em>Next</em> and Accept the License.It will automatically detect JDK.Don’t change the default installation paths.</p>
+
+<p><img class="center" src="/images/ws3.png" title="Developing Web Services in linux image3" ></p>
+
+<p>When the installation is complete, click <em>Finish</em> to exit the wizard.</p>
+
+<p>Now we will develop our first web service using netbeans. For a change instead of developing a Hello Web Service as the first web service, we will develop a Calculator Web Service to add two integer numbers.</p>
+
+<h2>Creating a Web Service</h2>
+
+<p>1.Choose <em>File > New Project (Ctrl-Shift-N)</em>. Select <em>Web Application</em> from the <em>Java Web</em> category.</p>
+
+<p><img class="center" src="/images/ws7.png" title="Developing Web Services in linux image4" ></p>
+
+<p>2.Name the project <em>CalculatorWebService</em>.</p>
+
+<p><img class="center" src="/images/ws8.png" title="Developing Web Services in linux image5" ></p>
+
+<p>3.Click through the remaining pages and click <em>Finish</em>.</p>
+
+<p><img class="center" src="/images/ws9.png" title="Developing Web Services in linux image6" ></p>
+
+<p>4.Right-click the <em>CalculatorWebServic</em>e node and choose <em>New > Web Service</em>.</p>
+
+<p>5.Name the web service <em>CalculatorWS</em>, type <em>org.me.calculator</em> in Package, and click <em>Finish</em>.</p>
+
+<p><img class="center" src="/images/ws10.png" title="Developing Web Services in linux image7" ></p>
+
+<p>The Projects window displays the structure of the new web service and the source code is shown in the editor area.</p>
+
+<p><img class="center" src="/images/ws66.png" title="Developing Web Services in linux image8" ></p>
+
+<p>6.Change to the <em>Design</em> view.</p>
+
+<p>Click <em>Add</em> Operation in the visual designer. A dialog box appears where you can define the new operation.
+In the upper part of the Add Operation dialog box, type <em>add</em> in Name and type <em>int</em> in the Return Type drop-down list. In the lower part of the Add Operation dialog box, click <em>Add</em> and create a parameter of type <em>int</em> named <em>i</em>.Then click <em>Add</em> again and create a parameter of type <em>int</em> called <em>j</em>.</p>
+
+<p><img class="center" src="/images/ws11.png" title="Developing Web Services in linux image9" ></p>
+
+<p>Click <em>OK</em> at the bottom of the Add Operation dialog box.</p>
+
+<p>The visual designer now displays the following:</p>
+
+<p><img class="center" src="/images/ws12.png" title="Developing Web Services in linux image10" ></p>
+
+<p>7.Click <em>Source</em> and notice that the source code that has been generated in the previous steps is as follows:</p>
+
+<p>8.In the editor, extend the skeleton add operation to the following (changes are in bold):</p>
+
+<p>@WebMethod</p>
+
+<p>public int add(@WebParam(name = “i”)</p>
+
+<p>int i, @WebParam(name = “j”)</p>
+
+<p>int j) {</p>
+
+<p><strong>int k = i + j;</strong></p>
+
+<p>return <strong>k</strong>;</p>
+
+<p>}</p>
+
+<p><img class="center" src="/images/ws13.png" title="Developing Web Services in linux image11" ></p>
+
+<p>9.Right-click the project and choose <em>Deploy</em>. The IDE starts the application server, builds the application, and deploys the application to the server.</p>
+
+<p>You can follow the progress of these operations in the <em>CalculatorWSApplication (run-deploy) and GlassFish V3 Prelude</em> tabs in the <em>Output view</em>.If you deployed to the GlassFish V3 Prelude Server, you will see the following, which indicates that you have successfully deployed your web service:</p>
+
+<p><img class="center" src="/images/ws14.png" title="Developing Web Services in linux image12" ></p>
+
+<h2>Consuming the Web Service</h2>
+
+<p>Now that you have deployed the web service, you need to create a client (jsp page) to make use of the web service’s add method.</p>
+
+<p>In this section, we will create a new web application and then consume the web service in the default JSP page that the Web Application wizard creates.</p>
+
+<p>1.Choose <em>File > New Project (Ctrl-Shift-N)</em>. Select <em>Web Application</em> from the <em>Java Web</em> category. Name the project <em>CalculatorWSJSPClient</em>. Click <em>Finish</em>.</p>
+
+<p>2.Right-click the <em>CalculatorWSJSPClient</em> node and choose <em>New > Web Service Client</em>.</p>
+
+<p>3.In <em>Project</em>, click <em>Browse</em>. Browse to the web service that you want to consume. When you have selected the web service, click <em>OK</em>.</p>
+
+<p><img class="center" src="/images/ws18.png" title="Developing Web Services in linux image13" ></p>
+
+<p>4.Leave the other settings at default and click <em>Finish</em>. The Projects window displays the new web service client, as shown below:</p>
+
+<p><img class="center" src="/images/ws17.png" title="Developing Web Services in linux image14" ></p>
+
+<p>5.In the Web Service References node, expand the node that represents the web service. The <em>add</em> operation, which you will invoke from the client, is now exposed.</p>
+
+<p>6.Drag the add operation to the client’s index.jsp page, and drop it below the H1 tags. The code for invoking the service’s operation is now generated in the <em>index.jsp</em> page.</p>
+
+<p>Change the value for <em>i</em> and <em>j</em> from <em>0</em> to other integers, such as <em>3</em> and <em>5</em>. Replace
+the commented out TODO line in the catch block with <em>out.println(“exception” + ex);</em>.</p>
+
+<p>&lt;%</p>
+
+<p>try {</p>
+
+<p>org.me.calculator.CalculatorWSService service = new org.me.calculator.CalculatorWSService();</p>
+
+<p>org.me.calculator.CalculatorWS port = service.getCalculatorWSPort();</p>
+
+<p>// TODO initialize WS operation arguments here</p>
+
+<p>int i = <strong>3</strong>;</p>
+
+<p>int j = <strong>5</strong>;</p>
+
+<p>// TODO process result here</p>
+
+<p>int result = port.add(i, j);</p>
+
+<p>out.println(“Result = “+result);</p>
+
+<p>} catch (Exception ex) {</p>
+
+<p><strong>out.println(“exception” + ex);</strong></p>
+
+<p>}</p>
+
+<p>%></p>
+
+<p>7.Right-click the project node and choose <em>Run</em>.The server starts, if it wasn’t running already. The application is built and deployed, and the browser opens, displaying the calculation result:</p>
+
+<p><img class="center" src="/images/ws15.png" title="Developing Web Services in linux image15" ></p>
+
+<h2>License</h2>
+
+<p>Paul S</p>
+
+<p><em>Free Software Supporter!</em></p>
+
+<p><em>Tested in Ubuntu and JOSS Linux</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Malayalam fonts in Firefox]]></title>
+    <link href="http://paultsr.github.com/blog/2013/02/14/malayalam-fonts-in-firefox/"/>
+    <updated>2013-02-14T17:33:00+05:30</updated>
+    <id>http://paultsr.github.com/blog/2013/02/14/malayalam-fonts-in-firefox</id>
+    <content type="html"><![CDATA[<p>Websites which use malayalam fonts can be easily read by insatlling a small plugin in firefox</p>
+
+<p>The plugin <strong>padma</strong> works for the latest firefo version too.</p>
+
+<p>Click <em>here</em> to install</p>
+
+<p>It can be used to read tamil,kannada,telgu,gujarati,bengali websites.</p>
+
+<p>After installation, restart the browser.Check the following sites</p>
+
+<p><em>www.malayalamanorama.com</em></p>
+
+<p><em>www.mangalam.com</em></p>
+
+<p>It supports Linux, Solaris and Windows platforms.</p>
+
+<p><img class="center" src="/images/malayalam-firefox.png" title="malayalam Font installation on linux image1" ></p>
+
+<h2>License</h2>
+
+<p>Paul S</p>
+
+<p><em>Free Software Supporter!</em></p>
+
+<p><em>Tested in Ubuntu and JOSS Linux</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Run Windows applications on Linux]]></title>
+    <link href="http://paultsr.github.com/blog/2013/02/14/run-windows-applications-in-linux/"/>
+    <updated>2013-02-14T16:33:00+05:30</updated>
+    <id>http://paultsr.github.com/blog/2013/02/14/run-windows-applications-in-linux</id>
+    <content type="html"><![CDATA[<h2>Wine Doors 0.1 &amp; Wine in Ubuntu</h2>
+
+<p>Wine Doors is an application that allows easy installation and managing of Windows application on Linux desktop .</p>
+
+<p>This what Wine Doors Website has to say : -</p>
+
+<p>Wine-doors is an application designed to make installing windows software on Linux, Solaris or other Unix systems easier. Wine-doors is essentially a <em>package management tool</em> for windows software on Linux systems.</p>
+
+<p>Since Wine-Doors is basically to manage applications installed through wine and simplify their installation through wine so installing wine is a must.</p>
+
+<p><strong>To install Wine</strong></p>
+
+<p><code>sudo apt-get install wine</code></p>
+
+<p>After installing wine click <em>here</em> to download the latest version of Wine-Doors(<em>wine-doors_0.1.3rc1_all.deb</em>)</p>
+
+<p>Install the following packages from a terminal</p>
+
+<p><code>sudo apt-get install orange</code></p>
+
+<p><code>sudo apt-get install cabextract</code></p>
+
+<p><code>sudo dpkg -i wine-doors_0.1.3rc1_all.deb</code></p>
+
+<p>I have used wine-doors release candidate 1 .</p>
+
+<p>After completing above steps launch Wine-Doors from <strong>Applications -> System-Tools -> Wine-Doors</strong></p>
+
+<p>Now Wine-Doors would download and install some necessary apps and when all this inital confiuguration is over you would find a dialog like this providing you a easy way of installing a number of popular windows application.</p>
+
+<p>I Was highly impressed by the ease with which it is possible to install many popular application using wine-doors.It was really impressive .There are a lot of windows applications that can be installed by wine.Check the <em>wine site</em> for the new windows applications which it supports.</p>
+
+<p><img class="center" src="/images/wine-doors1.png" title="wine installation on linux image1" ></p>
+
+<p><img class="center" src="/images/wine-doors3.png" title="wine installation on linux image2" ></p>
+
+<p><em>Wine-Doors in Action</em></p>
+
+<h2>License</h2>
+
+<p>Paul S</p>
+
+<p><em>Free Software Supporter!</em></p>
+
+<p><em>Tested in Ubuntu and JOSS Linux</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[NS2 Installation on Ubuntu 9.10 and Above]]></title>
+    <link href="http://paultsr.github.com/blog/2013/02/14/ns2-installation-on-ubuntu-9-dot-10-and-above/"/>
+    <updated>2013-02-14T16:26:00+05:30</updated>
+    <id>http://paultsr.github.com/blog/2013/02/14/ns2-installation-on-ubuntu-9-dot-10-and-above</id>
+    <content type="html"><![CDATA[<p>I was searching for ns2 ubuntu .deb packages for a long time.I have written many blogs for the manual installation of ns2 on linux and windows.Still I do get many queries of ns2 installation errors.</p>
+
+<p>There is a ppa repository for ns2 created by <em>Wouter Horré</em>.Now its very easy to install ns2 on ubuntu.</p>
+
+<p>Since Ubuntu 9.10 is already being shipped with tcl,otcl,tk, you need not to install these packages, Only ns, nam &amp; xgraph are needed to install.</p>
+
+<p>If you are behind a proxy, make sure you have $http_proxy variable configured in <em>~/.bashrc</em> or type the following in the terminal</p>
+
+<p><code>export http_proxy=http://ipaddr:port</code></p>
+
+<p>If you had followed my previous post to install ns2 on linux, delete the ns2 folder and paths using</p>
+
+<p><code>sudo rm -rf /usr/local/ns-allinone-2.34 &amp;&amp; sudo rm -f /etc/profile.d/ns2.sh</code></p>
+
+<p>Type the following command on a terminal :</p>
+
+<p><code>sudo add-apt-repository ppa:wouterh &amp;&amp; sudo apt-get update &amp;&amp; sudo apt-get install ns nam xgraph</code></p>
+
+<p>There is no need to set-up any path, environment variables or make any changes in <em>~/.bashrc</em> or <em>/etc/profile</em> file.</p>
+
+<p>Run it using the command</p>
+
+<p><code>ns filename.tcl</code></p>
+
+<p><img class="center" src="/images/ns2-linux2.png" title="ns2 installation on linux image2" ></p>
+
+<p><img class="center" src="/images/ns2-linux3.png" title="ns2 installation on linux image3" ></p>
+]]></content>
+  </entry>
+  
+</feed>

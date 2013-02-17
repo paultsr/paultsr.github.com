@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: wine | Paul Shaiju]]></title>
+  <link href="http://paultsr.github.com/blog/categories/wine/atom.xml" rel="self"/>
+  <link href="http://paultsr.github.com/"/>
+  <updated>2013-02-17T22:37:15+05:30</updated>
+  <id>http://paultsr.github.com/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Run Windows applications on Linux]]></title>
+    <link href="http://paultsr.github.com/blog/2013/02/14/run-windows-applications-in-linux/"/>
+    <updated>2013-02-14T16:33:00+05:30</updated>
+    <id>http://paultsr.github.com/blog/2013/02/14/run-windows-applications-in-linux</id>
+    <content type="html"><![CDATA[<h2>Wine Doors 0.1 &amp; Wine in Ubuntu</h2>
+
+<p>Wine Doors is an application that allows easy installation and managing of Windows application on Linux desktop .</p>
+
+<p>This what Wine Doors Website has to say : -</p>
+
+<p>Wine-doors is an application designed to make installing windows software on Linux, Solaris or other Unix systems easier. Wine-doors is essentially a <em>package management tool</em> for windows software on Linux systems.</p>
+
+<p>Since Wine-Doors is basically to manage applications installed through wine and simplify their installation through wine so installing wine is a must.</p>
+
+<p><strong>To install Wine</strong></p>
+
+<p><code>sudo apt-get install wine</code></p>
+
+<p>After installing wine click <em>here</em> to download the latest version of Wine-Doors(<em>wine-doors_0.1.3rc1_all.deb</em>)</p>
+
+<p>Install the following packages from a terminal</p>
+
+<p><code>sudo apt-get install orange</code></p>
+
+<p><code>sudo apt-get install cabextract</code></p>
+
+<p><code>sudo dpkg -i wine-doors_0.1.3rc1_all.deb</code></p>
+
+<p>I have used wine-doors release candidate 1 .</p>
+
+<p>After completing above steps launch Wine-Doors from <strong>Applications -> System-Tools -> Wine-Doors</strong></p>
+
+<p>Now Wine-Doors would download and install some necessary apps and when all this inital confiuguration is over you would find a dialog like this providing you a easy way of installing a number of popular windows application.</p>
+
+<p>I Was highly impressed by the ease with which it is possible to install many popular application using wine-doors.It was really impressive .There are a lot of windows applications that can be installed by wine.Check the <em>wine site</em> for the new windows applications which it supports.</p>
+
+<p><img class="center" src="/images/wine-doors1.png" title="wine installation on linux image1" ></p>
+
+<p><img class="center" src="/images/wine-doors3.png" title="wine installation on linux image2" ></p>
+
+<p><em>Wine-Doors in Action</em></p>
+
+<h2>License</h2>
+
+<p>Paul S</p>
+
+<p><em>Free Software Supporter!</em></p>
+
+<p><em>Tested in Ubuntu and JOSS Linux</em></p>
+]]></content>
+  </entry>
+  
+</feed>

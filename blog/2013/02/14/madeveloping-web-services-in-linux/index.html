@@ -1,0 +1,526 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Developing Web Services in Linux - Paul Shaiju</title>
+  <meta name="author" content="Your Name">
+
+  
+  <meta name="description" content="Web services enable software components such as application functions, objects and processes from heterogeneous systems to be exposed as services &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://paultsr.github.com/blog/2013/02/14/madeveloping-web-services-in-linux/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Paul Shaiju" type="application/atom+xml">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <div id="logo">
+  	<div id="logoLeft">{</div>
+  	<div id="logoText">mob</div>
+  	<div id="logoRight">}</div>
+  	<div class="clear"></div>
+  </div>
+  <h1><a href="/">Paul Shaiju</a></h1>
+  
+    <h2>My Blog</h2>
+  
+  <div class="clear"></div>
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="Paul Shaiju" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:paultsr.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="http://tumblr.paultsr.in">Gallery</a></li>
+  <li><a href="/about">About</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      
+        <h1 class="entry-title">Developing Web Services in Linux</h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-14T17:40:00+05:30" pubdate data-updated="true">Feb 14<span>th</span>, 2013</time>
+        
+         | <a href="#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p><strong>Web services</strong> enable software components such as application functions, objects and processes from heterogeneous systems to be exposed as services over the Internet.</p>
+
+<p>To develop Web Services on Linux, we need the following packages.</p>
+
+<p><strong>1.Java SE Development Kit (JDK)</strong></p>
+
+<p><strong>2.NetBeans IDE</strong></p>
+
+<p>To install these packages, follow the below steps :-</p>
+
+<p>First install Java SE Development Kit</p>
+
+<p>To install proprietary Java, you must have the Multiverse repository enabled. Click on <em>System</em> > <em>Administration</em> > <em>Software Source</em> > <em>Select Multiverse</em> Close.</p>
+
+<p>When ask to reload the package informations, Click <em>Reload</em>.</p>
+
+<p>Open a terminal and type the following command :-</p>
+
+<p><code>sudo apt-get install sun-java6-jdk</code></p>
+
+<p><img class="center" src="/images/ws16.png" title="Developing Web Services in linux image1" ></p>
+
+<p>To setup the default java version</p>
+
+<p><code>sudo update-java-alternatives -s java-6-sun</code></p>
+
+<p>Next setup the environment variable</p>
+
+<p>You also need to setup <em>JAVA_HOME</em> and <em>PATH</em> variable.Open your <em>.bash_profile</em> file:</p>
+
+<p><code>sudo gedit $HOME/.bashrc</code></p>
+
+<p>Append following line:</p>
+
+<p><code>export JAVA_HOME=/usr/lib/jvm/java-6-sun</code></p>
+
+<p><code>export PATH=$PATH:$JAVA_HOME/bin</code></p>
+
+<p>Save and close the file.</p>
+
+<p>Then download NetBeans IDE from <em>here</em></p>
+
+<p>Open a terminal and <em>cd</em> to the downloaded location.Then type</p>
+
+<p>&#8216;sudo sh netbeans-6.7.1-ml-linux.sh&#8217;</p>
+
+<p><img class="center" src="/images/ws1.png" title="Developing Web Services in linux image2" ></p>
+
+<p>Click <em>Next</em> and Accept the License.It will automatically detect JDK.Don’t change the default installation paths.</p>
+
+<p><img class="center" src="/images/ws3.png" title="Developing Web Services in linux image3" ></p>
+
+<p>When the installation is complete, click <em>Finish</em> to exit the wizard.</p>
+
+<p>Now we will develop our first web service using netbeans. For a change instead of developing a Hello Web Service as the first web service, we will develop a Calculator Web Service to add two integer numbers.</p>
+
+<h2>Creating a Web Service</h2>
+
+<p>1.Choose <em>File > New Project (Ctrl-Shift-N)</em>. Select <em>Web Application</em> from the <em>Java Web</em> category.</p>
+
+<p><img class="center" src="/images/ws7.png" title="Developing Web Services in linux image4" ></p>
+
+<p>2.Name the project <em>CalculatorWebService</em>.</p>
+
+<p><img class="center" src="/images/ws8.png" title="Developing Web Services in linux image5" ></p>
+
+<p>3.Click through the remaining pages and click <em>Finish</em>.</p>
+
+<p><img class="center" src="/images/ws9.png" title="Developing Web Services in linux image6" ></p>
+
+<p>4.Right-click the <em>CalculatorWebServic</em>e node and choose <em>New > Web Service</em>.</p>
+
+<p>5.Name the web service <em>CalculatorWS</em>, type <em>org.me.calculator</em> in Package, and click <em>Finish</em>.</p>
+
+<p><img class="center" src="/images/ws10.png" title="Developing Web Services in linux image7" ></p>
+
+<p>The Projects window displays the structure of the new web service and the source code is shown in the editor area.</p>
+
+<p><img class="center" src="/images/ws66.png" title="Developing Web Services in linux image8" ></p>
+
+<p>6.Change to the <em>Design</em> view.</p>
+
+<p>Click <em>Add</em> Operation in the visual designer. A dialog box appears where you can define the new operation.
+In the upper part of the Add Operation dialog box, type <em>add</em> in Name and type <em>int</em> in the Return Type drop-down list. In the lower part of the Add Operation dialog box, click <em>Add</em> and create a parameter of type <em>int</em> named <em>i</em>.Then click <em>Add</em> again and create a parameter of type <em>int</em> called <em>j</em>.</p>
+
+<p><img class="center" src="/images/ws11.png" title="Developing Web Services in linux image9" ></p>
+
+<p>Click <em>OK</em> at the bottom of the Add Operation dialog box.</p>
+
+<p>The visual designer now displays the following:</p>
+
+<p><img class="center" src="/images/ws12.png" title="Developing Web Services in linux image10" ></p>
+
+<p>7.Click <em>Source</em> and notice that the source code that has been generated in the previous steps is as follows:</p>
+
+<p>8.In the editor, extend the skeleton add operation to the following (changes are in bold):</p>
+
+<p>@WebMethod</p>
+
+<p>public int add(@WebParam(name = “i”)</p>
+
+<p>int i, @WebParam(name = “j”)</p>
+
+<p>int j) {</p>
+
+<p><strong>int k = i + j;</strong></p>
+
+<p>return <strong>k</strong>;</p>
+
+<p>}</p>
+
+<p><img class="center" src="/images/ws13.png" title="Developing Web Services in linux image11" ></p>
+
+<p>9.Right-click the project and choose <em>Deploy</em>. The IDE starts the application server, builds the application, and deploys the application to the server.</p>
+
+<p>You can follow the progress of these operations in the <em>CalculatorWSApplication (run-deploy) and GlassFish V3 Prelude</em> tabs in the <em>Output view</em>.If you deployed to the GlassFish V3 Prelude Server, you will see the following, which indicates that you have successfully deployed your web service:</p>
+
+<p><img class="center" src="/images/ws14.png" title="Developing Web Services in linux image12" ></p>
+
+<h2>Consuming the Web Service</h2>
+
+<p>Now that you have deployed the web service, you need to create a client (jsp page) to make use of the web service’s add method.</p>
+
+<p>In this section, we will create a new web application and then consume the web service in the default JSP page that the Web Application wizard creates.</p>
+
+<p>1.Choose <em>File > New Project (Ctrl-Shift-N)</em>. Select <em>Web Application</em> from the <em>Java Web</em> category. Name the project <em>CalculatorWSJSPClient</em>. Click <em>Finish</em>.</p>
+
+<p>2.Right-click the <em>CalculatorWSJSPClient</em> node and choose <em>New > Web Service Client</em>.</p>
+
+<p>3.In <em>Project</em>, click <em>Browse</em>. Browse to the web service that you want to consume. When you have selected the web service, click <em>OK</em>.</p>
+
+<p><img class="center" src="/images/ws18.png" title="Developing Web Services in linux image13" ></p>
+
+<p>4.Leave the other settings at default and click <em>Finish</em>. The Projects window displays the new web service client, as shown below:</p>
+
+<p><img class="center" src="/images/ws17.png" title="Developing Web Services in linux image14" ></p>
+
+<p>5.In the Web Service References node, expand the node that represents the web service. The <em>add</em> operation, which you will invoke from the client, is now exposed.</p>
+
+<p>6.Drag the add operation to the client’s index.jsp page, and drop it below the H1 tags. The code for invoking the service’s operation is now generated in the <em>index.jsp</em> page.</p>
+
+<p>Change the value for <em>i</em> and <em>j</em> from <em>0</em> to other integers, such as <em>3</em> and <em>5</em>. Replace
+the commented out TODO line in the catch block with <em>out.println(“exception” + ex);</em>.</p>
+
+<p>&lt;%</p>
+
+<p>try {</p>
+
+<p>org.me.calculator.CalculatorWSService service = new org.me.calculator.CalculatorWSService();</p>
+
+<p>org.me.calculator.CalculatorWS port = service.getCalculatorWSPort();</p>
+
+<p>// TODO initialize WS operation arguments here</p>
+
+<p>int i = <strong>3</strong>;</p>
+
+<p>int j = <strong>5</strong>;</p>
+
+<p>// TODO process result here</p>
+
+<p>int result = port.add(i, j);</p>
+
+<p>out.println(“Result = “+result);</p>
+
+<p>} catch (Exception ex) {</p>
+
+<p><strong>out.println(“exception” + ex);</strong></p>
+
+<p>}</p>
+
+<p>%></p>
+
+<p>7.Right-click the project node and choose <em>Run</em>.The server starts, if it wasn’t running already. The application is built and deployed, and the browser opens, displaying the calculation result:</p>
+
+<p><img class="center" src="/images/ws15.png" title="Developing Web Services in linux image15" ></p>
+
+<h2>License</h2>
+
+<p>Paul S</p>
+
+<p><em>Free Software Supporter!</em></p>
+
+<p><em>Tested in Ubuntu and JOSS Linux</em></p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Your Name</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-14T17:40:00+05:30" pubdate data-updated="true">Feb 14<span>th</span>, 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/java/'>java</a>, <a class='category' href='/blog/categories/joss/'>joss</a>, <a class='category' href='/blog/categories/linux/'>linux</a>, <a class='category' href='/blog/categories/netbeans/'>netbeans</a>, <a class='category' href='/blog/categories/programming/'>programming</a>, <a class='category' href='/blog/categories/programs/'>programs</a>, <a class='category' href='/blog/categories/ubuntu/'>ubuntu</a>, <a class='category' href='/blog/categories/web-services/'>web services</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://paultsr.github.com/blog/2013/02/14/madeveloping-web-services-in-linux/" data-via="spaul" data-counturl="http://paultsr.github.com/blog/2013/02/14/madeveloping-web-services-in-linux/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left articlenav" href="/blog/2013/02/14/malayalam-fonts-in-firefox/" title="Previous Post: Malayalam fonts in Firefox">&laquo; Malayalam fonts in Firefox</a>
+      
+      
+        <a class="basic-alignment right articlenav" href="/blog/2013/02/14/how-to-crack-slash-hack-passwords/" title="Next Post: How to Crack/Hack Passwords">How to Crack/Hack Passwords &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>About Me</h1>
+ <img src="/about/shaiju_paul_me.jpg" title="Shaiju Paul" >
+ <br>Presently Working as Asst. Professor in Department of CSE at Jyothi Engg. College, Thrissur.
+ <br><a href="http://about.me/paulson">Know More..</a>
+</section>
+
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/02/16/paulson-dot-in-to-paultsr-dot-in/">paulson.in to paultsr.in</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/14/how-to-crack-slash-hack-passwords/">How to Crack/Hack Passwords</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/14/madeveloping-web-services-in-linux/">Developing Web Services in Linux</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/14/malayalam-fonts-in-firefox/">Malayalam fonts in Firefox</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/14/rumy-favourite-quotes/">My Favourite Quotes</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/paultsr">@paultsr</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'paultsr',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("spaul", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/spaul" class="twitter-follow-button" data-show-count="false">Follow @spaul</a>
+  
+</section>
+
+
+<section>
+  <h1>On Delicious</h1>
+  <div id="delicious"></div>
+  <script type="text/javascript" src="http://feeds.delicious.com/v2/json/paultsr?count=3&amp;sort=date&amp;callback=renderDeliciousLinks"></script>
+  <p><a href="http://delicious.com/paultsr">My Delicious Bookmarks &raquo;</a></p>
+</section>
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/108213546397373031952?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Your Name -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'shaijupaul';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://paultsr.github.com/blog/2013/02/14/madeveloping-web-services-in-linux/';
+        var disqus_url = 'http://paultsr.github.com/blog/2013/02/14/madeveloping-web-services-in-linux/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

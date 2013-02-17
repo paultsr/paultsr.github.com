@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: programs | Paul Shaiju]]></title>
+  <link href="http://paultsr.github.com/blog/categories/programs/atom.xml" rel="self"/>
+  <link href="http://paultsr.github.com/"/>
+  <updated>2013-02-17T22:37:15+05:30</updated>
+  <id>http://paultsr.github.com/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Developing Web Services in Linux]]></title>
+    <link href="http://paultsr.github.com/blog/2013/02/14/madeveloping-web-services-in-linux/"/>
+    <updated>2013-02-14T17:40:00+05:30</updated>
+    <id>http://paultsr.github.com/blog/2013/02/14/madeveloping-web-services-in-linux</id>
+    <content type="html"><![CDATA[<p><strong>Web services</strong> enable software components such as application functions, objects and processes from heterogeneous systems to be exposed as services over the Internet.</p>
+
+<p>To develop Web Services on Linux, we need the following packages.</p>
+
+<p><strong>1.Java SE Development Kit (JDK)</strong></p>
+
+<p><strong>2.NetBeans IDE</strong></p>
+
+<p>To install these packages, follow the below steps :-</p>
+
+<p>First install Java SE Development Kit</p>
+
+<p>To install proprietary Java, you must have the Multiverse repository enabled. Click on <em>System</em> > <em>Administration</em> > <em>Software Source</em> > <em>Select Multiverse</em> Close.</p>
+
+<p>When ask to reload the package informations, Click <em>Reload</em>.</p>
+
+<p>Open a terminal and type the following command :-</p>
+
+<p><code>sudo apt-get install sun-java6-jdk</code></p>
+
+<p><img class="center" src="/images/ws16.png" title="Developing Web Services in linux image1" ></p>
+
+<p>To setup the default java version</p>
+
+<p><code>sudo update-java-alternatives -s java-6-sun</code></p>
+
+<p>Next setup the environment variable</p>
+
+<p>You also need to setup <em>JAVA_HOME</em> and <em>PATH</em> variable.Open your <em>.bash_profile</em> file:</p>
+
+<p><code>sudo gedit $HOME/.bashrc</code></p>
+
+<p>Append following line:</p>
+
+<p><code>export JAVA_HOME=/usr/lib/jvm/java-6-sun</code></p>
+
+<p><code>export PATH=$PATH:$JAVA_HOME/bin</code></p>
+
+<p>Save and close the file.</p>
+
+<p>Then download NetBeans IDE from <em>here</em></p>
+
+<p>Open a terminal and <em>cd</em> to the downloaded location.Then type</p>
+
+<p>'sudo sh netbeans-6.7.1-ml-linux.sh'</p>
+
+<p><img class="center" src="/images/ws1.png" title="Developing Web Services in linux image2" ></p>
+
+<p>Click <em>Next</em> and Accept the License.It will automatically detect JDK.Don’t change the default installation paths.</p>
+
+<p><img class="center" src="/images/ws3.png" title="Developing Web Services in linux image3" ></p>
+
+<p>When the installation is complete, click <em>Finish</em> to exit the wizard.</p>
+
+<p>Now we will develop our first web service using netbeans. For a change instead of developing a Hello Web Service as the first web service, we will develop a Calculator Web Service to add two integer numbers.</p>
+
+<h2>Creating a Web Service</h2>
+
+<p>1.Choose <em>File > New Project (Ctrl-Shift-N)</em>. Select <em>Web Application</em> from the <em>Java Web</em> category.</p>
+
+<p><img class="center" src="/images/ws7.png" title="Developing Web Services in linux image4" ></p>
+
+<p>2.Name the project <em>CalculatorWebService</em>.</p>
+
+<p><img class="center" src="/images/ws8.png" title="Developing Web Services in linux image5" ></p>
+
+<p>3.Click through the remaining pages and click <em>Finish</em>.</p>
+
+<p><img class="center" src="/images/ws9.png" title="Developing Web Services in linux image6" ></p>
+
+<p>4.Right-click the <em>CalculatorWebServic</em>e node and choose <em>New > Web Service</em>.</p>
+
+<p>5.Name the web service <em>CalculatorWS</em>, type <em>org.me.calculator</em> in Package, and click <em>Finish</em>.</p>
+
+<p><img class="center" src="/images/ws10.png" title="Developing Web Services in linux image7" ></p>
+
+<p>The Projects window displays the structure of the new web service and the source code is shown in the editor area.</p>
+
+<p><img class="center" src="/images/ws66.png" title="Developing Web Services in linux image8" ></p>
+
+<p>6.Change to the <em>Design</em> view.</p>
+
+<p>Click <em>Add</em> Operation in the visual designer. A dialog box appears where you can define the new operation.
+In the upper part of the Add Operation dialog box, type <em>add</em> in Name and type <em>int</em> in the Return Type drop-down list. In the lower part of the Add Operation dialog box, click <em>Add</em> and create a parameter of type <em>int</em> named <em>i</em>.Then click <em>Add</em> again and create a parameter of type <em>int</em> called <em>j</em>.</p>
+
+<p><img class="center" src="/images/ws11.png" title="Developing Web Services in linux image9" ></p>
+
+<p>Click <em>OK</em> at the bottom of the Add Operation dialog box.</p>
+
+<p>The visual designer now displays the following:</p>
+
+<p><img class="center" src="/images/ws12.png" title="Developing Web Services in linux image10" ></p>
+
+<p>7.Click <em>Source</em> and notice that the source code that has been generated in the previous steps is as follows:</p>
+
+<p>8.In the editor, extend the skeleton add operation to the following (changes are in bold):</p>
+
+<p>@WebMethod</p>
+
+<p>public int add(@WebParam(name = “i”)</p>
+
+<p>int i, @WebParam(name = “j”)</p>
+
+<p>int j) {</p>
+
+<p><strong>int k = i + j;</strong></p>
+
+<p>return <strong>k</strong>;</p>
+
+<p>}</p>
+
+<p><img class="center" src="/images/ws13.png" title="Developing Web Services in linux image11" ></p>
+
+<p>9.Right-click the project and choose <em>Deploy</em>. The IDE starts the application server, builds the application, and deploys the application to the server.</p>
+
+<p>You can follow the progress of these operations in the <em>CalculatorWSApplication (run-deploy) and GlassFish V3 Prelude</em> tabs in the <em>Output view</em>.If you deployed to the GlassFish V3 Prelude Server, you will see the following, which indicates that you have successfully deployed your web service:</p>
+
+<p><img class="center" src="/images/ws14.png" title="Developing Web Services in linux image12" ></p>
+
+<h2>Consuming the Web Service</h2>
+
+<p>Now that you have deployed the web service, you need to create a client (jsp page) to make use of the web service’s add method.</p>
+
+<p>In this section, we will create a new web application and then consume the web service in the default JSP page that the Web Application wizard creates.</p>
+
+<p>1.Choose <em>File > New Project (Ctrl-Shift-N)</em>. Select <em>Web Application</em> from the <em>Java Web</em> category. Name the project <em>CalculatorWSJSPClient</em>. Click <em>Finish</em>.</p>
+
+<p>2.Right-click the <em>CalculatorWSJSPClient</em> node and choose <em>New > Web Service Client</em>.</p>
+
+<p>3.In <em>Project</em>, click <em>Browse</em>. Browse to the web service that you want to consume. When you have selected the web service, click <em>OK</em>.</p>
+
+<p><img class="center" src="/images/ws18.png" title="Developing Web Services in linux image13" ></p>
+
+<p>4.Leave the other settings at default and click <em>Finish</em>. The Projects window displays the new web service client, as shown below:</p>
+
+<p><img class="center" src="/images/ws17.png" title="Developing Web Services in linux image14" ></p>
+
+<p>5.In the Web Service References node, expand the node that represents the web service. The <em>add</em> operation, which you will invoke from the client, is now exposed.</p>
+
+<p>6.Drag the add operation to the client’s index.jsp page, and drop it below the H1 tags. The code for invoking the service’s operation is now generated in the <em>index.jsp</em> page.</p>
+
+<p>Change the value for <em>i</em> and <em>j</em> from <em>0</em> to other integers, such as <em>3</em> and <em>5</em>. Replace
+the commented out TODO line in the catch block with <em>out.println(“exception” + ex);</em>.</p>
+
+<p>&lt;%</p>
+
+<p>try {</p>
+
+<p>org.me.calculator.CalculatorWSService service = new org.me.calculator.CalculatorWSService();</p>
+
+<p>org.me.calculator.CalculatorWS port = service.getCalculatorWSPort();</p>
+
+<p>// TODO initialize WS operation arguments here</p>
+
+<p>int i = <strong>3</strong>;</p>
+
+<p>int j = <strong>5</strong>;</p>
+
+<p>// TODO process result here</p>
+
+<p>int result = port.add(i, j);</p>
+
+<p>out.println(“Result = “+result);</p>
+
+<p>} catch (Exception ex) {</p>
+
+<p><strong>out.println(“exception” + ex);</strong></p>
+
+<p>}</p>
+
+<p>%></p>
+
+<p>7.Right-click the project node and choose <em>Run</em>.The server starts, if it wasn’t running already. The application is built and deployed, and the browser opens, displaying the calculation result:</p>
+
+<p><img class="center" src="/images/ws15.png" title="Developing Web Services in linux image15" ></p>
+
+<h2>License</h2>
+
+<p>Paul S</p>
+
+<p><em>Free Software Supporter!</em></p>
+
+<p><em>Tested in Ubuntu and JOSS Linux</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Installing Google GO on Ubuntu]]></title>
+    <link href="http://paultsr.github.com/blog/2013/02/14/installing-google-go-on-ubuntu/"/>
+    <updated>2013-02-14T11:49:00+05:30</updated>
+    <id>http://paultsr.github.com/blog/2013/02/14/installing-google-go-on-ubuntu</id>
+    <content type="html"><![CDATA[<p>GO is a new programming language released by Google in November 2009. GO is a simple, concurrent, garbage-collected language with fast compilation. The language is still in development stage and there is no readymade package available for ubuntu. You can install it and try out the features from the version control repository of GO.</p>
+
+<h2>Installation Steps</h2>
+
+<p> <strong>Install Pre-requisites on ubuntu</strong></p>
+
+<p>You need gcc and some supporting software like bison to compile go. Install the following :</p>
+
+<p><code>sudo apt-get install mercurial bison libc6-dev python-setuptools python-dev</code></p>
+
+<p> <strong>Install GO</strong></p>
+
+<p>Download the go source package from <em>here</em>.Copy <em>go-path_syntax_build.tbz</em> file to the <em>/usr/local</em> directory.</p>
+
+<p><code>sudo cp go-path_syntax_build.tbz /usr/local/</code></p>
+
+<p>Then type the following commands in a terminal.</p>
+
+<p><code>cd /usr/local/</code></p>
+
+<p><code>sudo tar –jxvf go-path_syntax_build.tbz</code></p>
+
+<p>To change the default 386 architecture, edit the folowing file :</p>
+
+<p><code>sudo gedit /usr/local/go/.paulson/go.sh</code></p>
+
+<p>Replace the value of environmental variable <em>$GOARCH</em> to <em>amd64</em>
+Save the file and follow the steps below :</p>
+
+<p><code>cd /usr/local/go/src</code></p>
+
+<p><code>sudo ./all.bash</code></p>
+
+<p>Now wait for some time. The compilations will proceed and will be completed with the following message</p>
+
+<p><em>— cd ../test</em></p>
+
+<p><em>0 known bugs; 0 unexpected bugs</em></p>
+
+<p> <strong>Test GO</strong></p>
+
+<p>Your go language system is now installed.Now let us test it.I had already placed a simple hello program (<em>hello.go</em>) inside <em>/usr/local/go/examples</em> directory.</p>
+
+<p>You can check it using <em>vim</em> editor or <em>gedit</em>(with go syntax)</p>
+
+<p><code>gedit /usr/local/go/examples/hello.go</code></p>
+
+<p><img class="center" src="/images/hellogo.png" title="Google GO installation on windows image1" ></p>
+
+<p>To compile hello.go</p>
+
+<p><code>8g hello.go</code></p>
+
+<p><em>8g is the Go compiler for 386; it will write the output in hello.8. The ‘8’ identifies files for the 386 architecture. The identifier letters for amd64 and arm are ‘6’ and ‘5’. That is, if you were compiling for amd, you would use 6g and the output would be named file.6</em></p>
+
+<p>The above command produces an intermediate file <em>hello.8</em>.Next you have to link it.</p>
+
+<p><code>8l hello.8</code></p>
+
+<p>The executable is placed as <em>8.out</em>. Finally run the executable using</p>
+
+<p><code>./8.out</code></p>
+
+<p><strong>Keeping up with releases</strong></p>
+
+<p>New releases are announced on the Go Nuts mailing list. To update an existing tree to the latest release, you can run:</p>
+
+<p><code>cd $GOROOT/src</code></p>
+
+<p><code>hg pull</code></p>
+
+<p><code>hg update release</code></p>
+
+<p><code>make all</code></p>
+
+<p>To know more about GO programming language, visit :</p>
+
+<p><em>GO Official Site</em></p>
+
+<p><em>GO Google Group</em></p>
+
+<p>There is an <em>unofficial</em> Windows port available, you can download it from <em>GO-windows</em>.</p>
+]]></content>
+  </entry>
+  
+</feed>

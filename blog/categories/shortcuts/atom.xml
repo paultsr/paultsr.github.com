@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: shortcuts | Paul Shaiju]]></title>
+  <link href="http://paultsr.github.com/blog/categories/shortcuts/atom.xml" rel="self"/>
+  <link href="http://paultsr.github.com/"/>
+  <updated>2013-02-17T22:37:15+05:30</updated>
+  <id>http://paultsr.github.com/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Windows 7 Keyboard Shortcuts]]></title>
+    <link href="http://paultsr.github.com/blog/2013/02/14/windows-7-keyboard-shortcuts/"/>
+    <updated>2013-02-14T11:37:00+05:30</updated>
+    <id>http://paultsr.github.com/blog/2013/02/14/windows-7-keyboard-shortcuts</id>
+    <content type="html"><![CDATA[<p>Windows 7 boasts a lot of great new shortcuts for switching between apps, moving windows around your screen, moving them to another monitor altogether, and much more. But I’m focusing on several of my favorites.</p>
+
+<p><img class="center" src="/images/windows_7.jpg" title="Windows7 image1" ></p>
+
+<p><strong>Window Management Shortcuts</strong></p>
+
+<p><code>Win+Home</code> Clear all but the active window.</p>
+
+<p><code>Win+Space</code> All windows become transparent so you can see through to the desktop.</p>
+
+<p><code>Win+Up arrow</code> Maximize the active window.</p>
+
+<p><code>Shift+Win+Up arrow</code> Maximize the active window vertically.</p>
+
+<p><code>Win+Down arrow</code> Minimize the window/Restore the window if it’s maximized.</p>
+
+<p><code>Win+Left/Right arrows</code> Dock the window to each side of the monitor.</p>
+
+<p><code>Shift+Win+Left/Right arrows</code> Move the window to the monitor on the left or right.</p>
+
+<p><code>Win+P</code> Adjust presentation settings for your display.</p>
+
+<p><code>Win+(+/-)</code> Zoom in/out.</p>
+
+<p><code>Win+G</code> Cycle between the Windows Gadgets on your screen.</p>
+
+<p><code>Win+X</code> Mobility Center.</p>
+
+<p><code>Win+U</code> Ease of Access.</p>
+
+<p><strong>Taskbar Shortcuts</strong></p>
+
+<p><code>Win+number (1-9)</code> Starts the application pinned to the taskbar in that position, or switches to that program.</p>
+
+<p><code>Shift+Win+number (1-9)</code> Starts a new instance of the application pinned to the taskbar in that position.</p>
+
+<p><code>Ctrl+Win+number (1-9)</code> Cycles through open windows for the application pinned to the taskbar in that position.</p>
+
+<p><code>Alt+Win+number (1-9)</code> Opens the Jump List for the application pinned to the taskbar.</p>
+
+<p><code>Win+T</code> Focus and scroll through items on the taskbar.</p>
+
+<p><code>Win+B</code> Focuses the System Tray icons</p>
+
+<p><strong>Windows Explorer Shortcuts</strong></p>
+
+<p><code>Ctrl+Shift+N</code> Creates a new folder in Windows Explorer.</p>
+
+<p><code>Alt+Up</code> Goes up a folder level in Windows Explorer.</p>
+
+<p><code>Alt+P</code> Toggles the preview pane in Windows Explorer.</p>
+
+<p><code>Shift+Right-Click on a file</code> Adds Copy as Path, which copies the path of a file to the clipboard.</p>
+
+<p><code>Shift+Right-Click on a file</code> Adds extra hidden items to the Send To menu.</p>
+
+<p><code>Shift+Right-Click on a folder</code> Adds Command Prompt Here, which lets you easily open a command prompt in that folder.</p>
+
+<p><em>Share your favorite keyboard shortcuts in the comments</em></p>
+
+<h2>License</h2>
+
+<p>Paul S</p>
+
+<p><em>Free Software Supporter!</em></p>
+
+<p><em>Tested in Windows 7</em></p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: malayalam | Paul Shaiju]]></title>
+  <link href="http://paultsr.github.com/blog/categories/malayalam/atom.xml" rel="self"/>
+  <link href="http://paultsr.github.com/"/>
+  <updated>2013-02-17T22:37:15+05:30</updated>
+  <id>http://paultsr.github.com/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Malayalam fonts in Firefox]]></title>
+    <link href="http://paultsr.github.com/blog/2013/02/14/malayalam-fonts-in-firefox/"/>
+    <updated>2013-02-14T17:33:00+05:30</updated>
+    <id>http://paultsr.github.com/blog/2013/02/14/malayalam-fonts-in-firefox</id>
+    <content type="html"><![CDATA[<p>Websites which use malayalam fonts can be easily read by insatlling a small plugin in firefox</p>
+
+<p>The plugin <strong>padma</strong> works for the latest firefo version too.</p>
+
+<p>Click <em>here</em> to install</p>
+
+<p>It can be used to read tamil,kannada,telgu,gujarati,bengali websites.</p>
+
+<p>After installation, restart the browser.Check the following sites</p>
+
+<p><em>www.malayalamanorama.com</em></p>
+
+<p><em>www.mangalam.com</em></p>
+
+<p>It supports Linux, Solaris and Windows platforms.</p>
+
+<p><img class="center" src="/images/malayalam-firefox.png" title="malayalam Font installation on linux image1" ></p>
+
+<h2>License</h2>
+
+<p>Paul S</p>
+
+<p><em>Free Software Supporter!</em></p>
+
+<p><em>Tested in Ubuntu and JOSS Linux</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Blogging in Malayalam using Wordpress]]></title>
+    <link href="http://paultsr.github.com/blog/2013/02/14/blogging-in-malayalam-using-wordpress/"/>
+    <updated>2013-02-14T11:15:00+05:30</updated>
+    <id>http://paultsr.github.com/blog/2013/02/14/blogging-in-malayalam-using-wordpress</id>
+    <content type="html"><![CDATA[<p>To write blogs in malayalam, you can use the Google <em>transliteration</em> service.After that you can copy the content and paste it to the wordpress editor.</p>
+
+<p>To read your malayalam blogs, you have to edit <em>wp-config.php</em>, which will be present in the root directory of the web hosting server, where you had installed the wordpress.
+Look for the following line :</p>
+
+<p><code>define(‘DB_CHARSET’, ‘utf8′);</code></p>
+
+<p>Comment the above line :</p>
+
+<p><code>//define(‘DB_CHARSET’, ‘utf8′);</code></p>
+
+<p>Save the file in the server and publish your blog.Now everyone can read your malayalam blogs.</p>
+
+<p>Check below :-</p>
+
+<p>” പൊക്കമില്ലായ്മയാനെന്റെ പൊക്കം ” — കുഞ്ഞുണ്ണി മാഷ്</p>
+
+<p>” ഒരു വളപ്പോട്ടുന്ടെന്‍ കയ്യില്‍ , ഒരു മയില്‍ പീലി ഉണ്ടുള്ളില്‍ , വിരസ നിമിഷങ്ങള്‍ സരസമാക്കനിവ ധാരലമാനെനിക്കെന്നും ” — കുഞ്ഞുണ്ണി മാഷ്</p>
+
+<h2>License</h2>
+
+<p>Paul S</p>
+
+<p><em>Free Software Supporter!</em></p>
+
+<p><em>Tested in Ubuntu and JOSS Linux</em></p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: john | Paul Shaiju]]></title>
+  <link href="http://paultsr.github.com/blog/categories/john/atom.xml" rel="self"/>
+  <link href="http://paultsr.github.com/"/>
+  <updated>2013-02-17T22:37:15+05:30</updated>
+  <id>http://paultsr.github.com/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[How to Crack/Hack Passwords]]></title>
+    <link href="http://paultsr.github.com/blog/2013/02/14/how-to-crack-slash-hack-passwords/"/>
+    <updated>2013-02-14T18:21:00+05:30</updated>
+    <id>http://paultsr.github.com/blog/2013/02/14/how-to-crack-slash-hack-passwords</id>
+    <content type="html"><![CDATA[<p>We can easily crack Linux passwords using the tool <strong>John the Ripper</strong></p>
+
+<p><strong>John the Ripper</strong> is a free password cracking software tool. It currently runs on fifteen different platforms (11 architecture-specific flavors of Unix, DOS, Win32, BeOS, and OpenVMS).</p>
+
+<p>It is one of the most popular password testing/breaking programs. It combines a number of password crackers into one package, auto detects password hash types, and includes a customizable cracker.</p>
+
+<p>It can be run against various encrypted password formats including several crypt password hash types most commonly found on various Unix flavors (based on DES, MD5, or Blowfish), Kerberos AFS, and Windows NT/2000/XP/2003 LM hash.</p>
+
+<p>To Install John the Ripper on Debian/Ubuntu, type the following command in a terminal</p>
+
+<p><code>sudo apt-get install john</code></p>
+
+<p>After installation, first use the unshadow command to combine the <em>/etc/passwd</em> and <em>/etc/shadow</em> files.</p>
+
+<p><code>sudo /usr/sbin/unshadow /etc/passwd /etc/shadow &gt; /tmp/crack.password</code></p>
+
+<p>John the Ripper tool uses brute-force attack and is a CPU/Time consuming password cracking technique.</p>
+
+<p>John can work in the following modes:</p>
+
+<ul>
+<li>Wordlist : John will simply use a file with a list of words that will be checked against the passwords.</li>
+<li>Single crack : In this mode, john will try to crack the password using the login/GECOS information as passwords.</li>
+<li>Incremental : This is the most powerful mode. John will try any character combination to resolve the password.</li>
+</ul>
+
+
+<p>To use John, you just need to supply it a password file created using <em>unshadow</em> command along with desired options. If no mode is specified, john will try <em>single</em> first, then <em>wordlist</em> and finally <em>incremental</em> password cracking methods.</p>
+
+<p><code>john /tmp/crack.password</code></p>
+
+<p><img class="center" src="/images/passwdcrk.png" title="crack_hack Password image1" ></p>
+
+<p>You can suspend the process by pressing <em>ctrl + c</em> and later can be restored using the command</p>
+
+<p><code>john -restore</code></p>
+
+<p>To view cracked passwords, type</p>
+
+<p><code>john -show /tmp/crack.password</code></p>
+
+<h2>License</h2>
+
+<p>Paul S</p>
+
+<p><em>Free Software Supporter!</em></p>
+
+<p><em>Tested in Ubuntu and JOSS Linux</em></p>
+]]></content>
+  </entry>
+  
+</feed>

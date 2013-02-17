@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: windowsxp | Paul Shaiju]]></title>
+  <link href="http://paultsr.github.com/blog/categories/windowsxp/atom.xml" rel="self"/>
+  <link href="http://paultsr.github.com/"/>
+  <updated>2013-02-17T22:37:15+05:30</updated>
+  <id>http://paultsr.github.com/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Mannasim Installation on Windows]]></title>
+    <link href="http://paultsr.github.com/blog/2013/02/14/mannasim-installation-on-windows/"/>
+    <updated>2013-02-14T10:52:00+05:30</updated>
+    <id>http://paultsr.github.com/blog/2013/02/14/mannasim-installation-on-windows</id>
+    <content type="html"><![CDATA[<p>More than half of my pg mates are doing their project work in sensor networks.I had seen my friends struggling to install Mannasim on their laptops.But, iam doing my project on Grid Security. So i thought to write a blog for my friends who all are keen to simulate WSN.</p>
+
+<p>Mannasim is a module which extends NS2 to simulate different Wireless Sensor Networks (WSN) applications.
+I had patched the NS2.29 with mannasim module and is available <em>here</em>.I had installed it in my Vista OS.It will also work in Windows XP.</p>
+
+<h2>Installation Steps</h2>
+
+<p>Before installing mannasim, you should install cygwin.You can check my <em>previous post</em> for cygwin installation.After installing cygwin, install the ns2.29 as described in the same post.The only difference is the ns2 version which we are using here is ns-allinone-mannasim-2.29.tbz.</p>
+
+<p>After installing mannasim, copy the ns2.sh file to <em>/etc/profile.d</em> folder</p>
+
+<p><code>cp /usr/local/ns-allinone-2.29/paulson/.set/ns2.sh /etc/profile.d/.</code></p>
+
+<p>Then type the following command in the terminal</p>
+
+<p><code>source /etc/profile.d/ns2.sh</code></p>
+
+<p>You can find the sample codes in the folder</p>
+
+<p><em>C:\cygwin\usr\local\ns-allinone-2.29\paulson\sample-codes\mannasim</em></p>
+
+<p><strong>Mannasim Script Generator(MSG)</strong> comes with the mannasim module.It can be used to create ns2 simulation scripts(.tcl) easily and that too with a gui interface.It is very simple to use.You can find the tool in the folder</p>
+
+<p><em>C:\cygwin\usr\local\ns-allinone-2.29\ns-2.29\mannasim\scriptGeneratorTool</em></p>
+
+<p>Double click the <em>msg-win32</em> batch file.
+or
+type the following command in the cygwin terminal</p>
+
+<p><code>cd /usr/local/ns-allinone-2.29/ns-2.29/mannasim/scriptGeneratorTool/
+./msg-linux.sh</code></p>
+
+<p>some screen shots are given below :</p>
+
+<p><img class="center" src="/images/ns2-mannasim2.jpg" title="mannasim installation on windows image1" >
+<img class="center" src="/images/ns2-mannasim4.jpg" title="mannasim installation on windows image2" >
+<img class="center" src="/images/ns2-mannasim5.jpg" title="mannasim installation on windows image5" ></p>
+
+<p><em>NOTE : For any installation problems, read the comments for this blog.</em></p>
+
+<h2>License</h2>
+
+<p>Paul S</p>
+
+<p><em>Free Software Supporter!</em></p>
+
+<p><em>Tested in Windows XP, Windows Vista SP1 and Windows 7</em></p>
+]]></content>
+  </entry>
+  
+</feed>

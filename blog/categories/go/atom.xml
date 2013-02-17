@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: GO | Paul Shaiju]]></title>
+  <link href="http://paultsr.github.com/blog/categories/go/atom.xml" rel="self"/>
+  <link href="http://paultsr.github.com/"/>
+  <updated>2013-02-17T22:37:15+05:30</updated>
+  <id>http://paultsr.github.com/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Installing Google GO on Ubuntu]]></title>
+    <link href="http://paultsr.github.com/blog/2013/02/14/installing-google-go-on-ubuntu/"/>
+    <updated>2013-02-14T11:49:00+05:30</updated>
+    <id>http://paultsr.github.com/blog/2013/02/14/installing-google-go-on-ubuntu</id>
+    <content type="html"><![CDATA[<p>GO is a new programming language released by Google in November 2009. GO is a simple, concurrent, garbage-collected language with fast compilation. The language is still in development stage and there is no readymade package available for ubuntu. You can install it and try out the features from the version control repository of GO.</p>
+
+<h2>Installation Steps</h2>
+
+<p> <strong>Install Pre-requisites on ubuntu</strong></p>
+
+<p>You need gcc and some supporting software like bison to compile go. Install the following :</p>
+
+<p><code>sudo apt-get install mercurial bison libc6-dev python-setuptools python-dev</code></p>
+
+<p> <strong>Install GO</strong></p>
+
+<p>Download the go source package from <em>here</em>.Copy <em>go-path_syntax_build.tbz</em> file to the <em>/usr/local</em> directory.</p>
+
+<p><code>sudo cp go-path_syntax_build.tbz /usr/local/</code></p>
+
+<p>Then type the following commands in a terminal.</p>
+
+<p><code>cd /usr/local/</code></p>
+
+<p><code>sudo tar –jxvf go-path_syntax_build.tbz</code></p>
+
+<p>To change the default 386 architecture, edit the folowing file :</p>
+
+<p><code>sudo gedit /usr/local/go/.paulson/go.sh</code></p>
+
+<p>Replace the value of environmental variable <em>$GOARCH</em> to <em>amd64</em>
+Save the file and follow the steps below :</p>
+
+<p><code>cd /usr/local/go/src</code></p>
+
+<p><code>sudo ./all.bash</code></p>
+
+<p>Now wait for some time. The compilations will proceed and will be completed with the following message</p>
+
+<p><em>— cd ../test</em></p>
+
+<p><em>0 known bugs; 0 unexpected bugs</em></p>
+
+<p> <strong>Test GO</strong></p>
+
+<p>Your go language system is now installed.Now let us test it.I had already placed a simple hello program (<em>hello.go</em>) inside <em>/usr/local/go/examples</em> directory.</p>
+
+<p>You can check it using <em>vim</em> editor or <em>gedit</em>(with go syntax)</p>
+
+<p><code>gedit /usr/local/go/examples/hello.go</code></p>
+
+<p><img class="center" src="/images/hellogo.png" title="Google GO installation on windows image1" ></p>
+
+<p>To compile hello.go</p>
+
+<p><code>8g hello.go</code></p>
+
+<p><em>8g is the Go compiler for 386; it will write the output in hello.8. The ‘8’ identifies files for the 386 architecture. The identifier letters for amd64 and arm are ‘6’ and ‘5’. That is, if you were compiling for amd, you would use 6g and the output would be named file.6</em></p>
+
+<p>The above command produces an intermediate file <em>hello.8</em>.Next you have to link it.</p>
+
+<p><code>8l hello.8</code></p>
+
+<p>The executable is placed as <em>8.out</em>. Finally run the executable using</p>
+
+<p><code>./8.out</code></p>
+
+<p><strong>Keeping up with releases</strong></p>
+
+<p>New releases are announced on the Go Nuts mailing list. To update an existing tree to the latest release, you can run:</p>
+
+<p><code>cd $GOROOT/src</code></p>
+
+<p><code>hg pull</code></p>
+
+<p><code>hg update release</code></p>
+
+<p><code>make all</code></p>
+
+<p>To know more about GO programming language, visit :</p>
+
+<p><em>GO Official Site</em></p>
+
+<p><em>GO Google Group</em></p>
+
+<p>There is an <em>unofficial</em> Windows port available, you can download it from <em>GO-windows</em>.</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: macid | Paul Shaiju]]></title>
+  <link href="http://paultsr.github.com/blog/categories/macid/atom.xml" rel="self"/>
+  <link href="http://paultsr.github.com/"/>
+  <updated>2013-02-17T22:37:15+05:30</updated>
+  <id>http://paultsr.github.com/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[MAC ID Spoofing]]></title>
+    <link href="http://paultsr.github.com/blog/2013/02/14/blmac-id-spoofing/"/>
+    <updated>2013-02-14T11:27:00+05:30</updated>
+    <id>http://paultsr.github.com/blog/2013/02/14/blmac-id-spoofing</id>
+    <content type="html"><![CDATA[<p>To change the mac id of your network interface card in Linux, you hav to edit  <em>/etc/rc.local</em> file.If the file rc.local is not present in the <em>/etc</em> directory, create a new file of the same name.</p>
+
+<p>Open the <em>rc.local</em> file in a terminal :-</p>
+
+<p><code>sudo gedit /etc/rc.local</code></p>
+
+<p>Then add the following lines before <em>exit 0</em> line:-</p>
+
+<p><code>/etc/init.d/networking stop</code></p>
+
+<p><code>ifconfig eth0 hw ether xx:xx:xx:xx:xx:xx</code></p>
+
+<p><code>/etc/init.d/networking start</code></p>
+
+<p>Save the file and Restart the machine.Now you mac id will be the new mac id you had assigned.To verify, type the following command in a terminal</p>
+
+<p><code>ifconfig</code></p>
+]]></content>
+  </entry>
+  
+</feed>

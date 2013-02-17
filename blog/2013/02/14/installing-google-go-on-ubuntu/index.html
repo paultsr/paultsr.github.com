@@ -1,0 +1,425 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Installing Google GO on Ubuntu - Paul Shaiju</title>
+  <meta name="author" content="Your Name">
+
+  
+  <meta name="description" content="GO is a new programming language released by Google in November 2009. GO is a simple, concurrent, garbage-collected language with fast compilation. &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://paultsr.github.com/blog/2013/02/14/installing-google-go-on-ubuntu/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Paul Shaiju" type="application/atom+xml">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <div id="logo">
+  	<div id="logoLeft">{</div>
+  	<div id="logoText">mob</div>
+  	<div id="logoRight">}</div>
+  	<div class="clear"></div>
+  </div>
+  <h1><a href="/">Paul Shaiju</a></h1>
+  
+    <h2>My Blog</h2>
+  
+  <div class="clear"></div>
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="Paul Shaiju" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:paultsr.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="http://tumblr.paultsr.in">Gallery</a></li>
+  <li><a href="/about">About</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      
+        <h1 class="entry-title">Installing Google GO on Ubuntu</h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-14T11:49:00+05:30" pubdate data-updated="true">Feb 14<span>th</span>, 2013</time>
+        
+         | <a href="#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>GO is a new programming language released by Google in November 2009. GO is a simple, concurrent, garbage-collected language with fast compilation. The language is still in development stage and there is no readymade package available for ubuntu. You can install it and try out the features from the version control repository of GO.</p>
+
+<h2>Installation Steps</h2>
+
+<p> <strong>Install Pre-requisites on ubuntu</strong></p>
+
+<p>You need gcc and some supporting software like bison to compile go. Install the following :</p>
+
+<p><code>sudo apt-get install mercurial bison libc6-dev python-setuptools python-dev</code></p>
+
+<p> <strong>Install GO</strong></p>
+
+<p>Download the go source package from <em>here</em>.Copy <em>go-path_syntax_build.tbz</em> file to the <em>/usr/local</em> directory.</p>
+
+<p><code>sudo cp go-path_syntax_build.tbz /usr/local/</code></p>
+
+<p>Then type the following commands in a terminal.</p>
+
+<p><code>cd /usr/local/</code></p>
+
+<p><code>sudo tar –jxvf go-path_syntax_build.tbz</code></p>
+
+<p>To change the default 386 architecture, edit the folowing file :</p>
+
+<p><code>sudo gedit /usr/local/go/.paulson/go.sh</code></p>
+
+<p>Replace the value of environmental variable <em>$GOARCH</em> to <em>amd64</em>
+Save the file and follow the steps below :</p>
+
+<p><code>cd /usr/local/go/src</code></p>
+
+<p><code>sudo ./all.bash</code></p>
+
+<p>Now wait for some time. The compilations will proceed and will be completed with the following message</p>
+
+<p><em>— cd ../test</em></p>
+
+<p><em>0 known bugs; 0 unexpected bugs</em></p>
+
+<p> <strong>Test GO</strong></p>
+
+<p>Your go language system is now installed.Now let us test it.I had already placed a simple hello program (<em>hello.go</em>) inside <em>/usr/local/go/examples</em> directory.</p>
+
+<p>You can check it using <em>vim</em> editor or <em>gedit</em>(with go syntax)</p>
+
+<p><code>gedit /usr/local/go/examples/hello.go</code></p>
+
+<p><img class="center" src="/images/hellogo.png" title="Google GO installation on windows image1" ></p>
+
+<p>To compile hello.go</p>
+
+<p><code>8g hello.go</code></p>
+
+<p><em>8g is the Go compiler for 386; it will write the output in hello.8. The ‘8’ identifies files for the 386 architecture. The identifier letters for amd64 and arm are ‘6’ and ‘5’. That is, if you were compiling for amd, you would use 6g and the output would be named file.6</em></p>
+
+<p>The above command produces an intermediate file <em>hello.8</em>.Next you have to link it.</p>
+
+<p><code>8l hello.8</code></p>
+
+<p>The executable is placed as <em>8.out</em>. Finally run the executable using</p>
+
+<p><code>./8.out</code></p>
+
+<p><strong>Keeping up with releases</strong></p>
+
+<p>New releases are announced on the Go Nuts mailing list. To update an existing tree to the latest release, you can run:</p>
+
+<p><code>cd $GOROOT/src</code></p>
+
+<p><code>hg pull</code></p>
+
+<p><code>hg update release</code></p>
+
+<p><code>make all</code></p>
+
+<p>To know more about GO programming language, visit :</p>
+
+<p><em>GO Official Site</em></p>
+
+<p><em>GO Google Group</em></p>
+
+<p>There is an <em>unofficial</em> Windows port available, you can download it from <em>GO-windows</em>.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Your Name</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-14T11:49:00+05:30" pubdate data-updated="true">Feb 14<span>th</span>, 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/go/'>GO</a>, <a class='category' href='/blog/categories/google/'>google</a>, <a class='category' href='/blog/categories/joss/'>joss</a>, <a class='category' href='/blog/categories/linux/'>linux</a>, <a class='category' href='/blog/categories/programming/'>programming</a>, <a class='category' href='/blog/categories/programs/'>programs</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://paultsr.github.com/blog/2013/02/14/installing-google-go-on-ubuntu/" data-via="spaul" data-counturl="http://paultsr.github.com/blog/2013/02/14/installing-google-go-on-ubuntu/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left articlenav" href="/blog/2013/02/14/windows-7-keyboard-shortcuts/" title="Previous Post: Windows 7 Keyboard Shortcuts">&laquo; Windows 7 Keyboard Shortcuts</a>
+      
+      
+        <a class="basic-alignment right articlenav" href="/blog/2013/02/14/ns2-installation-on-ubuntu-9-dot-10-and-above/" title="Next Post: NS2 Installation on Ubuntu 9.10 and Above">NS2 Installation on Ubuntu 9.10 and Above &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>About Me</h1>
+ <img src="/about/shaiju_paul_me.jpg" title="Shaiju Paul" >
+ <br>Presently Working as Asst. Professor in Department of CSE at Jyothi Engg. College, Thrissur.
+ <br><a href="http://about.me/paulson">Know More..</a>
+</section>
+
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/02/16/paulson-dot-in-to-paultsr-dot-in/">paulson.in to paultsr.in</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/14/how-to-crack-slash-hack-passwords/">How to Crack/Hack Passwords</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/14/madeveloping-web-services-in-linux/">Developing Web Services in Linux</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/14/malayalam-fonts-in-firefox/">Malayalam fonts in Firefox</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/14/rumy-favourite-quotes/">My Favourite Quotes</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/paultsr">@paultsr</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'paultsr',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("spaul", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/spaul" class="twitter-follow-button" data-show-count="false">Follow @spaul</a>
+  
+</section>
+
+
+<section>
+  <h1>On Delicious</h1>
+  <div id="delicious"></div>
+  <script type="text/javascript" src="http://feeds.delicious.com/v2/json/paultsr?count=3&amp;sort=date&amp;callback=renderDeliciousLinks"></script>
+  <p><a href="http://delicious.com/paultsr">My Delicious Bookmarks &raquo;</a></p>
+</section>
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/108213546397373031952?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Your Name -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'shaijupaul';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://paultsr.github.com/blog/2013/02/14/installing-google-go-on-ubuntu/';
+        var disqus_url = 'http://paultsr.github.com/blog/2013/02/14/installing-google-go-on-ubuntu/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

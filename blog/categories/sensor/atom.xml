@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: sensor | Paul Shaiju]]></title>
+  <link href="http://paultsr.github.com/blog/categories/sensor/atom.xml" rel="self"/>
+  <link href="http://paultsr.github.com/"/>
+  <updated>2013-02-17T22:37:15+05:30</updated>
+  <id>http://paultsr.github.com/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[NS2 Installation on Ubuntu 9.10 and Above]]></title>
+    <link href="http://paultsr.github.com/blog/2013/02/14/ns2-installation-on-ubuntu-9-dot-10-and-above/"/>
+    <updated>2013-02-14T16:26:00+05:30</updated>
+    <id>http://paultsr.github.com/blog/2013/02/14/ns2-installation-on-ubuntu-9-dot-10-and-above</id>
+    <content type="html"><![CDATA[<p>I was searching for ns2 ubuntu .deb packages for a long time.I have written many blogs for the manual installation of ns2 on linux and windows.Still I do get many queries of ns2 installation errors.</p>
+
+<p>There is a ppa repository for ns2 created by <em>Wouter Horré</em>.Now its very easy to install ns2 on ubuntu.</p>
+
+<p>Since Ubuntu 9.10 is already being shipped with tcl,otcl,tk, you need not to install these packages, Only ns, nam &amp; xgraph are needed to install.</p>
+
+<p>If you are behind a proxy, make sure you have $http_proxy variable configured in <em>~/.bashrc</em> or type the following in the terminal</p>
+
+<p><code>export http_proxy=http://ipaddr:port</code></p>
+
+<p>If you had followed my previous post to install ns2 on linux, delete the ns2 folder and paths using</p>
+
+<p><code>sudo rm -rf /usr/local/ns-allinone-2.34 &amp;&amp; sudo rm -f /etc/profile.d/ns2.sh</code></p>
+
+<p>Type the following command on a terminal :</p>
+
+<p><code>sudo add-apt-repository ppa:wouterh &amp;&amp; sudo apt-get update &amp;&amp; sudo apt-get install ns nam xgraph</code></p>
+
+<p>There is no need to set-up any path, environment variables or make any changes in <em>~/.bashrc</em> or <em>/etc/profile</em> file.</p>
+
+<p>Run it using the command</p>
+
+<p><code>ns filename.tcl</code></p>
+
+<p><img class="center" src="/images/ns2-linux2.png" title="ns2 installation on linux image2" ></p>
+
+<p><img class="center" src="/images/ns2-linux3.png" title="ns2 installation on linux image3" ></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Mannasim Installation on Windows]]></title>
+    <link href="http://paultsr.github.com/blog/2013/02/14/mannasim-installation-on-windows/"/>
+    <updated>2013-02-14T10:52:00+05:30</updated>
+    <id>http://paultsr.github.com/blog/2013/02/14/mannasim-installation-on-windows</id>
+    <content type="html"><![CDATA[<p>More than half of my pg mates are doing their project work in sensor networks.I had seen my friends struggling to install Mannasim on their laptops.But, iam doing my project on Grid Security. So i thought to write a blog for my friends who all are keen to simulate WSN.</p>
+
+<p>Mannasim is a module which extends NS2 to simulate different Wireless Sensor Networks (WSN) applications.
+I had patched the NS2.29 with mannasim module and is available <em>here</em>.I had installed it in my Vista OS.It will also work in Windows XP.</p>
+
+<h2>Installation Steps</h2>
+
+<p>Before installing mannasim, you should install cygwin.You can check my <em>previous post</em> for cygwin installation.After installing cygwin, install the ns2.29 as described in the same post.The only difference is the ns2 version which we are using here is ns-allinone-mannasim-2.29.tbz.</p>
+
+<p>After installing mannasim, copy the ns2.sh file to <em>/etc/profile.d</em> folder</p>
+
+<p><code>cp /usr/local/ns-allinone-2.29/paulson/.set/ns2.sh /etc/profile.d/.</code></p>
+
+<p>Then type the following command in the terminal</p>
+
+<p><code>source /etc/profile.d/ns2.sh</code></p>
+
+<p>You can find the sample codes in the folder</p>
+
+<p><em>C:\cygwin\usr\local\ns-allinone-2.29\paulson\sample-codes\mannasim</em></p>
+
+<p><strong>Mannasim Script Generator(MSG)</strong> comes with the mannasim module.It can be used to create ns2 simulation scripts(.tcl) easily and that too with a gui interface.It is very simple to use.You can find the tool in the folder</p>
+
+<p><em>C:\cygwin\usr\local\ns-allinone-2.29\ns-2.29\mannasim\scriptGeneratorTool</em></p>
+
+<p>Double click the <em>msg-win32</em> batch file.
+or
+type the following command in the cygwin terminal</p>
+
+<p><code>cd /usr/local/ns-allinone-2.29/ns-2.29/mannasim/scriptGeneratorTool/
+./msg-linux.sh</code></p>
+
+<p>some screen shots are given below :</p>
+
+<p><img class="center" src="/images/ns2-mannasim2.jpg" title="mannasim installation on windows image1" >
+<img class="center" src="/images/ns2-mannasim4.jpg" title="mannasim installation on windows image2" >
+<img class="center" src="/images/ns2-mannasim5.jpg" title="mannasim installation on windows image5" ></p>
+
+<p><em>NOTE : For any installation problems, read the comments for this blog.</em></p>
+
+<h2>License</h2>
+
+<p>Paul S</p>
+
+<p><em>Free Software Supporter!</em></p>
+
+<p><em>Tested in Windows XP, Windows Vista SP1 and Windows 7</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ns2 Installation on Windows]]></title>
+    <link href="http://paultsr.github.com/blog/2013/02/14/ns2-installation-on-windows/"/>
+    <updated>2013-02-14T10:32:00+05:30</updated>
+    <id>http://paultsr.github.com/blog/2013/02/14/ns2-installation-on-windows</id>
+    <content type="html"><![CDATA[<p>I have heard from my friends that installing ns2 on windows is like a nightmare.Actually it is not so difficult to install NS2 on windows.In this article I will show you how to install NS2.34 (latest version as for today)on Windows Vista SP1.You can install it on Windows XP also.</p>
+
+<h2>Installation Steps</h2>
+
+<p>Follow the below steps for an easy installation of NS2 on Windows
+Download the Cygwin setup from here</p>
+
+<p>Double Click the setup file.Click on the Next button and select <em>Install from Internet</em>.Then Click Next.</p>
+
+<p>( NOTE : If you had already downloaded all the packages, select <em>Install from Local Directory</em> and specify the Local Package Directory path )</p>
+
+<p><img class="center" src="/images/ns2-win1.jpg" title="ns2 installation on windows image1" >
+Select the root Install directory as <em>C\cygwin</em>. Don’t Change it.Then Click Next
+<img class="center" src="/images/ns2-win2.jpg" title="ns2 installation on windows image2" >
+Select the local package directory.Don’t change the default path
+<img class="center" src="/images/ns2-win3.jpg" title="ns2 installation on windows image3" >
+Select your network connection and click Next
+<img class="center" src="/images/ns2-win4.jpg" title="ns2 installation on windows image4" >
+Select any one server from the list and click Next
+<img class="center" src="/images/ns2-win5.jpg" title="ns2 installation on windows image5" >
+Click on the circled arrow between <em>All</em> and <em>Install</em> to change the <em>Default</em> value to <em>Install</em>. By doing we are going to install all packages in the Cygwin repository.ClickNext
+<img class="center" src="/images/ns2-win6.jpg" title="ns2 installation on windows image6" >
+It will take time n space to install all these packages.After the installation, Click Next
+<img class="center" src="/images/ns2-win7.jpg" title="ns2 installation on windows image7" >
+It will create a Cygwin shortcut on your Desktop.</p>
+
+<p>Now copy the NS2.34 setup from <em>here</em></p>
+
+<p>Copy the ns-allinone-withpath-2.34.tbz file to <em>C:\cygwin\usr\local</em></p>
+
+<p>Now click on the Cygwin shortcut on the Desktop.You will get a terminal window as in linux.Type the following command</p>
+
+<p><code>cd /usr/local/</code></p>
+
+<p><code>tar -jxvf ns-allinone-withpath-2.34.tbz</code></p>
+
+<p><code>cd ns-allinone-2.34</code></p>
+
+<p>Now install the NS2 package</p>
+
+<p><code>./install</code></p>
+
+<p><img class="center" src="/images/ns2-win8.jpg" title="ns2 installation on windows image8" >
+Press <em>y</em> whenever asked to proceed
+<img class="center" src="/images/ns2-win9.jpg" title="ns2 installation on windows image9" >
+After installing, copy the ns2.sh file to <em>/etc/profile.d</em> folder</p>
+
+<p><code>cp /usr/local/ns-allinone-2.34/paulson/.set/ns2.sh /etc/profile.d/.</code></p>
+
+<p>Then type the following command in the terminal</p>
+
+<p><code>source /etc/profile.d/ns2.sh</code></p>
+
+<p>Close the terminal</p>
+
+<p>Click the Start menu >All programs>Cygwin-X>Xwin-Server.It will open an xwin terminal.You can also drag n drop this to Desktop.Alternatively you can start the Xwin server from <em>C:\cygwin\bin\startxwin.bat</em> or from <em>C:\CYGWIN\usr\X11R6\bin\startxwin.bat</em>.</p>
+
+<p>Press unblock button when asked by the Windows Firewall.
+<img class="center" src="/images/ns2-win10.jpg" title="ns2 installation on windows image10" >
+Now u can execute your ns2 programs from this terminal.</p>
+
+<p><code>ns filename.tcl</code></p>
+
+<p>I had placed some sample programs in the <em>/usr/local/ns-allinone-2.34/paulson/sample-codes</em> directory.Run it using the command</p>
+
+<p><code>ns filename.tcl</code></p>
+
+<p><img class="center" src="/images/ns2-linux2.png" title="ns2 installation on linux image2" ></p>
+
+<p><img class="center" src="/images/ns2-linux3.png" title="ns2 installation on linux image3" ></p>
+
+<p><em>NOTE : For any installation problems, read the comments for this blog.</em></p>
+
+<h2>License</h2>
+
+<p>Paul S</p>
+
+<p><em>Free Software Supporter!</em></p>
+
+<p><em>Tested in Windows XP, Windows Vista SP1 and Windows 7</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[NS2 installation on Linux]]></title>
+    <link href="http://paultsr.github.com/blog/2013/02/14/ns2-installation-on-linux/"/>
+    <updated>2013-02-14T10:09:00+05:30</updated>
+    <id>http://paultsr.github.com/blog/2013/02/14/ns2-installation-on-linux</id>
+    <content type="html"><![CDATA[<p>NS2 is a popular discrete event simulator for simulating different types of networks.In this article i will show you how to install NS2.34 on Linux.I had modified the original NS2 package so that you dont have to set any paths after the installation.I had installed NS2 on Ubuntu 9.04.You can use the following steps to install it in any flavour of Linux.</p>
+
+<h2>Installation Steps</h2>
+
+<p>Before installing NS2 on Linux, you should have already installed the tcl, tk, gcc, g++ and other required packages.if not, install it using the following command</p>
+
+<p>( open up the terminal and paste the following commands one by one )</p>
+
+<p><code>sudo apt-get install build-essential autoconf automake libxmu-dev</code></p>
+
+<p>Download ns-allinone-withpath-2.34.tbz from <em>here</em></p>
+
+<p>Copy it to the <em>/usr/local</em> directory</p>
+
+<p><code>sudo cp /tmp/ns-allinone-withpath-2.34.tbz /usr/local/</code></p>
+
+<p>Change directory to <em>/usr/local</em></p>
+
+<p><code>cd /usr/local/</code></p>
+
+<p>Extract it using the following command</p>
+
+<p><code>sudo tar -jxvf ns-allinone-withpath-2.34.tbz</code></p>
+
+<p>Change directory to ns-allinone-2.34</p>
+
+<p><code>cd ns-allinone-2.34/</code></p>
+
+<p>Now Install ns2</p>
+
+<p><code>sudo ./install</code></p>
+
+<p><img class="center" src="/images/ns2-linux1.png" title="ns2 installation on linux image1" >
+After installation type the following command in a terminal</p>
+
+<p><code>source /etc/profile.d/ns2.sh</code></p>
+
+<p>I had placed some sample programs in the <em>/usr/local/ns-allinone-2.34/paulson/sample-codes</em> directory.Run it using the command</p>
+
+<p><code>ns filename.tcl</code></p>
+
+<p><img class="center" src="/images/ns2-linux2.png" title="ns2 installation on linux image2" ></p>
+
+<p><img class="center" src="/images/ns2-linux3.png" title="ns2 installation on linux image3" ></p>
+
+<h2>License</h2>
+
+<p>Paul S</p>
+
+<p><em>Free Software Supporter!</em></p>
+
+<p><em>Tested in Ubuntu and JOSS Linux</em></p>
+]]></content>
+  </entry>
+  
+</feed>
