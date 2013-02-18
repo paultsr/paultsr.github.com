@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://paultsr.github.com
+url: http://paultsr.in
 title: Paul Shaiju
 subtitle: My Blog
 author: Your Name
@@ -97,3 +97,6 @@ google_analytics_tracking_id:
 
 # Facebook Like
 facebook_like: true
+#facebook_user: paul.shaiju
+
+#linkedin_user: shaiju-paul
