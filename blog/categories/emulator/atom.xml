@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: emulator | Paul Shaiju]]></title>
-  <link href="http://paultsr.github.com/blog/categories/emulator/atom.xml" rel="self"/>
-  <link href="http://paultsr.github.com/"/>
-  <updated>2013-02-17T22:44:28+05:30</updated>
-  <id>http://paultsr.github.com/</id>
+  <link href="http://paultsr.in/blog/categories/emulator/atom.xml" rel="self"/>
+  <link href="http://paultsr.in/"/>
+  <updated>2013-02-18T22:32:29+05:30</updated>
+  <id>http://paultsr.in/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Run Windows applications on Linux]]></title>
-    <link href="http://paultsr.github.com/blog/2013/02/14/run-windows-applications-in-linux/"/>
+    <link href="http://paultsr.in/blog/2013/02/14/run-windows-applications-in-linux/"/>
     <updated>2013-02-14T16:33:00+05:30</updated>
-    <id>http://paultsr.github.com/blog/2013/02/14/run-windows-applications-in-linux</id>
+    <id>http://paultsr.in/blog/2013/02/14/run-windows-applications-in-linux</id>
     <content type="html"><![CDATA[<h2>Wine Doors 0.1 &amp; Wine in Ubuntu</h2>
 
 <p>Wine Doors is an application that allows easy installation and managing of Windows application on Linux desktop .</p>

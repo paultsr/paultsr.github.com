@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: wired | Paul Shaiju]]></title>
-  <link href="http://paultsr.github.com/blog/categories/wired/atom.xml" rel="self"/>
-  <link href="http://paultsr.github.com/"/>
-  <updated>2013-02-17T22:44:28+05:30</updated>
-  <id>http://paultsr.github.com/</id>
+  <link href="http://paultsr.in/blog/categories/wired/atom.xml" rel="self"/>
+  <link href="http://paultsr.in/"/>
+  <updated>2013-02-18T22:32:29+05:30</updated>
+  <id>http://paultsr.in/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[NS2 Installation on Ubuntu 9.10 and Above]]></title>
-    <link href="http://paultsr.github.com/blog/2013/02/14/ns2-installation-on-ubuntu-9-dot-10-and-above/"/>
+    <link href="http://paultsr.in/blog/2013/02/14/ns2-installation-on-ubuntu-9-dot-10-and-above/"/>
     <updated>2013-02-14T16:26:00+05:30</updated>
-    <id>http://paultsr.github.com/blog/2013/02/14/ns2-installation-on-ubuntu-9-dot-10-and-above</id>
+    <id>http://paultsr.in/blog/2013/02/14/ns2-installation-on-ubuntu-9-dot-10-and-above</id>
     <content type="html"><![CDATA[<p>I was searching for ns2 ubuntu .deb packages for a long time.I have written many blogs for the manual installation of ns2 on linux and windows.Still I do get many queries of ns2 installation errors.</p>
 
 <p>There is a ppa repository for ns2 created by <em>Wouter Horré</em>.Now its very easy to install ns2 on ubuntu.</p>

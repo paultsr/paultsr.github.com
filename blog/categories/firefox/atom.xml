@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: firefox | Paul Shaiju]]></title>
-  <link href="http://paultsr.github.com/blog/categories/firefox/atom.xml" rel="self"/>
-  <link href="http://paultsr.github.com/"/>
-  <updated>2013-02-17T22:44:28+05:30</updated>
-  <id>http://paultsr.github.com/</id>
+  <link href="http://paultsr.in/blog/categories/firefox/atom.xml" rel="self"/>
+  <link href="http://paultsr.in/"/>
+  <updated>2013-02-18T22:32:29+05:30</updated>
+  <id>http://paultsr.in/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Malayalam fonts in Firefox]]></title>
-    <link href="http://paultsr.github.com/blog/2013/02/14/malayalam-fonts-in-firefox/"/>
+    <link href="http://paultsr.in/blog/2013/02/14/malayalam-fonts-in-firefox/"/>
     <updated>2013-02-14T17:33:00+05:30</updated>
-    <id>http://paultsr.github.com/blog/2013/02/14/malayalam-fonts-in-firefox</id>
+    <id>http://paultsr.in/blog/2013/02/14/malayalam-fonts-in-firefox</id>
     <content type="html"><![CDATA[<p>Websites which use malayalam fonts can be easily read by insatlling a small plugin in firefox</p>
 
 <p>The plugin <strong>padma</strong> works for the latest firefo version too.</p>

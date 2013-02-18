@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: tweaks | Paul Shaiju]]></title>
-  <link href="http://paultsr.github.com/blog/categories/tweaks/atom.xml" rel="self"/>
-  <link href="http://paultsr.github.com/"/>
-  <updated>2013-02-17T22:44:28+05:30</updated>
-  <id>http://paultsr.github.com/</id>
+  <link href="http://paultsr.in/blog/categories/tweaks/atom.xml" rel="self"/>
+  <link href="http://paultsr.in/"/>
+  <updated>2013-02-18T22:32:29+05:30</updated>
+  <id>http://paultsr.in/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[How to Crack/Hack Passwords]]></title>
-    <link href="http://paultsr.github.com/blog/2013/02/14/how-to-crack-slash-hack-passwords/"/>
+    <link href="http://paultsr.in/blog/2013/02/14/how-to-crack-slash-hack-passwords/"/>
     <updated>2013-02-14T18:21:00+05:30</updated>
-    <id>http://paultsr.github.com/blog/2013/02/14/how-to-crack-slash-hack-passwords</id>
+    <id>http://paultsr.in/blog/2013/02/14/how-to-crack-slash-hack-passwords</id>
     <content type="html"><![CDATA[<p>We can easily crack Linux passwords using the tool <strong>John the Ripper</strong></p>
 
 <p><strong>John the Ripper</strong> is a free password cracking software tool. It currently runs on fifteen different platforms (11 architecture-specific flavors of Unix, DOS, Win32, BeOS, and OpenVMS).</p>
@@ -71,9 +71,9 @@
   
   <entry>
     <title type="html"><![CDATA[MAC ID Spoofing]]></title>
-    <link href="http://paultsr.github.com/blog/2013/02/14/blmac-id-spoofing/"/>
+    <link href="http://paultsr.in/blog/2013/02/14/blmac-id-spoofing/"/>
     <updated>2013-02-14T11:27:00+05:30</updated>
-    <id>http://paultsr.github.com/blog/2013/02/14/blmac-id-spoofing</id>
+    <id>http://paultsr.in/blog/2013/02/14/blmac-id-spoofing</id>
     <content type="html"><![CDATA[<p>To change the mac id of your network interface card in Linux, you hav to edit  <em>/etc/rc.local</em> file.If the file rc.local is not present in the <em>/etc</em> directory, create a new file of the same name.</p>
 
 <p>Open the <em>rc.local</em> file in a terminal :-</p>

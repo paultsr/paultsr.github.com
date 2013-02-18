@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: shortcuts | Paul Shaiju]]></title>
-  <link href="http://paultsr.github.com/blog/categories/shortcuts/atom.xml" rel="self"/>
-  <link href="http://paultsr.github.com/"/>
-  <updated>2013-02-17T22:44:28+05:30</updated>
-  <id>http://paultsr.github.com/</id>
+  <link href="http://paultsr.in/blog/categories/shortcuts/atom.xml" rel="self"/>
+  <link href="http://paultsr.in/"/>
+  <updated>2013-02-18T22:32:29+05:30</updated>
+  <id>http://paultsr.in/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Windows 7 Keyboard Shortcuts]]></title>
-    <link href="http://paultsr.github.com/blog/2013/02/14/windows-7-keyboard-shortcuts/"/>
+    <link href="http://paultsr.in/blog/2013/02/14/windows-7-keyboard-shortcuts/"/>
     <updated>2013-02-14T11:37:00+05:30</updated>
-    <id>http://paultsr.github.com/blog/2013/02/14/windows-7-keyboard-shortcuts</id>
+    <id>http://paultsr.in/blog/2013/02/14/windows-7-keyboard-shortcuts</id>
     <content type="html"><![CDATA[<p>Windows 7 boasts a lot of great new shortcuts for switching between apps, moving windows around your screen, moving them to another monitor altogether, and much more. But I’m focusing on several of my favorites.</p>
 
 <p><img class="center" src="/images/windows_7.jpg" title="Windows7 image1" ></p>

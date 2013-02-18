@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: website | Paul Shaiju]]></title>
-  <link href="http://paultsr.github.com/blog/categories/website/atom.xml" rel="self"/>
-  <link href="http://paultsr.github.com/"/>
-  <updated>2013-02-17T22:44:28+05:30</updated>
-  <id>http://paultsr.github.com/</id>
+  <link href="http://paultsr.in/blog/categories/website/atom.xml" rel="self"/>
+  <link href="http://paultsr.in/"/>
+  <updated>2013-02-18T22:32:29+05:30</updated>
+  <id>http://paultsr.in/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[paulson.in to paultsr.in]]></title>
-    <link href="http://paultsr.github.com/blog/2013/02/16/paulson-dot-in-to-paultsr-dot-in/"/>
+    <link href="http://paultsr.in/blog/2013/02/16/paulson-dot-in-to-paultsr-dot-in/"/>
     <updated>2013-02-16T22:45:00+05:30</updated>
-    <id>http://paultsr.github.com/blog/2013/02/16/paulson-dot-in-to-paultsr-dot-in</id>
+    <id>http://paultsr.in/blog/2013/02/16/paulson-dot-in-to-paultsr-dot-in</id>
     <content type="html"><![CDATA[<p>I have migrated my Domain/Website from <strong>http://paulson.in</strong> to <strong>http://paultsr.in</strong>. Webspace is in <strong>http://paultsr.github.com</strong>.Also i have changed my blogging platform from <strong>Wordpress</strong> to <strong>Octopress</strong>. it is easy to read and write blogs in Octopress by using its <em>markdown syntax</em>.</p>
 
 <h2>License</h2>

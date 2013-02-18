@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: google | Paul Shaiju]]></title>
-  <link href="http://paultsr.github.com/blog/categories/google/atom.xml" rel="self"/>
-  <link href="http://paultsr.github.com/"/>
-  <updated>2013-02-17T22:44:28+05:30</updated>
-  <id>http://paultsr.github.com/</id>
+  <link href="http://paultsr.in/blog/categories/google/atom.xml" rel="self"/>
+  <link href="http://paultsr.in/"/>
+  <updated>2013-02-18T22:32:29+05:30</updated>
+  <id>http://paultsr.in/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Installing Google GO on Ubuntu]]></title>
-    <link href="http://paultsr.github.com/blog/2013/02/14/installing-google-go-on-ubuntu/"/>
+    <link href="http://paultsr.in/blog/2013/02/14/installing-google-go-on-ubuntu/"/>
     <updated>2013-02-14T11:49:00+05:30</updated>
-    <id>http://paultsr.github.com/blog/2013/02/14/installing-google-go-on-ubuntu</id>
+    <id>http://paultsr.in/blog/2013/02/14/installing-google-go-on-ubuntu</id>
     <content type="html"><![CDATA[<p>GO is a new programming language released by Google in November 2009. GO is a simple, concurrent, garbage-collected language with fast compilation. The language is still in development stage and there is no readymade package available for ubuntu. You can install it and try out the features from the version control repository of GO.</p>
 
 <h2>Installation Steps</h2>

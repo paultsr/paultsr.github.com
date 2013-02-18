@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: spoofing | Paul Shaiju]]></title>
-  <link href="http://paultsr.github.com/blog/categories/spoofing/atom.xml" rel="self"/>
-  <link href="http://paultsr.github.com/"/>
-  <updated>2013-02-17T22:44:28+05:30</updated>
-  <id>http://paultsr.github.com/</id>
+  <link href="http://paultsr.in/blog/categories/spoofing/atom.xml" rel="self"/>
+  <link href="http://paultsr.in/"/>
+  <updated>2013-02-18T22:32:29+05:30</updated>
+  <id>http://paultsr.in/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[MAC ID Spoofing]]></title>
-    <link href="http://paultsr.github.com/blog/2013/02/14/blmac-id-spoofing/"/>
+    <link href="http://paultsr.in/blog/2013/02/14/blmac-id-spoofing/"/>
     <updated>2013-02-14T11:27:00+05:30</updated>
-    <id>http://paultsr.github.com/blog/2013/02/14/blmac-id-spoofing</id>
+    <id>http://paultsr.in/blog/2013/02/14/blmac-id-spoofing</id>
     <content type="html"><![CDATA[<p>To change the mac id of your network interface card in Linux, you hav to edit  <em>/etc/rc.local</em> file.If the file rc.local is not present in the <em>/etc</em> directory, create a new file of the same name.</p>
 
 <p>Open the <em>rc.local</em> file in a terminal :-</p>

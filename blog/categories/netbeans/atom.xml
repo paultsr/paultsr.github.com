@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: netbeans | Paul Shaiju]]></title>
-  <link href="http://paultsr.github.com/blog/categories/netbeans/atom.xml" rel="self"/>
-  <link href="http://paultsr.github.com/"/>
-  <updated>2013-02-17T22:44:28+05:30</updated>
-  <id>http://paultsr.github.com/</id>
+  <link href="http://paultsr.in/blog/categories/netbeans/atom.xml" rel="self"/>
+  <link href="http://paultsr.in/"/>
+  <updated>2013-02-18T22:32:29+05:30</updated>
+  <id>http://paultsr.in/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Developing Web Services in Linux]]></title>
-    <link href="http://paultsr.github.com/blog/2013/02/14/madeveloping-web-services-in-linux/"/>
+    <link href="http://paultsr.in/blog/2013/02/14/madeveloping-web-services-in-linux/"/>
     <updated>2013-02-14T17:40:00+05:30</updated>
-    <id>http://paultsr.github.com/blog/2013/02/14/madeveloping-web-services-in-linux</id>
+    <id>http://paultsr.in/blog/2013/02/14/madeveloping-web-services-in-linux</id>
     <content type="html"><![CDATA[<p><strong>Web services</strong> enable software components such as application functions, objects and processes from heterogeneous systems to be exposed as services over the Internet.</p>
 
 <p>To develop Web Services on Linux, we need the following packages.</p>

@@ -2,90 +2,88 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>
-            http://paultsr.github.com/blog/2013/01/26/how-to-install-ruby-with-rbenv-on-ubuntu-slash-joss-linux/
+            http://paultsr.in/blog/2013/01/26/how-to-install-ruby-with-rbenv-on-ubuntu-slash-joss-linux/
         </loc>
         <lastmod>2013-02-17T19:23:00+05:30</lastmod>
     </url>
     <url>
         <loc>
-            http://paultsr.github.com/blog/2013/01/26/how-to-install-octopress-on-ubuntu-slash-joss-linux/
+            http://paultsr.in/blog/2013/01/26/how-to-install-octopress-on-ubuntu-slash-joss-linux/
         </loc>
         <lastmod>2013-02-17T19:23:00+05:30</lastmod>
     </url>
     <url>
-        <loc>http://paultsr.github.com/blog/2013/02/14/ns2-installation-on-linux/</loc>
+        <loc>http://paultsr.in/blog/2013/02/14/ns2-installation-on-linux/</loc>
         <lastmod>2013-02-17T19:23:00+05:30</lastmod>
     </url>
     <url>
-        <loc>http://paultsr.github.com/blog/2013/02/14/ns2-installation-on-windows/</loc>
+        <loc>http://paultsr.in/blog/2013/02/14/ns2-installation-on-windows/</loc>
         <lastmod>2013-02-17T19:23:00+05:30</lastmod>
     </url>
     <url>
-        <loc>http://paultsr.github.com/blog/2013/02/14/mannasim-installation-on-windows/</loc>
+        <loc>http://paultsr.in/blog/2013/02/14/mannasim-installation-on-windows/</loc>
+        <lastmod>2013-02-17T19:23:00+05:30</lastmod>
+    </url>
+    <url>
+        <loc>http://paultsr.in/blog/2013/02/14/blogging-in-malayalam-using-wordpress/</loc>
+        <lastmod>2013-02-17T19:23:00+05:30</lastmod>
+    </url>
+    <url>
+        <loc>http://paultsr.in/blog/2013/02/14/blmac-id-spoofing/</loc>
+        <lastmod>2013-02-17T19:23:00+05:30</lastmod>
+    </url>
+    <url>
+        <loc>http://paultsr.in/blog/2013/02/14/windows-7-keyboard-shortcuts/</loc>
+        <lastmod>2013-02-17T19:23:00+05:30</lastmod>
+    </url>
+    <url>
+        <loc>http://paultsr.in/blog/2013/02/14/installing-google-go-on-ubuntu/</loc>
         <lastmod>2013-02-17T19:23:00+05:30</lastmod>
     </url>
     <url>
         <loc>
-            http://paultsr.github.com/blog/2013/02/14/blogging-in-malayalam-using-wordpress/
+            http://paultsr.in/blog/2013/02/14/ns2-installation-on-ubuntu-9-dot-10-and-above/
         </loc>
         <lastmod>2013-02-17T19:23:00+05:30</lastmod>
     </url>
     <url>
-        <loc>http://paultsr.github.com/blog/2013/02/14/blmac-id-spoofing/</loc>
+        <loc>http://paultsr.in/blog/2013/02/14/run-windows-applications-in-linux/</loc>
         <lastmod>2013-02-17T19:23:00+05:30</lastmod>
     </url>
     <url>
-        <loc>http://paultsr.github.com/blog/2013/02/14/windows-7-keyboard-shortcuts/</loc>
+        <loc>http://paultsr.in/blog/2013/02/14/rumy-favourite-quotes/</loc>
         <lastmod>2013-02-17T19:23:00+05:30</lastmod>
     </url>
     <url>
-        <loc>http://paultsr.github.com/blog/2013/02/14/installing-google-go-on-ubuntu/</loc>
+        <loc>http://paultsr.in/blog/2013/02/14/malayalam-fonts-in-firefox/</loc>
         <lastmod>2013-02-17T19:23:00+05:30</lastmod>
     </url>
     <url>
-        <loc>
-            http://paultsr.github.com/blog/2013/02/14/ns2-installation-on-ubuntu-9-dot-10-and-above/
-        </loc>
+        <loc>http://paultsr.in/blog/2013/02/14/madeveloping-web-services-in-linux/</loc>
         <lastmod>2013-02-17T19:23:00+05:30</lastmod>
     </url>
     <url>
-        <loc>http://paultsr.github.com/blog/2013/02/14/run-windows-applications-in-linux/</loc>
+        <loc>http://paultsr.in/blog/2013/02/14/how-to-crack-slash-hack-passwords/</loc>
         <lastmod>2013-02-17T19:23:00+05:30</lastmod>
     </url>
     <url>
-        <loc>http://paultsr.github.com/blog/2013/02/14/rumy-favourite-quotes/</loc>
+        <loc>http://paultsr.in/blog/2013/02/16/paulson-dot-in-to-paultsr-dot-in/</loc>
         <lastmod>2013-02-17T19:23:00+05:30</lastmod>
     </url>
     <url>
-        <loc>http://paultsr.github.com/blog/2013/02/14/malayalam-fonts-in-firefox/</loc>
+        <loc>http://paultsr.in/blog/archives/</loc>
         <lastmod>2013-02-17T19:23:00+05:30</lastmod>
     </url>
     <url>
-        <loc>http://paultsr.github.com/blog/2013/02/14/madeveloping-web-services-in-linux/</loc>
+        <loc>http://paultsr.in/</loc>
         <lastmod>2013-02-17T19:23:00+05:30</lastmod>
     </url>
     <url>
-        <loc>http://paultsr.github.com/blog/2013/02/14/how-to-crack-slash-hack-passwords/</loc>
+        <loc>http://paultsr.in/about/</loc>
         <lastmod>2013-02-17T19:23:00+05:30</lastmod>
     </url>
     <url>
-        <loc>http://paultsr.github.com/blog/2013/02/16/paulson-dot-in-to-paultsr-dot-in/</loc>
-        <lastmod>2013-02-17T19:23:00+05:30</lastmod>
-    </url>
-    <url>
-        <loc>http://paultsr.github.com/blog/archives/</loc>
-        <lastmod>2013-02-17T19:23:00+05:30</lastmod>
-    </url>
-    <url>
-        <loc>http://paultsr.github.com/</loc>
-        <lastmod>2013-02-17T19:23:00+05:30</lastmod>
-    </url>
-    <url>
-        <loc>http://paultsr.github.com/about/</loc>
-        <lastmod>2013-02-17T19:23:00+05:30</lastmod>
-    </url>
-    <url>
-        <loc>http://paultsr.github.com/robots.txt</loc>
+        <loc>http://paultsr.in/robots.txt</loc>
         <lastmod>2013-02-16T20:40:09+05:30</lastmod>
     </url>
 </urlset>

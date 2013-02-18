@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: install | Paul Shaiju]]></title>
-  <link href="http://paultsr.github.com/blog/categories/install/atom.xml" rel="self"/>
-  <link href="http://paultsr.github.com/"/>
-  <updated>2013-02-17T22:44:28+05:30</updated>
-  <id>http://paultsr.github.com/</id>
+  <link href="http://paultsr.in/blog/categories/install/atom.xml" rel="self"/>
+  <link href="http://paultsr.in/"/>
+  <updated>2013-02-18T22:32:29+05:30</updated>
+  <id>http://paultsr.in/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[How to install Octopress on Ubuntu / JOSS Linux]]></title>
-    <link href="http://paultsr.github.com/blog/2013/01/26/how-to-install-octopress-on-ubuntu-slash-joss-linux/"/>
+    <link href="http://paultsr.in/blog/2013/01/26/how-to-install-octopress-on-ubuntu-slash-joss-linux/"/>
     <updated>2013-01-26T00:52:00+05:30</updated>
-    <id>http://paultsr.github.com/blog/2013/01/26/how-to-install-octopress-on-ubuntu-slash-joss-linux</id>
+    <id>http://paultsr.in/blog/2013/01/26/how-to-install-octopress-on-ubuntu-slash-joss-linux</id>
     <content type="html"><![CDATA[<h2>Installation Steps</h2>
 
 <p>( open up the terminal and paste the following commands one by one )</p>
@@ -59,9 +59,9 @@
   
   <entry>
     <title type="html"><![CDATA[How to install Ruby with rbenv on Ubuntu / JOSS Linux]]></title>
-    <link href="http://paultsr.github.com/blog/2013/01/26/how-to-install-ruby-with-rbenv-on-ubuntu-slash-joss-linux/"/>
+    <link href="http://paultsr.in/blog/2013/01/26/how-to-install-ruby-with-rbenv-on-ubuntu-slash-joss-linux/"/>
     <updated>2013-01-26T00:41:00+05:30</updated>
-    <id>http://paultsr.github.com/blog/2013/01/26/how-to-install-ruby-with-rbenv-on-ubuntu-slash-joss-linux</id>
+    <id>http://paultsr.in/blog/2013/01/26/how-to-install-ruby-with-rbenv-on-ubuntu-slash-joss-linux</id>
     <content type="html"><![CDATA[<h2>Installation Steps</h2>
 
 <p>( open up the terminal and paste the following commands one by one )</p>

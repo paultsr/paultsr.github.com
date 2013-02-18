@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: ns2 | Paul Shaiju]]></title>
-  <link href="http://paultsr.github.com/blog/categories/ns2/atom.xml" rel="self"/>
-  <link href="http://paultsr.github.com/"/>
-  <updated>2013-02-17T22:44:28+05:30</updated>
-  <id>http://paultsr.github.com/</id>
+  <link href="http://paultsr.in/blog/categories/ns2/atom.xml" rel="self"/>
+  <link href="http://paultsr.in/"/>
+  <updated>2013-02-18T22:32:29+05:30</updated>
+  <id>http://paultsr.in/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[NS2 Installation on Ubuntu 9.10 and Above]]></title>
-    <link href="http://paultsr.github.com/blog/2013/02/14/ns2-installation-on-ubuntu-9-dot-10-and-above/"/>
+    <link href="http://paultsr.in/blog/2013/02/14/ns2-installation-on-ubuntu-9-dot-10-and-above/"/>
     <updated>2013-02-14T16:26:00+05:30</updated>
-    <id>http://paultsr.github.com/blog/2013/02/14/ns2-installation-on-ubuntu-9-dot-10-and-above</id>
+    <id>http://paultsr.in/blog/2013/02/14/ns2-installation-on-ubuntu-9-dot-10-and-above</id>
     <content type="html"><![CDATA[<p>I was searching for ns2 ubuntu .deb packages for a long time.I have written many blogs for the manual installation of ns2 on linux and windows.Still I do get many queries of ns2 installation errors.</p>
 
 <p>There is a ppa repository for ns2 created by <em>Wouter Horré</em>.Now its very easy to install ns2 on ubuntu.</p>
@@ -50,9 +50,9 @@
   
   <entry>
     <title type="html"><![CDATA[Mannasim Installation on Windows]]></title>
-    <link href="http://paultsr.github.com/blog/2013/02/14/mannasim-installation-on-windows/"/>
+    <link href="http://paultsr.in/blog/2013/02/14/mannasim-installation-on-windows/"/>
     <updated>2013-02-14T10:52:00+05:30</updated>
-    <id>http://paultsr.github.com/blog/2013/02/14/mannasim-installation-on-windows</id>
+    <id>http://paultsr.in/blog/2013/02/14/mannasim-installation-on-windows</id>
     <content type="html"><![CDATA[<p>More than half of my pg mates are doing their project work in sensor networks.I had seen my friends struggling to install Mannasim on their laptops.But, iam doing my project on Grid Security. So i thought to write a blog for my friends who all are keen to simulate WSN.</p>
 
 <p>Mannasim is a module which extends NS2 to simulate different Wireless Sensor Networks (WSN) applications.
@@ -105,9 +105,9 @@ type the following command in the cygwin terminal</p>
   
   <entry>
     <title type="html"><![CDATA[Ns2 Installation on Windows]]></title>
-    <link href="http://paultsr.github.com/blog/2013/02/14/ns2-installation-on-windows/"/>
+    <link href="http://paultsr.in/blog/2013/02/14/ns2-installation-on-windows/"/>
     <updated>2013-02-14T10:32:00+05:30</updated>
-    <id>http://paultsr.github.com/blog/2013/02/14/ns2-installation-on-windows</id>
+    <id>http://paultsr.in/blog/2013/02/14/ns2-installation-on-windows</id>
     <content type="html"><![CDATA[<p>I have heard from my friends that installing ns2 on windows is like a nightmare.Actually it is not so difficult to install NS2 on windows.In this article I will show you how to install NS2.34 (latest version as for today)on Windows Vista SP1.You can install it on Windows XP also.</p>
 
 <h2>Installation Steps</h2>
@@ -193,9 +193,9 @@ Now u can execute your ns2 programs from this terminal.</p>
   
   <entry>
     <title type="html"><![CDATA[NS2 installation on Linux]]></title>
-    <link href="http://paultsr.github.com/blog/2013/02/14/ns2-installation-on-linux/"/>
+    <link href="http://paultsr.in/blog/2013/02/14/ns2-installation-on-linux/"/>
     <updated>2013-02-14T10:09:00+05:30</updated>
-    <id>http://paultsr.github.com/blog/2013/02/14/ns2-installation-on-linux</id>
+    <id>http://paultsr.in/blog/2013/02/14/ns2-installation-on-linux</id>
     <content type="html"><![CDATA[<p>NS2 is a popular discrete event simulator for simulating different types of networks.In this article i will show you how to install NS2.34 on Linux.I had modified the original NS2 package so that you dont have to set any paths after the installation.I had installed NS2 on Ubuntu 9.04.You can use the following steps to install it in any flavour of Linux.</p>
 
 <h2>Installation Steps</h2>

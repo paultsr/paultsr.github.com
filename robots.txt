@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://paultsr.github.com/sitemap.xml 
+Sitemap: http://paultsr.in/sitemap.xml 

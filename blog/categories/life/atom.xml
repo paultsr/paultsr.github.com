@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: life | Paul Shaiju]]></title>
-  <link href="http://paultsr.github.com/blog/categories/life/atom.xml" rel="self"/>
-  <link href="http://paultsr.github.com/"/>
-  <updated>2013-02-17T22:44:28+05:30</updated>
-  <id>http://paultsr.github.com/</id>
+  <link href="http://paultsr.in/blog/categories/life/atom.xml" rel="self"/>
+  <link href="http://paultsr.in/"/>
+  <updated>2013-02-18T22:32:29+05:30</updated>
+  <id>http://paultsr.in/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[My Favourite Quotes]]></title>
-    <link href="http://paultsr.github.com/blog/2013/02/14/rumy-favourite-quotes/"/>
+    <link href="http://paultsr.in/blog/2013/02/14/rumy-favourite-quotes/"/>
     <updated>2013-02-14T16:56:00+05:30</updated>
-    <id>http://paultsr.github.com/blog/2013/02/14/rumy-favourite-quotes</id>
+    <id>http://paultsr.in/blog/2013/02/14/rumy-favourite-quotes</id>
     <content type="html"><![CDATA[<p><strong>Following are the Quotes which have always inspired me</strong></p>
 
 <p><em>“The most beautiful discovery true friends make is that they can grow separately without growing apart” - Elisabeth Foley</em></p>
