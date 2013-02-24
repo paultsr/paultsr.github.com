@@ -1,0 +1,45 @@
+---
+layout: post
+title: "JOSS Linux 1.10.3"
+date: 2013-02-24 11:29
+comments: true
+categories:  [jecc,ns2,linux,joss,cesa,programming,Free,ubuntu,clisp,gprolog,Latex]
+---
+Computer Engineering Students Association(**CESA**) of [Jyothi Engineering College,Thrissur](http://jecc.ac.in) proudly released **JOSS Linux 1.10**.
+
+Jyothi Operating Sysytem Solutions(**JOSS**) Linux is a customized version of Ubuntu 11.10 for students who are pursuing UG/PG courses in Computer Science and Engineering. JOSS Linux contains almost all softwares required for the practicals and fun such as gcc, java, clisp, gprolog, masm using dosbox, nasm, mysql, apache, php, perl,  python, flex, bison, s2, texmaker, geany,vim,vlc, chromium, flash-plugin, dvd-rip, filezilla, skype, wireshark, adobe reader, gimp, dia, stellarium and many more..
+
+Download the iso image from [here](http://www.cesa.co.in/downloads/livecd.iso).
+
+JOSS Linux can also be used as a **Live**.
+
+
+Screen shots
+{% img center /images/joss_linux_0.png joss linux image1 %}
+
+{% img center /images/joss_linux_1.png joss linux image2 %}
+
+{% img center /images/joss_linux_2.png joss linux image3 %}
+
+{% img center /images/joss_linux_3.png joss linux image4 %}
+
+{% img center /images/joss_linux_4.png joss linux image5 %}
+
+{% img center /images/joss_linux_5.png joss linux image6 %}
+
+{% img center /images/joss_linux_6.png joss linux image7 %}
+
+{% img center /images/joss_linux_7.png joss linux image8 %}
+
+{% img center /images/joss_linux_8.png joss linux image9 %}
+
+{% img center /images/joss_linux_9.png joss linux image10 %}
+
+License
+-
+
+Paul S
+
+*Free Software Supporter!*
+
+
