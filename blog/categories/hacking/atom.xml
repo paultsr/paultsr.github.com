@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hacking | Paul Shaiju]]></title>
   <link href="http://paultsr.in/blog/categories/hacking/atom.xml" rel="self"/>
   <link href="http://paultsr.in/"/>
-  <updated>2013-02-24T12:39:48+05:30</updated>
+  <updated>2013-02-24T23:23:40+05:30</updated>
   <id>http://paultsr.in/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -41,6 +41,9 @@
 <p>6) Then click on <em>connect</em> and then click on <em>read</em></p>
 
 <p><img class="center" src="/images/idea_unlock/1.jpg" title="unlock idea 3g netsetter image1" ></p>
+
+<!-- more -->
+
 
 <p>7) Go to the <em>Security</em> tab > Type <em>000000</em> in the blank box under <em>SPC</em> > Click on <em>SPC</em> button > Click on <em>Send</em> with Default (<em>nv_read</em>) as SPC.</p>
 
@@ -150,6 +153,9 @@
 </ul>
 
 
+<!-- more -->
+
+
 <p>To use John, you just need to supply it a password file created using <em>unshadow</em> command along with desired options. If no mode is specified, john will try <em>single</em> first, then <em>wordlist</em> and finally <em>incremental</em> password cracking methods.</p>
 
 <p><code>john /tmp/crack.password</code></p>
@@ -175,7 +181,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[MAC ID Spoofing]]></title>
+    <title type="html"><![CDATA[MAC ID Spoofing in Linux]]></title>
     <link href="http://paultsr.in/blog/2013/02/14/blmac-id-spoofing/"/>
     <updated>2013-02-14T11:27:00+05:30</updated>
     <id>http://paultsr.in/blog/2013/02/14/blmac-id-spoofing</id>
@@ -196,6 +202,14 @@
 <p>Save the file and Restart the machine.Now you mac id will be the new mac id you had assigned.To verify, type the following command in a terminal</p>
 
 <p><code>ifconfig</code></p>
+
+<h2>License</h2>
+
+<p>Paul S</p>
+
+<p><em>Free Software!</em></p>
+
+<p><em>Tested in Ubuntu 11.10 and JOSS Linux 1.10.3</em></p>
 ]]></content>
   </entry>
   

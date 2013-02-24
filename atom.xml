@@ -4,7 +4,7 @@
   <title><![CDATA[Paul Shaiju]]></title>
   <link href="http://paultsr.in/atom.xml" rel="self"/>
   <link href="http://paultsr.in/"/>
-  <updated>2013-02-24T12:39:48+05:30</updated>
+  <updated>2013-02-24T23:23:40+05:30</updated>
   <id>http://paultsr.in/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -41,6 +41,9 @@
 <p>6) Then click on <em>connect</em> and then click on <em>read</em></p>
 
 <p><img class="center" src="http://paultsr.in/images/idea_unlock/1.jpg" title="unlock idea 3g netsetter image1" ></p>
+
+<!-- more -->
+
 
 <p>7) Go to the <em>Security</em> tab > Type <em>000000</em> in the blank box under <em>SPC</em> > Click on <em>SPC</em> button > Click on <em>Send</em> with Default (<em>nv_read</em>) as SPC.</p>
 
@@ -136,6 +139,9 @@
 
 <p><img class="center" src="http://paultsr.in/images/joss_linux_1.png" title="joss linux image2" ></p>
 
+<!-- more -->
+
+
 <p><img class="center" src="http://paultsr.in/images/joss_linux_2.png" title="joss linux image3" ></p>
 
 <p><img class="center" src="http://paultsr.in/images/joss_linux_3.png" title="joss linux image4" ></p>
@@ -172,8 +178,6 @@
 <p>Paul S</p>
 
 <p><em>Free Software Supporter!</em></p>
-
-<p><em>Tested in Ubuntu 11.10 and JOSS Linux 1.10.3</em></p>
 ]]></content>
   </entry>
   
@@ -207,6 +211,9 @@
 <li>Single crack : In this mode, john will try to crack the password using the login/GECOS information as passwords.</li>
 <li>Incremental : This is the most powerful mode. John will try any character combination to resolve the password.</li>
 </ul>
+
+
+<!-- more -->
 
 
 <p>To use John, you just need to supply it a password file created using <em>unshadow</em> command along with desired options. If no mode is specified, john will try <em>single</em> first, then <em>wordlist</em> and finally <em>incremental</em> password cracking methods.</p>
@@ -277,6 +284,9 @@
 <p><code>export PATH=$PATH:$JAVA_HOME/bin</code></p>
 
 <p>Save and close the file.</p>
+
+<!-- more -->
+
 
 <p>Then download NetBeans IDE from <em>here</em></p>
 
@@ -499,6 +509,9 @@ You are you, and I am I, and if by chance we find each other, it’s beautiful�
 
 <p><em>“ഒരു വളപ്പോട്ടുന്ടെന്‍ കയ്യില്‍ , ഒരു മയില്‍ പീലി ഉണ്ടുള്ളില്‍ , വിരസ നിമിഷങ്ങള്‍ സരസമാക്കനിവ ധാരലമാനെനിക്കെന്നും” — കുഞ്ഞുണ്ണി മാഷ്</em></p>
 
+<!-- more -->
+
+
 <p><em>“If you have an apple and I have an apple and we exchange these apples then you and I will still each have one apple. But if you have an idea and I have an idea and we exchange these ideas, then each of us will have two ideas” –George Bernard Shaw</em></p>
 
 <p><em>“Beauty and color may attract the eye, but only a smile can catch the attention of the hearts”</em></p>
@@ -522,7 +535,7 @@ You are you, and I am I, and if by chance we find each other, it’s beautiful�
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Run Windows applications on Linux]]></title>
+    <title type="html"><![CDATA[Run Windows applications in Linux]]></title>
     <link href="http://paultsr.in/blog/2013/02/14/run-windows-applications-in-linux/"/>
     <updated>2013-02-14T16:33:00+05:30</updated>
     <id>http://paultsr.in/blog/2013/02/14/run-windows-applications-in-linux</id>
@@ -550,6 +563,9 @@ You are you, and I am I, and if by chance we find each other, it’s beautiful�
 
 <p><code>sudo dpkg -i wine-doors_0.1.3rc1_all.deb</code></p>
 
+<!-- more -->
+
+
 <p>I have used wine-doors release candidate 1 .</p>
 
 <p>After completing above steps launch Wine-Doors from <strong>Applications -> System-Tools -> Wine-Doors</strong></p>
@@ -575,7 +591,7 @@ You are you, and I am I, and if by chance we find each other, it’s beautiful�
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[NS2 Installation on Ubuntu 9.10 and Above]]></title>
+    <title type="html"><![CDATA[NS2 Installation in Ubuntu 9.10 and Above]]></title>
     <link href="http://paultsr.in/blog/2013/02/14/ns2-installation-on-ubuntu-9-dot-10-and-above/"/>
     <updated>2013-02-14T16:26:00+05:30</updated>
     <id>http://paultsr.in/blog/2013/02/14/ns2-installation-on-ubuntu-9-dot-10-and-above</id>
@@ -606,11 +622,19 @@ You are you, and I am I, and if by chance we find each other, it’s beautiful�
 <p><img class="center" src="http://paultsr.in/images/ns2-linux2.png" title="ns2 installation on linux image2" ></p>
 
 <p><img class="center" src="http://paultsr.in/images/ns2-linux3.png" title="ns2 installation on linux image3" ></p>
+
+<h2>License</h2>
+
+<p>Paul S</p>
+
+<p><em>Free Software!</em></p>
+
+<p><em>Tested in Ubuntu 11.10 and JOSS Linux 1.10.3</em></p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Installing Google GO on Ubuntu]]></title>
+    <title type="html"><![CDATA[Installing Google GO in Ubuntu]]></title>
     <link href="http://paultsr.in/blog/2013/02/14/installing-google-go-on-ubuntu/"/>
     <updated>2013-02-14T11:49:00+05:30</updated>
     <id>http://paultsr.in/blog/2013/02/14/installing-google-go-on-ubuntu</id>
@@ -646,6 +670,9 @@ Save the file and follow the steps below :</p>
 <p><code>cd /usr/local/go/src</code></p>
 
 <p><code>sudo ./all.bash</code></p>
+
+<!-- more -->
+
 
 <p>Now wait for some time. The compilations will proceed and will be completed with the following message</p>
 
@@ -696,6 +723,14 @@ Save the file and follow the steps below :</p>
 <p><em>GO Google Group</em></p>
 
 <p>There is an <em>unofficial</em> Windows port available, you can download it from <em>GO-windows</em>.</p>
+
+<h2>License</h2>
+
+<p>Paul S</p>
+
+<p><em>Free Software!</em></p>
+
+<p><em>Tested in Ubuntu 11.10 and JOSS Linux 1.10.3</em></p>
 ]]></content>
   </entry>
   
@@ -733,6 +768,9 @@ Save the file and follow the steps below :</p>
 <p><code>Win+X</code> Mobility Center.</p>
 
 <p><code>Win+U</code> Ease of Access.</p>
+
+<!-- more -->
+
 
 <p><strong>Taskbar Shortcuts</strong></p>
 
@@ -775,7 +813,7 @@ Save the file and follow the steps below :</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[MAC ID Spoofing]]></title>
+    <title type="html"><![CDATA[MAC ID Spoofing in Linux]]></title>
     <link href="http://paultsr.in/blog/2013/02/14/blmac-id-spoofing/"/>
     <updated>2013-02-14T11:27:00+05:30</updated>
     <id>http://paultsr.in/blog/2013/02/14/blmac-id-spoofing</id>
@@ -796,6 +834,14 @@ Save the file and follow the steps below :</p>
 <p>Save the file and Restart the machine.Now you mac id will be the new mac id you had assigned.To verify, type the following command in a terminal</p>
 
 <p><code>ifconfig</code></p>
+
+<h2>License</h2>
+
+<p>Paul S</p>
+
+<p><em>Free Software!</em></p>
+
+<p><em>Tested in Ubuntu 11.10 and JOSS Linux 1.10.3</em></p>
 ]]></content>
   </entry>
   
@@ -834,7 +880,7 @@ Look for the following line :</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Mannasim Installation on Windows]]></title>
+    <title type="html"><![CDATA[Mannasim Installation in Windows]]></title>
     <link href="http://paultsr.in/blog/2013/02/14/mannasim-installation-on-windows/"/>
     <updated>2013-02-14T10:52:00+05:30</updated>
     <id>http://paultsr.in/blog/2013/02/14/mannasim-installation-on-windows</id>
@@ -854,6 +900,9 @@ I had patched the NS2.29 with mannasim module and is available <em>here</em>.I h
 <p>Then type the following command in the terminal</p>
 
 <p><code>source /etc/profile.d/ns2.sh</code></p>
+
+<!-- more -->
+
 
 <p>You can find the sample codes in the folder</p>
 
@@ -889,7 +938,7 @@ type the following command in the cygwin terminal</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Ns2 Installation on Windows]]></title>
+    <title type="html"><![CDATA[Ns2 Installation in Windows]]></title>
     <link href="http://paultsr.in/blog/2013/02/14/ns2-installation-on-windows/"/>
     <updated>2013-02-14T10:32:00+05:30</updated>
     <id>http://paultsr.in/blog/2013/02/14/ns2-installation-on-windows</id>
@@ -922,6 +971,9 @@ It will create a Cygwin shortcut on your Desktop.</p>
 <p>Now copy the NS2.34 setup from <em>here</em></p>
 
 <p>Copy the ns-allinone-withpath-2.34.tbz file to <em>C:\cygwin\usr\local</em></p>
+
+<!-- more -->
+
 
 <p>Now click on the Cygwin shortcut on the Desktop.You will get a terminal window as in linux.Type the following command</p>
 
@@ -977,7 +1029,7 @@ Now u can execute your ns2 programs from this terminal.</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[NS2 installation on Linux]]></title>
+    <title type="html"><![CDATA[NS2 installation in Linux]]></title>
     <link href="http://paultsr.in/blog/2013/02/14/ns2-installation-on-linux/"/>
     <updated>2013-02-14T10:09:00+05:30</updated>
     <id>http://paultsr.in/blog/2013/02/14/ns2-installation-on-linux</id>
@@ -1000,6 +1052,9 @@ Now u can execute your ns2 programs from this terminal.</p>
 <p>Change directory to <em>/usr/local</em></p>
 
 <p><code>cd /usr/local/</code></p>
+
+<!-- more -->
+
 
 <p>Extract it using the following command</p>
 
@@ -1045,30 +1100,51 @@ After installation type the following command in a terminal</p>
 
 <p>( open up the terminal and paste the following commands one by one )</p>
 
-<ol>
-<li><code>cd</code></li>
-<li><code>sudo apt-get install zlib1g-dev openssl libopenssl-ruby1.9.1 libssl-dev libruby1.9.1 libreadline-dev git-core</code></li>
-<li><code>git clone git://github.com/sstephenson/rbenv.git .rbenv</code></li>
-<li><code>echo 'export PATH="$HOME/.rbenv/bin:$PATH"' &gt;&gt; ~/.bashrc</code></li>
-<li><code>echo 'eval "$(rbenv init -)"' &gt;&gt; ~/.bashrc</code></li>
-<li><code>exec $SHELL</code></li>
-<li><code>mkdir -p ~/.rbenv/plugins</code></li>
-<li><code>cd ~/.rbenv/plugins</code></li>
-<li><code>git clone git://github.com/sstephenson/ruby-build.git</code></li>
-<li><code>cd ruby-build</code></li>
-<li><code>sudo sh ./install.sh</code></li>
-<li><code>rbenv install 1.9.3-p194</code></li>
-<li><code>rbenv rehash</code></li>
-<li><code>rbenv global 1.9.3-p194</code></li>
-<li><code>cd</code></li>
-<li><code>git clone git://github.com/imathis/octopress.git octopress</code></li>
-<li><code>cd octopress</code></li>
-<li><code>gem install bundler</code></li>
-<li><code>rbenv rehash</code></li>
-<li><code>bundle install</code></li>
-<li><code>rake install</code></li>
-</ol>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ cd
+</span><span class='line'>$ sudo apt-get install zlib1g-dev openssl libopenssl-ruby1.9.1 libssl-dev libruby1.9.1 libreadline-dev git-core
+</span><span class='line'>$ git clone git://github.com/sstephenson/rbenv.git .rbenv
+</span><span class='line'>$ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' &gt;&gt; ~/.bashrc
+</span><span class='line'>$ echo 'eval "$(rbenv init -)"' &gt;&gt; ~/.bashrc
+</span><span class='line'>$ exec $SHELL
+</span><span class='line'>$ mkdir -p ~/.rbenv/plugins
+</span><span class='line'>$ cd ~/.rbenv/plugins
+</span><span class='line'>$ git clone git://github.com/sstephenson/ruby-build.git
+</span><span class='line'>$ cd ruby-build
+</span><span class='line'>$ sudo sh ./install.sh
+</span><span class='line'>$ rbenv install 1.9.3-p194
+</span><span class='line'>$ rbenv rehash
+</span><span class='line'>$ rbenv global 1.9.3-p194
+</span><span class='line'>$ cd
+</span><span class='line'>$ git clone git://github.com/imathis/octopress.git octopress
+</span><span class='line'>$ cd octopress
+</span><span class='line'>$ gem install bundler
+</span><span class='line'>$ rbenv rehash
+</span><span class='line'>$ bundle install
+</span><span class='line'>$ rake install</span></code></pre></td></tr></table></div></figure>
 
+
+<p></p>
 
 <h2>License</h2>
 

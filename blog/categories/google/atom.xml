@@ -4,7 +4,7 @@
   <title><![CDATA[Category: google | Paul Shaiju]]></title>
   <link href="http://paultsr.in/blog/categories/google/atom.xml" rel="self"/>
   <link href="http://paultsr.in/"/>
-  <updated>2013-02-24T12:39:48+05:30</updated>
+  <updated>2013-02-24T23:23:40+05:30</updated>
   <id>http://paultsr.in/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Installing Google GO on Ubuntu]]></title>
+    <title type="html"><![CDATA[Installing Google GO in Ubuntu]]></title>
     <link href="http://paultsr.in/blog/2013/02/14/installing-google-go-on-ubuntu/"/>
     <updated>2013-02-14T11:49:00+05:30</updated>
     <id>http://paultsr.in/blog/2013/02/14/installing-google-go-on-ubuntu</id>
@@ -50,6 +50,9 @@ Save the file and follow the steps below :</p>
 <p><code>cd /usr/local/go/src</code></p>
 
 <p><code>sudo ./all.bash</code></p>
+
+<!-- more -->
+
 
 <p>Now wait for some time. The compilations will proceed and will be completed with the following message</p>
 
@@ -100,6 +103,14 @@ Save the file and follow the steps below :</p>
 <p><em>GO Google Group</em></p>
 
 <p>There is an <em>unofficial</em> Windows port available, you can download it from <em>GO-windows</em>.</p>
+
+<h2>License</h2>
+
+<p>Paul S</p>
+
+<p><em>Free Software!</em></p>
+
+<p><em>Tested in Ubuntu 11.10 and JOSS Linux 1.10.3</em></p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: crack | Paul Shaiju]]></title>
   <link href="http://paultsr.in/blog/categories/crack/atom.xml" rel="self"/>
   <link href="http://paultsr.in/"/>
-  <updated>2013-02-24T12:39:48+05:30</updated>
+  <updated>2013-02-24T23:23:40+05:30</updated>
   <id>http://paultsr.in/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -43,6 +43,9 @@
 <li>Single crack : In this mode, john will try to crack the password using the login/GECOS information as passwords.</li>
 <li>Incremental : This is the most powerful mode. John will try any character combination to resolve the password.</li>
 </ul>
+
+
+<!-- more -->
 
 
 <p>To use John, you just need to supply it a password file created using <em>unshadow</em> command along with desired options. If no mode is specified, john will try <em>single</em> first, then <em>wordlist</em> and finally <em>incremental</em> password cracking methods.</p>

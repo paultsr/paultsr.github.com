@@ -4,7 +4,7 @@
   <title><![CDATA[Category: octopress | Paul Shaiju]]></title>
   <link href="http://paultsr.in/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://paultsr.in/"/>
-  <updated>2013-02-24T12:39:48+05:30</updated>
+  <updated>2013-02-24T23:23:40+05:30</updated>
   <id>http://paultsr.in/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -25,8 +25,6 @@
 <p>Paul S</p>
 
 <p><em>Free Software Supporter!</em></p>
-
-<p><em>Tested in Ubuntu 11.10 and JOSS Linux 1.10.3</em></p>
 ]]></content>
   </entry>
   
@@ -39,30 +37,29 @@
 
 <p>( open up the terminal and paste the following commands one by one )</p>
 
-<ol>
-<li><code>cd</code></li>
-<li><code>sudo apt-get install zlib1g-dev openssl libopenssl-ruby1.9.1 libssl-dev libruby1.9.1 libreadline-dev git-core</code></li>
-<li><code>git clone git://github.com/sstephenson/rbenv.git .rbenv</code></li>
-<li><code>echo 'export PATH="$HOME/.rbenv/bin:$PATH"' &gt;&gt; ~/.bashrc</code></li>
-<li><code>echo 'eval "$(rbenv init -)"' &gt;&gt; ~/.bashrc</code></li>
-<li><code>exec $SHELL</code></li>
-<li><code>mkdir -p ~/.rbenv/plugins</code></li>
-<li><code>cd ~/.rbenv/plugins</code></li>
-<li><code>git clone git://github.com/sstephenson/ruby-build.git</code></li>
-<li><code>cd ruby-build</code></li>
-<li><code>sudo sh ./install.sh</code></li>
-<li><code>rbenv install 1.9.3-p194</code></li>
-<li><code>rbenv rehash</code></li>
-<li><code>rbenv global 1.9.3-p194</code></li>
-<li><code>cd</code></li>
-<li><code>git clone git://github.com/imathis/octopress.git octopress</code></li>
-<li><code>cd octopress</code></li>
-<li><code>gem install bundler</code></li>
-<li><code>rbenv rehash</code></li>
-<li><code>bundle install</code></li>
-<li><code>rake install</code></li>
-</ol>
-
+<p><code>  
+$ cd
+$ sudo apt-get install zlib1g-dev openssl libopenssl-ruby1.9.1 libssl-dev libruby1.9.1 libreadline-dev git-core
+$ git clone git://github.com/sstephenson/rbenv.git .rbenv
+$ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' &gt;&gt; ~/.bashrc
+$ echo 'eval "$(rbenv init -)"' &gt;&gt; ~/.bashrc
+$ exec $SHELL
+$ mkdir -p ~/.rbenv/plugins
+$ cd ~/.rbenv/plugins
+$ git clone git://github.com/sstephenson/ruby-build.git
+$ cd ruby-build
+$ sudo sh ./install.sh
+$ rbenv install 1.9.3-p194
+$ rbenv rehash
+$ rbenv global 1.9.3-p194
+$ cd
+$ git clone git://github.com/imathis/octopress.git octopress
+$ cd octopress
+$ gem install bundler
+$ rbenv rehash
+$ bundle install
+$ rake install
+</code></p>
 
 <h2>License</h2>
 

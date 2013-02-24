@@ -4,7 +4,7 @@
   <title><![CDATA[Category: wired | Paul Shaiju]]></title>
   <link href="http://paultsr.in/blog/categories/wired/atom.xml" rel="self"/>
   <link href="http://paultsr.in/"/>
-  <updated>2013-02-24T12:39:48+05:30</updated>
+  <updated>2013-02-24T23:23:40+05:30</updated>
   <id>http://paultsr.in/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[NS2 Installation on Ubuntu 9.10 and Above]]></title>
+    <title type="html"><![CDATA[NS2 Installation in Ubuntu 9.10 and Above]]></title>
     <link href="http://paultsr.in/blog/2013/02/14/ns2-installation-on-ubuntu-9-dot-10-and-above/"/>
     <updated>2013-02-14T16:26:00+05:30</updated>
     <id>http://paultsr.in/blog/2013/02/14/ns2-installation-on-ubuntu-9-dot-10-and-above</id>
@@ -45,6 +45,14 @@
 <p><img class="center" src="/images/ns2-linux2.png" title="ns2 installation on linux image2" ></p>
 
 <p><img class="center" src="/images/ns2-linux3.png" title="ns2 installation on linux image3" ></p>
+
+<h2>License</h2>
+
+<p>Paul S</p>
+
+<p><em>Free Software!</em></p>
+
+<p><em>Tested in Ubuntu 11.10 and JOSS Linux 1.10.3</em></p>
 ]]></content>
   </entry>
   

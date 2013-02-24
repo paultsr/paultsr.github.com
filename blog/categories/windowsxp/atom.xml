@@ -4,7 +4,7 @@
   <title><![CDATA[Category: windowsxp | Paul Shaiju]]></title>
   <link href="http://paultsr.in/blog/categories/windowsxp/atom.xml" rel="self"/>
   <link href="http://paultsr.in/"/>
-  <updated>2013-02-24T12:39:48+05:30</updated>
+  <updated>2013-02-24T23:23:40+05:30</updated>
   <id>http://paultsr.in/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Mannasim Installation on Windows]]></title>
+    <title type="html"><![CDATA[Mannasim Installation in Windows]]></title>
     <link href="http://paultsr.in/blog/2013/02/14/mannasim-installation-on-windows/"/>
     <updated>2013-02-14T10:52:00+05:30</updated>
     <id>http://paultsr.in/blog/2013/02/14/mannasim-installation-on-windows</id>
@@ -34,6 +34,9 @@ I had patched the NS2.29 with mannasim module and is available <em>here</em>.I h
 <p>Then type the following command in the terminal</p>
 
 <p><code>source /etc/profile.d/ns2.sh</code></p>
+
+<!-- more -->
+
 
 <p>You can find the sample codes in the folder</p>
 

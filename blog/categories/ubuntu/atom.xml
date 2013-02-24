@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ubuntu | Paul Shaiju]]></title>
   <link href="http://paultsr.in/blog/categories/ubuntu/atom.xml" rel="self"/>
   <link href="http://paultsr.in/"/>
-  <updated>2013-02-24T12:39:48+05:30</updated>
+  <updated>2013-02-24T23:23:40+05:30</updated>
   <id>http://paultsr.in/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -30,6 +30,9 @@
 <img class="center" src="/images/joss_linux_0.png" title="joss linux image1" ></p>
 
 <p><img class="center" src="/images/joss_linux_1.png" title="joss linux image2" ></p>
+
+<!-- more -->
+
 
 <p><img class="center" src="/images/joss_linux_2.png" title="joss linux image3" ></p>
 
@@ -85,6 +88,9 @@
 <li>Single crack : In this mode, john will try to crack the password using the login/GECOS information as passwords.</li>
 <li>Incremental : This is the most powerful mode. John will try any character combination to resolve the password.</li>
 </ul>
+
+
+<!-- more -->
 
 
 <p>To use John, you just need to supply it a password file created using <em>unshadow</em> command along with desired options. If no mode is specified, john will try <em>single</em> first, then <em>wordlist</em> and finally <em>incremental</em> password cracking methods.</p>
@@ -155,6 +161,9 @@
 <p><code>export PATH=$PATH:$JAVA_HOME/bin</code></p>
 
 <p>Save and close the file.</p>
+
+<!-- more -->
+
 
 <p>Then download NetBeans IDE from <em>here</em></p>
 
@@ -336,7 +345,7 @@ the commented out TODO line in the catch block with <em>out.println(“exception
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Run Windows applications on Linux]]></title>
+    <title type="html"><![CDATA[Run Windows applications in Linux]]></title>
     <link href="http://paultsr.in/blog/2013/02/14/run-windows-applications-in-linux/"/>
     <updated>2013-02-14T16:33:00+05:30</updated>
     <id>http://paultsr.in/blog/2013/02/14/run-windows-applications-in-linux</id>
@@ -363,6 +372,9 @@ the commented out TODO line in the catch block with <em>out.println(“exception
 <p><code>sudo apt-get install cabextract</code></p>
 
 <p><code>sudo dpkg -i wine-doors_0.1.3rc1_all.deb</code></p>
+
+<!-- more -->
+
 
 <p>I have used wine-doors release candidate 1 .</p>
 

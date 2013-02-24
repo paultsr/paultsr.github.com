@@ -4,7 +4,7 @@
   <title><![CDATA[Category: windows7 | Paul Shaiju]]></title>
   <link href="http://paultsr.in/blog/categories/windows7/atom.xml" rel="self"/>
   <link href="http://paultsr.in/"/>
-  <updated>2013-02-24T12:39:48+05:30</updated>
+  <updated>2013-02-24T23:23:40+05:30</updated>
   <id>http://paultsr.in/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -48,6 +48,9 @@
 
 <p><code>Win+U</code> Ease of Access.</p>
 
+<!-- more -->
+
+
 <p><strong>Taskbar Shortcuts</strong></p>
 
 <p><code>Win+number (1-9)</code> Starts the application pinned to the taskbar in that position, or switches to that program.</p>
@@ -89,7 +92,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Mannasim Installation on Windows]]></title>
+    <title type="html"><![CDATA[Mannasim Installation in Windows]]></title>
     <link href="http://paultsr.in/blog/2013/02/14/mannasim-installation-on-windows/"/>
     <updated>2013-02-14T10:52:00+05:30</updated>
     <id>http://paultsr.in/blog/2013/02/14/mannasim-installation-on-windows</id>
@@ -109,6 +112,9 @@ I had patched the NS2.29 with mannasim module and is available <em>here</em>.I h
 <p>Then type the following command in the terminal</p>
 
 <p><code>source /etc/profile.d/ns2.sh</code></p>
+
+<!-- more -->
+
 
 <p>You can find the sample codes in the folder</p>
 
@@ -144,7 +150,7 @@ type the following command in the cygwin terminal</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Ns2 Installation on Windows]]></title>
+    <title type="html"><![CDATA[Ns2 Installation in Windows]]></title>
     <link href="http://paultsr.in/blog/2013/02/14/ns2-installation-on-windows/"/>
     <updated>2013-02-14T10:32:00+05:30</updated>
     <id>http://paultsr.in/blog/2013/02/14/ns2-installation-on-windows</id>
@@ -177,6 +183,9 @@ It will create a Cygwin shortcut on your Desktop.</p>
 <p>Now copy the NS2.34 setup from <em>here</em></p>
 
 <p>Copy the ns-allinone-withpath-2.34.tbz file to <em>C:\cygwin\usr\local</em></p>
+
+<!-- more -->
+
 
 <p>Now click on the Cygwin shortcut on the Desktop.You will get a terminal window as in linux.Type the following command</p>
 

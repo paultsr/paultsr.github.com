@@ -4,7 +4,7 @@
   <title><![CDATA[Category: sensor | Paul Shaiju]]></title>
   <link href="http://paultsr.in/blog/categories/sensor/atom.xml" rel="self"/>
   <link href="http://paultsr.in/"/>
-  <updated>2013-02-24T12:39:48+05:30</updated>
+  <updated>2013-02-24T23:23:40+05:30</updated>
   <id>http://paultsr.in/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[NS2 Installation on Ubuntu 9.10 and Above]]></title>
+    <title type="html"><![CDATA[NS2 Installation in Ubuntu 9.10 and Above]]></title>
     <link href="http://paultsr.in/blog/2013/02/14/ns2-installation-on-ubuntu-9-dot-10-and-above/"/>
     <updated>2013-02-14T16:26:00+05:30</updated>
     <id>http://paultsr.in/blog/2013/02/14/ns2-installation-on-ubuntu-9-dot-10-and-above</id>
@@ -45,11 +45,19 @@
 <p><img class="center" src="/images/ns2-linux2.png" title="ns2 installation on linux image2" ></p>
 
 <p><img class="center" src="/images/ns2-linux3.png" title="ns2 installation on linux image3" ></p>
+
+<h2>License</h2>
+
+<p>Paul S</p>
+
+<p><em>Free Software!</em></p>
+
+<p><em>Tested in Ubuntu 11.10 and JOSS Linux 1.10.3</em></p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Mannasim Installation on Windows]]></title>
+    <title type="html"><![CDATA[Mannasim Installation in Windows]]></title>
     <link href="http://paultsr.in/blog/2013/02/14/mannasim-installation-on-windows/"/>
     <updated>2013-02-14T10:52:00+05:30</updated>
     <id>http://paultsr.in/blog/2013/02/14/mannasim-installation-on-windows</id>
@@ -69,6 +77,9 @@ I had patched the NS2.29 with mannasim module and is available <em>here</em>.I h
 <p>Then type the following command in the terminal</p>
 
 <p><code>source /etc/profile.d/ns2.sh</code></p>
+
+<!-- more -->
+
 
 <p>You can find the sample codes in the folder</p>
 
@@ -104,7 +115,7 @@ type the following command in the cygwin terminal</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Ns2 Installation on Windows]]></title>
+    <title type="html"><![CDATA[Ns2 Installation in Windows]]></title>
     <link href="http://paultsr.in/blog/2013/02/14/ns2-installation-on-windows/"/>
     <updated>2013-02-14T10:32:00+05:30</updated>
     <id>http://paultsr.in/blog/2013/02/14/ns2-installation-on-windows</id>
@@ -137,6 +148,9 @@ It will create a Cygwin shortcut on your Desktop.</p>
 <p>Now copy the NS2.34 setup from <em>here</em></p>
 
 <p>Copy the ns-allinone-withpath-2.34.tbz file to <em>C:\cygwin\usr\local</em></p>
+
+<!-- more -->
+
 
 <p>Now click on the Cygwin shortcut on the Desktop.You will get a terminal window as in linux.Type the following command</p>
 
@@ -192,7 +206,7 @@ Now u can execute your ns2 programs from this terminal.</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[NS2 installation on Linux]]></title>
+    <title type="html"><![CDATA[NS2 installation in Linux]]></title>
     <link href="http://paultsr.in/blog/2013/02/14/ns2-installation-on-linux/"/>
     <updated>2013-02-14T10:09:00+05:30</updated>
     <id>http://paultsr.in/blog/2013/02/14/ns2-installation-on-linux</id>
@@ -215,6 +229,9 @@ Now u can execute your ns2 programs from this terminal.</p>
 <p>Change directory to <em>/usr/local</em></p>
 
 <p><code>cd /usr/local/</code></p>
+
+<!-- more -->
+
 
 <p>Extract it using the following command</p>
 

@@ -9,9 +9,8 @@
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content="Installation Steps ( open up the terminal and paste the following commands one by one ) cd
-sudo apt-get install zlib1g-dev openssl libopenssl-ruby1.9 &hellip;">
-  
+  <meta name="description" content="How to install Octopress on Ubuntu">
+  <meta name="keywords" content="octopress, ubuntu, joss, linux, install, blog">
 
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
@@ -109,30 +108,51 @@ sudo apt-get install zlib1g-dev openssl libopenssl-ruby1.9 &hellip;">
 
 <p>( open up the terminal and paste the following commands one by one )</p>
 
-<ol>
-<li><code>cd</code></li>
-<li><code>sudo apt-get install zlib1g-dev openssl libopenssl-ruby1.9.1 libssl-dev libruby1.9.1 libreadline-dev git-core</code></li>
-<li><code>git clone git://github.com/sstephenson/rbenv.git .rbenv</code></li>
-<li><code>echo 'export PATH="$HOME/.rbenv/bin:$PATH"' &gt;&gt; ~/.bashrc</code></li>
-<li><code>echo 'eval "$(rbenv init -)"' &gt;&gt; ~/.bashrc</code></li>
-<li><code>exec $SHELL</code></li>
-<li><code>mkdir -p ~/.rbenv/plugins</code></li>
-<li><code>cd ~/.rbenv/plugins</code></li>
-<li><code>git clone git://github.com/sstephenson/ruby-build.git</code></li>
-<li><code>cd ruby-build</code></li>
-<li><code>sudo sh ./install.sh</code></li>
-<li><code>rbenv install 1.9.3-p194</code></li>
-<li><code>rbenv rehash</code></li>
-<li><code>rbenv global 1.9.3-p194</code></li>
-<li><code>cd</code></li>
-<li><code>git clone git://github.com/imathis/octopress.git octopress</code></li>
-<li><code>cd octopress</code></li>
-<li><code>gem install bundler</code></li>
-<li><code>rbenv rehash</code></li>
-<li><code>bundle install</code></li>
-<li><code>rake install</code></li>
-</ol>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ cd
+</span><span class='line'>$ sudo apt-get install zlib1g-dev openssl libopenssl-ruby1.9.1 libssl-dev libruby1.9.1 libreadline-dev git-core
+</span><span class='line'>$ git clone git://github.com/sstephenson/rbenv.git .rbenv
+</span><span class='line'>$ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' &gt;&gt; ~/.bashrc
+</span><span class='line'>$ echo 'eval "$(rbenv init -)"' &gt;&gt; ~/.bashrc
+</span><span class='line'>$ exec $SHELL
+</span><span class='line'>$ mkdir -p ~/.rbenv/plugins
+</span><span class='line'>$ cd ~/.rbenv/plugins
+</span><span class='line'>$ git clone git://github.com/sstephenson/ruby-build.git
+</span><span class='line'>$ cd ruby-build
+</span><span class='line'>$ sudo sh ./install.sh
+</span><span class='line'>$ rbenv install 1.9.3-p194
+</span><span class='line'>$ rbenv rehash
+</span><span class='line'>$ rbenv global 1.9.3-p194
+</span><span class='line'>$ cd
+</span><span class='line'>$ git clone git://github.com/imathis/octopress.git octopress
+</span><span class='line'>$ cd octopress
+</span><span class='line'>$ gem install bundler
+</span><span class='line'>$ rbenv rehash
+</span><span class='line'>$ bundle install
+</span><span class='line'>$ rake install</span></code></pre></td></tr></table></div></figure>
 
+
+<p></p>
 
 <h2>License</h2>
 
@@ -193,7 +213,7 @@ sudo apt-get install zlib1g-dev openssl libopenssl-ruby1.9 &hellip;">
         <a class="basic-alignment left articlenav" href="/blog/2013/01/26/how-to-install-ruby-with-rbenv-on-ubuntu-slash-joss-linux/" title="Previous Post: How to install Ruby with rbenv on Ubuntu / JOSS Linux">&laquo; How to install Ruby with rbenv on Ubuntu / JOSS Linux</a>
       
       
-        <a class="basic-alignment right articlenav" href="/blog/2013/02/14/ns2-installation-on-linux/" title="Next Post: NS2 installation on Linux">NS2 installation on Linux &raquo;</a>
+        <a class="basic-alignment right articlenav" href="/blog/2013/02/14/ns2-installation-on-linux/" title="Next Post: NS2 installation in Linux">NS2 installation in Linux &raquo;</a>
       
     </p>
   </footer>
@@ -210,7 +230,7 @@ sudo apt-get install zlib1g-dev openssl libopenssl-ruby1.9 &hellip;">
 <aside class="sidebar">
   
     <section>
-  <h1>About Me</h1>
+  <h1>About Paul</h1>
  <img src="/about/shaiju_paul_me.jpg" title="Shaiju Paul" >
  <br>Presently Working as Asst. Professor in Department of CSE at Jyothi Engg. College, Thrissur.
  <br><a href="http://about.me/paulson">Know More..</a>
