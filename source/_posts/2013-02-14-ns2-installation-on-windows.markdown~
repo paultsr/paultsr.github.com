@@ -37,7 +37,7 @@ Now copy the NS2.34 setup from *here*
 
 Copy the ns-allinone-withpath-2.34.tbz file to *C:\cygwin\usr\local*
 
-<!-- more -->
+<!–more–>
 
 Now click on the Cygwin shortcut on the Desktop.You will get a terminal window as in linux.Type the following command
 

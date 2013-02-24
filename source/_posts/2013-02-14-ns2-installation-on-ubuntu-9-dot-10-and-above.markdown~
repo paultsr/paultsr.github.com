@@ -34,12 +34,3 @@ Run it using the command
 {% img center /images/ns2-linux2.png ns2 installation on linux image2 %}
 
 {% img center /images/ns2-linux3.png ns2 installation on linux image3 %}
-
-License
--
-
-Paul S
-
-*Free Software!*  
-
-*Tested in Ubuntu 11.10 and JOSS Linux 1.10.3*

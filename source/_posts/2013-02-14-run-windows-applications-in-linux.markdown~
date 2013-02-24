@@ -31,7 +31,7 @@ Install the following packages from a terminal
 
 `sudo dpkg -i wine-doors_0.1.3rc1_all.deb`
 
-<!-- more -->
+<!–more–>
 
 I have used wine-doors release candidate 1 .
 

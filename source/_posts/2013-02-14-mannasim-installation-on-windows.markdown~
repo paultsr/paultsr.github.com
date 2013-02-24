@@ -24,7 +24,7 @@ Then type the following command in the terminal
 
 `source /etc/profile.d/ns2.sh`
 
-<!-- more -->
+<!–more–>
 
 You can find the sample codes in the folder
 

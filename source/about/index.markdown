@@ -5,6 +5,9 @@ date: 2013-02-16 22:50
 comments: true
 sharing: true
 footer: true
+categories: [paulson, paultsr, website, blogging, personal, shaiju, paul, shaiju paul, me]
+description: "About Shaiju Paul"
+keywords: "paulson, paultsr, website, blogging, personal, shaiju, paul, shaiju paul, me, paulson.in, paultsr.in"
 ---
 {% img center /about/shaiju_paul.jpg Shaiju Paul %}
 
@@ -19,7 +22,7 @@ My Present Address :
 	Jyothi Engineering College
 	Cheruthuruthy, Thrissur
 	Kerala, India
-	Email-id : <paulson@jecc.ac.in>
+	E-mail me at <paulson@jecc.ac.in>
 
 
 License

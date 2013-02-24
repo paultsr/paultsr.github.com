@@ -4,8 +4,6 @@ title: "How to install Ruby with rbenv on Ubuntu / JOSS Linux"
 date: 2013-01-26 00:41
 comments: true
 categories: [ruby, rbenv, ubuntu, joss, linux, install]
-description: "How to install Ruby with rbenv on Ubuntu and JOSS Linux"
-keywords: "ruby, rbenv, ubuntu, joss, linux, install"
 ---
 ## Installation Steps  
 ( open up the terminal and paste the following commands one by one )

@@ -4,6 +4,8 @@ title: "JOSS Linux 1.10.3"
 date: 2013-02-24 11:29
 comments: true
 categories:  [jecc,ns2,linux,joss,cesa,programming,Free,ubuntu,clisp,gprolog,Latex]
+description: "JOSS Linux 1.10.3"
+keywords: "jecc,ns2,linux,joss,cesa,programming,Free,ubuntu,clisp,gprolog,Latex"
 ---
 Computer Engineering Students Association(**CESA**) of [Jyothi Engineering College,Thrissur](http://jecc.ac.in) proudly released **JOSS Linux 1.10**.
 
@@ -18,6 +20,8 @@ Screen shots
 {% img center /images/joss_linux_0.png joss linux image1 %}
 
 {% img center /images/joss_linux_1.png joss linux image2 %}
+
+<!-- more -->
 
 {% img center /images/joss_linux_2.png joss linux image3 %}
 

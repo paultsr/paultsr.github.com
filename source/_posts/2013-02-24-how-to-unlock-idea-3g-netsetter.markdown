@@ -4,6 +4,8 @@ title: "How to Unlock Idea 3G Netsetter"
 date: 2013-02-24 11:59
 comments: true
 categories: [hacking,Idea,mobile,3g,Netsetter,tech,unlock]
+description: "How to Unlock Idea 3G Netsetter"
+keywords: "hacking,Idea,mobile,3g,Netsetter,tech,unlock"
 ---
 
 ##STEP BY STEP GUIDE TO UNLOCK IDEA 3G NETSETTER
@@ -29,6 +31,8 @@ categories: [hacking,Idea,mobile,3g,Netsetter,tech,unlock]
 6) Then click on *connect* and then click on *read*
 
 {% img center /images/idea_unlock/1.jpg unlock idea 3g netsetter image1 %}
+
+<!-- more -->
 
 7) Go to the *Security* tab > Type *000000* in the blank box under *SPC* > Click on *SPC* button > Click on *Send* with Default (*nv_read*) as SPC.
 
