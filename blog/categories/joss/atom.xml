@@ -4,7 +4,7 @@
   <title><![CDATA[Category: joss | Paul Shaiju]]></title>
   <link href="http://paultsr.in/blog/categories/joss/atom.xml" rel="self"/>
   <link href="http://paultsr.in/"/>
-  <updated>2013-02-18T23:11:41+05:30</updated>
+  <updated>2013-02-24T12:39:48+05:30</updated>
   <id>http://paultsr.in/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,48 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[JOSS Linux 1.10.3]]></title>
+    <link href="http://paultsr.in/blog/2013/02/24/joss-linux-1-dot-10-dot-3/"/>
+    <updated>2013-02-24T11:29:00+05:30</updated>
+    <id>http://paultsr.in/blog/2013/02/24/joss-linux-1-dot-10-dot-3</id>
+    <content type="html"><![CDATA[<p>Computer Engineering Students Association(<strong>CESA</strong>) of <a href="http://jecc.ac.in">Jyothi Engineering College,Thrissur</a> proudly released <strong>JOSS Linux 1.10</strong>.</p>
+
+<p>Jyothi Operating Sysytem Solutions(<strong>JOSS</strong>) Linux is a customized version of Ubuntu 11.10 for students who are pursuing UG/PG courses in Computer Science and Engineering. JOSS Linux contains almost all softwares required for the practicals and fun such as gcc, java, clisp, gprolog, masm using dosbox, nasm, mysql, apache, php, perl,  python, flex, bison, s2, texmaker, geany,vim,vlc, chromium, flash-plugin, dvd-rip, filezilla, skype, wireshark, adobe reader, gimp, dia, stellarium and many more..</p>
+
+<p>Download the iso image from <a href="http://www.cesa.co.in/downloads/livecd.iso">here</a>.</p>
+
+<p>JOSS Linux can also be used as a <strong>Live DVD</strong>.</p>
+
+<p>Screen shots
+<img class="center" src="/images/joss_linux_0.png" title="joss linux image1" ></p>
+
+<p><img class="center" src="/images/joss_linux_1.png" title="joss linux image2" ></p>
+
+<p><img class="center" src="/images/joss_linux_2.png" title="joss linux image3" ></p>
+
+<p><img class="center" src="/images/joss_linux_3.png" title="joss linux image4" ></p>
+
+<p><img class="center" src="/images/joss_linux_4.png" title="joss linux image5" ></p>
+
+<p><img class="center" src="/images/joss_linux_5.png" title="joss linux image6" ></p>
+
+<p><img class="center" src="/images/joss_linux_6.png" title="joss linux image7" ></p>
+
+<p><img class="center" src="/images/joss_linux_7.png" title="joss linux image8" ></p>
+
+<p><img class="center" src="/images/joss_linux_8.png" title="joss linux image9" ></p>
+
+<p><img class="center" src="/images/joss_linux_9.png" title="joss linux image10" ></p>
+
+<h2>License</h2>
+
+<p>Paul S</p>
+
+<p><em>Free Software Supporter!</em></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[How to Crack/Hack Passwords]]></title>
@@ -343,41 +385,6 @@ the commented out TODO line in the catch block with <em>out.println(“exception
 <p><em>Free Software Supporter!</em></p>
 
 <p><em>Tested in Ubuntu and JOSS Linux</em></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[NS2 Installation on Ubuntu 9.10 and Above]]></title>
-    <link href="http://paultsr.in/blog/2013/02/14/ns2-installation-on-ubuntu-9-dot-10-and-above/"/>
-    <updated>2013-02-14T16:26:00+05:30</updated>
-    <id>http://paultsr.in/blog/2013/02/14/ns2-installation-on-ubuntu-9-dot-10-and-above</id>
-    <content type="html"><![CDATA[<p>I was searching for ns2 ubuntu .deb packages for a long time.I have written many blogs for the manual installation of ns2 on linux and windows.Still I do get many queries of ns2 installation errors.</p>
-
-<p>There is a ppa repository for ns2 created by <em>Wouter Horré</em>.Now its very easy to install ns2 on ubuntu.</p>
-
-<p>Since Ubuntu 9.10 is already being shipped with tcl,otcl,tk, you need not to install these packages, Only ns, nam &amp; xgraph are needed to install.</p>
-
-<p>If you are behind a proxy, make sure you have $http_proxy variable configured in <em>~/.bashrc</em> or type the following in the terminal</p>
-
-<p><code>export http_proxy=http://ipaddr:port</code></p>
-
-<p>If you had followed my previous post to install ns2 on linux, delete the ns2 folder and paths using</p>
-
-<p><code>sudo rm -rf /usr/local/ns-allinone-2.34 &amp;&amp; sudo rm -f /etc/profile.d/ns2.sh</code></p>
-
-<p>Type the following command on a terminal :</p>
-
-<p><code>sudo add-apt-repository ppa:wouterh &amp;&amp; sudo apt-get update &amp;&amp; sudo apt-get install ns nam xgraph</code></p>
-
-<p>There is no need to set-up any path, environment variables or make any changes in <em>~/.bashrc</em> or <em>/etc/profile</em> file.</p>
-
-<p>Run it using the command</p>
-
-<p><code>ns filename.tcl</code></p>
-
-<p><img class="center" src="/images/ns2-linux2.png" title="ns2 installation on linux image2" ></p>
-
-<p><img class="center" src="/images/ns2-linux3.png" title="ns2 installation on linux image3" ></p>
 ]]></content>
   </entry>
   

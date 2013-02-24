@@ -9,7 +9,7 @@
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content="To write blogs in malayalam, you can use the Google transliteration service.After that you can copy the content and paste it to the wordpress editor &hellip;">
+  <meta name="description" content="Windows 7 boasts a lot of great new shortcuts for switching between apps, moving windows around your screen, moving them to another monitor &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -74,6 +74,168 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/blog/2013/02/14/windows-7-keyboard-shortcuts/">Windows 7 Keyboard Shortcuts</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-14T11:37:00+05:30" pubdate data-updated="true">Feb 14<span>th</span>, 2013</time>
+        
+         | <a href="/blog/2013/02/14/windows-7-keyboard-shortcuts/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Windows 7 boasts a lot of great new shortcuts for switching between apps, moving windows around your screen, moving them to another monitor altogether, and much more. But I’m focusing on several of my favorites.</p>
+
+<p><img class="center" src="/images/windows_7.jpg" title="Windows7 image1" ></p>
+
+<p><strong>Window Management Shortcuts</strong></p>
+
+<p><code>Win+Home</code> Clear all but the active window.</p>
+
+<p><code>Win+Space</code> All windows become transparent so you can see through to the desktop.</p>
+
+<p><code>Win+Up arrow</code> Maximize the active window.</p>
+
+<p><code>Shift+Win+Up arrow</code> Maximize the active window vertically.</p>
+
+<p><code>Win+Down arrow</code> Minimize the window/Restore the window if it’s maximized.</p>
+
+<p><code>Win+Left/Right arrows</code> Dock the window to each side of the monitor.</p>
+
+<p><code>Shift+Win+Left/Right arrows</code> Move the window to the monitor on the left or right.</p>
+
+<p><code>Win+P</code> Adjust presentation settings for your display.</p>
+
+<p><code>Win+(+/-)</code> Zoom in/out.</p>
+
+<p><code>Win+G</code> Cycle between the Windows Gadgets on your screen.</p>
+
+<p><code>Win+X</code> Mobility Center.</p>
+
+<p><code>Win+U</code> Ease of Access.</p>
+
+<p><strong>Taskbar Shortcuts</strong></p>
+
+<p><code>Win+number (1-9)</code> Starts the application pinned to the taskbar in that position, or switches to that program.</p>
+
+<p><code>Shift+Win+number (1-9)</code> Starts a new instance of the application pinned to the taskbar in that position.</p>
+
+<p><code>Ctrl+Win+number (1-9)</code> Cycles through open windows for the application pinned to the taskbar in that position.</p>
+
+<p><code>Alt+Win+number (1-9)</code> Opens the Jump List for the application pinned to the taskbar.</p>
+
+<p><code>Win+T</code> Focus and scroll through items on the taskbar.</p>
+
+<p><code>Win+B</code> Focuses the System Tray icons</p>
+
+<p><strong>Windows Explorer Shortcuts</strong></p>
+
+<p><code>Ctrl+Shift+N</code> Creates a new folder in Windows Explorer.</p>
+
+<p><code>Alt+Up</code> Goes up a folder level in Windows Explorer.</p>
+
+<p><code>Alt+P</code> Toggles the preview pane in Windows Explorer.</p>
+
+<p><code>Shift+Right-Click on a file</code> Adds Copy as Path, which copies the path of a file to the clipboard.</p>
+
+<p><code>Shift+Right-Click on a file</code> Adds extra hidden items to the Send To menu.</p>
+
+<p><code>Shift+Right-Click on a folder</code> Adds Command Prompt Here, which lets you easily open a command prompt in that folder.</p>
+
+<p><em>Share your favorite keyboard shortcuts in the comments</em></p>
+
+<h2>License</h2>
+
+<p>Paul S</p>
+
+<p><em>Free Software Supporter!</em></p>
+
+<p><em>Tested in Windows 7</em></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/blog/2013/02/14/blmac-id-spoofing/">MAC ID Spoofing</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-14T11:27:00+05:30" pubdate data-updated="true">Feb 14<span>th</span>, 2013</time>
+        
+         | <a href="/blog/2013/02/14/blmac-id-spoofing/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>To change the mac id of your network interface card in Linux, you hav to edit  <em>/etc/rc.local</em> file.If the file rc.local is not present in the <em>/etc</em> directory, create a new file of the same name.</p>
+
+<p>Open the <em>rc.local</em> file in a terminal :-</p>
+
+<p><code>sudo gedit /etc/rc.local</code></p>
+
+<p>Then add the following lines before <em>exit 0</em> line:-</p>
+
+<p><code>/etc/init.d/networking stop</code></p>
+
+<p><code>ifconfig eth0 hw ether xx:xx:xx:xx:xx:xx</code></p>
+
+<p><code>/etc/init.d/networking start</code></p>
+
+<p>Save the file and Restart the machine.Now you mac id will be the new mac id you had assigned.To verify, type the following command in a terminal</p>
+
+<p><code>ifconfig</code></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -600,6 +762,14 @@ After installation type the following command in a terminal</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/02/24/how-to-unlock-idea-3g-netsetter/">How to Unlock Idea 3G Netsetter</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/24/joss-linux-1-dot-10-dot-3/">JOSS Linux 1.10.3</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/02/16/paulson-dot-in-to-paultsr-dot-in/">paulson.in to paultsr.in</a>
       </li>
     
@@ -609,14 +779,6 @@ After installation type the following command in a terminal</p>
     
       <li class="post">
         <a href="/blog/2013/02/14/madeveloping-web-services-in-linux/">Developing Web Services in Linux</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/02/14/malayalam-fonts-in-firefox/">Malayalam fonts in Firefox</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/02/14/rumy-favourite-quotes/">My Favourite Quotes</a>
       </li>
     
   </ul>

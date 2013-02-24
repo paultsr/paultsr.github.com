@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Latex | Paul Shaiju]]></title>
+  <link href="http://paultsr.in/blog/categories/latex/atom.xml" rel="self"/>
+  <link href="http://paultsr.in/"/>
+  <updated>2013-02-24T12:39:48+05:30</updated>
+  <id>http://paultsr.in/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[JOSS Linux 1.10.3]]></title>
+    <link href="http://paultsr.in/blog/2013/02/24/joss-linux-1-dot-10-dot-3/"/>
+    <updated>2013-02-24T11:29:00+05:30</updated>
+    <id>http://paultsr.in/blog/2013/02/24/joss-linux-1-dot-10-dot-3</id>
+    <content type="html"><![CDATA[<p>Computer Engineering Students Association(<strong>CESA</strong>) of <a href="http://jecc.ac.in">Jyothi Engineering College,Thrissur</a> proudly released <strong>JOSS Linux 1.10</strong>.</p>
+
+<p>Jyothi Operating Sysytem Solutions(<strong>JOSS</strong>) Linux is a customized version of Ubuntu 11.10 for students who are pursuing UG/PG courses in Computer Science and Engineering. JOSS Linux contains almost all softwares required for the practicals and fun such as gcc, java, clisp, gprolog, masm using dosbox, nasm, mysql, apache, php, perl,  python, flex, bison, s2, texmaker, geany,vim,vlc, chromium, flash-plugin, dvd-rip, filezilla, skype, wireshark, adobe reader, gimp, dia, stellarium and many more..</p>
+
+<p>Download the iso image from <a href="http://www.cesa.co.in/downloads/livecd.iso">here</a>.</p>
+
+<p>JOSS Linux can also be used as a <strong>Live DVD</strong>.</p>
+
+<p>Screen shots
+<img class="center" src="/images/joss_linux_0.png" title="joss linux image1" ></p>
+
+<p><img class="center" src="/images/joss_linux_1.png" title="joss linux image2" ></p>
+
+<p><img class="center" src="/images/joss_linux_2.png" title="joss linux image3" ></p>
+
+<p><img class="center" src="/images/joss_linux_3.png" title="joss linux image4" ></p>
+
+<p><img class="center" src="/images/joss_linux_4.png" title="joss linux image5" ></p>
+
+<p><img class="center" src="/images/joss_linux_5.png" title="joss linux image6" ></p>
+
+<p><img class="center" src="/images/joss_linux_6.png" title="joss linux image7" ></p>
+
+<p><img class="center" src="/images/joss_linux_7.png" title="joss linux image8" ></p>
+
+<p><img class="center" src="/images/joss_linux_8.png" title="joss linux image9" ></p>
+
+<p><img class="center" src="/images/joss_linux_9.png" title="joss linux image10" ></p>
+
+<h2>License</h2>
+
+<p>Paul S</p>
+
+<p><em>Free Software Supporter!</em></p>
+]]></content>
+  </entry>
+  
+</feed>

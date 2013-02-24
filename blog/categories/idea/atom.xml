@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Idea | Paul Shaiju]]></title>
+  <link href="http://paultsr.in/blog/categories/idea/atom.xml" rel="self"/>
+  <link href="http://paultsr.in/"/>
+  <updated>2013-02-24T12:39:48+05:30</updated>
+  <id>http://paultsr.in/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[How to Unlock Idea 3G Netsetter]]></title>
+    <link href="http://paultsr.in/blog/2013/02/24/how-to-unlock-idea-3g-netsetter/"/>
+    <updated>2013-02-24T11:59:00+05:30</updated>
+    <id>http://paultsr.in/blog/2013/02/24/how-to-unlock-idea-3g-netsetter</id>
+    <content type="html"><![CDATA[<h2>STEP BY STEP GUIDE TO UNLOCK IDEA 3G NETSETTER</h2>
+
+<p><img class="center" src="/images/idea_unlock/netsetter.png" title="unlock idea 3g netsetter image0" ></p>
+
+<p>1) Download the cdma workshop and download huawei e1732 downgrader ( disable antivirus before opening the cdma workshop ).</p>
+
+<p><a href="http://cesa.co.in/downloads/idea/CESA_1.zip">cdma workshop free download</a></p>
+
+<p><a href="http://cesa.co.in/downloads/idea/CESA_2.zip">huawei e1732 downgrader free download</a></p>
+
+<p>2) Insert a non idea sim to your Idea 3G Netsetter (e1732 ).</p>
+
+<p>3) Find the common port to which your Idea 3G Netsetter (e1732 ) modem is connected.</p>
+
+<p><strong>Right click on your My Computer icon > Properties > Device Manager > Ports (COM &amp; LPT)  > HUAWEI Mobile Connect – 3G Application Interface (COM [The port number appear in your system] )</strong></p>
+
+<p>4) Run <em>CDMA Workshop v2.7.0.exe</em></p>
+
+<p>5) Select the Port that you noted from your Device Manager under the Port option in <em>COM Settings (AT mode)</em> under the <em>Main</em> tab.</p>
+
+<p>6) Then click on <em>connect</em> and then click on <em>read</em></p>
+
+<p><img class="center" src="/images/idea_unlock/1.jpg" title="unlock idea 3g netsetter image1" ></p>
+
+<p>7) Go to the <em>Security</em> tab > Type <em>000000</em> in the blank box under <em>SPC</em> > Click on <em>SPC</em> button > Click on <em>Send</em> with Default (<em>nv_read</em>) as SPC.</p>
+
+<p><img class="center" src="/images/idea_unlock/2.jpg" title="unlock idea 3g netsetter image2" ></p>
+
+<p>8) Click on <em>Memory</em> tab > <em>NV Items</em> > <em>Read</em> > Now a <em>Conform</em> box will appear > Click <em>OK</em> > Now a <em>NV Items Backup</em> box will appear > In the box straight to <em>Last NV Item</em> type <em>9999</em> > Click <em>OK</em> > Save the file by giving a file name you like (Eg: <a href="http://cesa.co.in/downloads/idea/CESA_5_E1732Unlocker.txt">E1732Unlock</a>)</p>
+
+<p><img class="center" src="/images/idea_unlock/3.jpg" title="unlock idea 3g netsetter image3" ></p>
+
+<p>9) When the buffer reach <em>100%</em> your file is saved successfully. Now a <em>Information</em> box will appear > Click <em>OK</em> > Minimise <em>CDMA Workshop v2.7.0</em></p>
+
+<p>10) Run <em>E1732 Downgrader8 >  </em>accept<em> the agreement > </em>Next<em> > Wait for a few seconds until the search for your modem finishes > (Don’t mark on </em>Auto remove the device after update<em>) </em>Next<em> > (Don’t remove your data card until the process is finished) > </em>Start<em> > At the end of </em>Downloading Programs…<em> you will get a </em>Update Failure!<em> error dialog box (DON’T WORRY &amp; DON’T GET DISAPPOINTED) > Click </em>OK<em> > Click </em>Finish*</p>
+
+<p>11) Restore <em>CDMA Workshop v2.7.0</em> > <em>Main</em> tab > <em>Disconnect</em></p>
+
+<p>12) Unplug your Idea 3G Netsetter (e1732 ) modem from your computer.</p>
+
+<p>13) Again Plug it to the Computer. Check the <em>Port</em> again from the <em>Device Manager</em></p>
+
+<p>14) Go to <em>CDMA Workshop v2.7.08 select the Port that you noted from your Device Manager under the Port option in </em>COM Settings (AT mode)<em> under the </em>Main<em> tab as we did before > Click on </em>Connect<em> > </em>Memory<em> tab > </em>NV Items<em> > Click on </em>Write<em> > A </em>Confirm<em> box will appear > Click </em>OK<em> > </em>Open<em> dialog box will appear > Open the file that you saved before > When the buffer reach </em>100%<em> a </em>Information<em> dialog box appears with a success message > Click </em>OK<em> > </em>Main<em> tab > </em>Disconnect*</p>
+
+<p>15) Now close <em>CDMA Workshop v2.7.0</em> > A <em>Confirm</em> dialogue box will appear > Click <em>NO</em></p>
+
+<p>16) Close everything and Enable your Antivirus</p>
+
+<p>17) That’s it. Your Idea 3G Netsetter (e1732 )is unlocked successfully.</p>
+
+<p>18) Unplug Idea Netsetter (Modem) from your computer.</p>
+
+<p>19) Put a SIM Card other than IDEA to the Netsetter and again Plug it to the Computer.</p>
+
+<p>20) Wait for Idea Netsetter to Start. It will detect the SIM card and enjoy browsing with any other SIM.</p>
+
+<p><strong>To make new mobile apn settings you can download huawei mobile partner</strong></p>
+
+<p><a href="http://cesa.co.in/downloads/idea/CESA_3.zip">Mobile Partner free download</a></p>
+
+<p>Many people are having problem while connecting to internet with other sim cards now you can connect by any sim card with default IDEA net Setter Dashboard using these steps. If your Modem is detecting sim cards and you are getting errors then try this</p>
+
+<p><strong>Windows XP</strong></p>
+
+<p>Open <em>Control Panel</em> -> <em>Phone and Modem</em> (found directly in control panel or in <em>Printers and other hardware</em> ) –> <em>modem</em> tab –> <em>huawei mobile connect 3g modem</em> (which is present on COM ) –> <em>properties advance</em> –> <em>extra initializing command</em> use given commands below and click <em>OK</em></p>
+
+<p><strong>Windows 7</strong></p>
+
+<p>In the start menu, type <em>phone and modem</em> — <em>click</em> on itb —> <em>modems</em> –> <em>huawei mobile connect 3g modem</em> –> <em>properties</em> –> <em>change settings</em> –> <em>advance</em> –> <em>extra initialization command</em> –> use given commands below and if it asks for Country and area code then set Country to <em>India</em> and Area Code to <em>91</em> and leave other fields blank.</p>
+
+<p><strong>commands/settings</strong></p>
+
+<p><strong>Aircel</strong> : <code>AT+CGDCONT=1,"IP",”aircelgprs”</code></p>
+
+<p><strong>Airtel</strong> : <code>AT+CGDCONT=1,”IP”,”airtelgprs.com”</code></p>
+
+<p><strong>BSNL</strong> – <code>AT+CGDCONT=1,”IP”,”bsnlnet”</code></p>
+
+<p><strong>Idea</strong> – <code>AT+CGDCONT=1,”IP”,”internet”</code></p>
+
+<p><strong>Reliance</strong> – <code>AT+CGDCONT=1,”IP”,”rcomnet”</code></p>
+
+<p><strong>Tata Docomo</strong> – <code>AT+CGDCONT=1,”IP”,”tata.docomo.internet”</code></p>
+
+<p><strong>Videocon</strong> – <code>AT+CGDCONT=1,”IP”,”vinternet.com”</code></p>
+
+<p><strong>Vodafone</strong> – <code>AT+CGDCONT=1,”IP”,”www”</code></p>
+
+<p> <em>If you have any trouble doing this please comment here</em></p>
+
+<h2>License</h2>
+
+<p>Paul S</p>
+
+<p><em>Free Software Supporter!</em></p>
+
+<p><em>Tested in Windows XP, Windows Vista SP1 and Windows 7</em></p>
+]]></content>
+  </entry>
+  
+</feed>
