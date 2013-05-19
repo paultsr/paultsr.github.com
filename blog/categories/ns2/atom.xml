@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ns2 | Paul Shaiju]]></title>
   <link href="http://paultsr.in/blog/categories/ns2/atom.xml" rel="self"/>
   <link href="http://paultsr.in/"/>
-  <updated>2013-02-24T23:28:24+05:30</updated>
+  <updated>2013-05-19T23:36:38+05:30</updated>
   <id>http://paultsr.in/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,48 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[How to install NS2.35 with Mannasim in Ubuntu 13.04]]></title>
+    <link href="http://paultsr.in/blog/2013/05/19/how-to-install-ns2-dot-35-with-mannasim-in-ubuntu-13-dot-04/"/>
+    <updated>2013-05-19T23:20:00+05:30</updated>
+    <id>http://paultsr.in/blog/2013/05/19/how-to-install-ns2-dot-35-with-mannasim-in-ubuntu-13-dot-04</id>
+    <content type="html"><![CDATA[<h2>Installation Steps</h2>
+
+<p>( open up the terminal and paste the following commands one by one )</p>
+
+<ol>
+<li><code>cd</code></li>
+<li><code>sudo apt-get install zlib1g-dev openssl libopenssl-ruby1.9.1 libssl-dev libruby1.9.1 libreadline-dev git-core</code></li>
+<li><code>cd /usr/local/</code></li>
+<li><code>sudo git clone git://github.com/paultsr/ns-allinone-2.35.git</code></li>
+<li><code>cd ns-allinone-2.35/</code></li>
+<li><code>sudo ./install</code></li>
+<li><code>source /etc/profile.d/ns2.sh</code></li>
+</ol>
+
+
+<p>Screen Shots</p>
+
+<p><img class="center" src="/images/mannasim/ns1.png" title="ns2.35 with mannasim installation on ubuntu13.04 image1" >
+<img class="center" src="/images/mannasim/ns2.png" title="ns2.35 with mannasim installation on ubuntu13.04 image2" >
+<img class="center" src="/images/mannasim/ns3.png" title="ns2.35 with mannasim installation on ubuntu13.04 image3" >
+<img class="center" src="/images/mannasim/ns4.png" title="ns2.35 with mannasim installation on ubuntu13.04 image4" >
+<img class="center" src="/images/mannasim/ns5.png" title="ns2.35 with mannasim installation on ubuntu13.04 image5" >
+<img class="center" src="/images/mannasim/ns6.png" title="ns2.35 with mannasim installation on ubuntu13.04 image6" >
+<img class="center" src="/images/mannasim/ns7.png" title="ns2.35 with mannasim installation on ubuntu13.04 image7" >
+<img class="center" src="/images/mannasim/ns8.png" title="ns2.35 with mannasim installation on ubuntu13.04 image8" >
+<img class="center" src="/images/mannasim/ns9.png" title="ns2.35 with mannasim installation on ubuntu13.04 image9" >
+<img class="center" src="/images/mannasim/ns10.png" title="ns2.35 with mannasim installation on ubuntu13.04 image10" ></p>
+
+<h2>License</h2>
+
+<p>Paul S
+<em>Free Software!</em></p>
+
+<p><em>Tested in Ubuntu 13.04 and JOSS Linux 1.10.3</em></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[JOSS Linux 1.10.3]]></title>
@@ -247,69 +289,6 @@ Now u can execute your ns2 programs from this terminal.</p>
 <p><em>Free Software Supporter!</em></p>
 
 <p><em>Tested in Windows XP, Windows Vista SP1 and Windows 7</em></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[NS2 installation in Linux]]></title>
-    <link href="http://paultsr.in/blog/2013/02/14/ns2-installation-on-linux/"/>
-    <updated>2013-02-14T10:09:00+05:30</updated>
-    <id>http://paultsr.in/blog/2013/02/14/ns2-installation-on-linux</id>
-    <content type="html"><![CDATA[<p>NS2 is a popular discrete event simulator for simulating different types of networks.In this article i will show you how to install NS2.34 on Linux.I had modified the original NS2 package so that you dont have to set any paths after the installation.I had installed NS2 on Ubuntu 9.04.You can use the following steps to install it in any flavour of Linux.</p>
-
-<h2>Installation Steps</h2>
-
-<p>Before installing NS2 on Linux, you should have already installed the tcl, tk, gcc, g++ and other required packages.if not, install it using the following command</p>
-
-<p>( open up the terminal and paste the following commands one by one )</p>
-
-<p><code>sudo apt-get install build-essential autoconf automake libxmu-dev</code></p>
-
-<p>Download ns-allinone-withpath-2.34.tbz from <em>here</em></p>
-
-<p>Copy it to the <em>/usr/local</em> directory</p>
-
-<p><code>sudo cp /tmp/ns-allinone-withpath-2.34.tbz /usr/local/</code></p>
-
-<p>Change directory to <em>/usr/local</em></p>
-
-<p><code>cd /usr/local/</code></p>
-
-<!-- more -->
-
-
-<p>Extract it using the following command</p>
-
-<p><code>sudo tar -jxvf ns-allinone-withpath-2.34.tbz</code></p>
-
-<p>Change directory to ns-allinone-2.34</p>
-
-<p><code>cd ns-allinone-2.34/</code></p>
-
-<p>Now Install ns2</p>
-
-<p><code>sudo ./install</code></p>
-
-<p><img class="center" src="/images/ns2-linux1.png" title="ns2 installation on linux image1" >
-After installation type the following command in a terminal</p>
-
-<p><code>source /etc/profile.d/ns2.sh</code></p>
-
-<p>I had placed some sample programs in the <em>/usr/local/ns-allinone-2.34/paulson/sample-codes</em> directory.Run it using the command</p>
-
-<p><code>ns filename.tcl</code></p>
-
-<p><img class="center" src="/images/ns2-linux2.png" title="ns2 installation on linux image2" ></p>
-
-<p><img class="center" src="/images/ns2-linux3.png" title="ns2 installation on linux image3" ></p>
-
-<h2>License</h2>
-
-<p>Paul S</p>
-
-<p><em>Free Software Supporter!</em></p>
-
-<p><em>Tested in Ubuntu and JOSS Linux</em></p>
 ]]></content>
   </entry>
   

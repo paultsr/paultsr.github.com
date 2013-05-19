@@ -4,7 +4,7 @@
   <title><![CDATA[Category: joss | Paul Shaiju]]></title>
   <link href="http://paultsr.in/blog/categories/joss/atom.xml" rel="self"/>
   <link href="http://paultsr.in/"/>
-  <updated>2013-02-24T23:28:24+05:30</updated>
+  <updated>2013-05-19T23:36:38+05:30</updated>
   <id>http://paultsr.in/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,48 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[How to install NS2.35 with Mannasim in Ubuntu 13.04]]></title>
+    <link href="http://paultsr.in/blog/2013/05/19/how-to-install-ns2-dot-35-with-mannasim-in-ubuntu-13-dot-04/"/>
+    <updated>2013-05-19T23:20:00+05:30</updated>
+    <id>http://paultsr.in/blog/2013/05/19/how-to-install-ns2-dot-35-with-mannasim-in-ubuntu-13-dot-04</id>
+    <content type="html"><![CDATA[<h2>Installation Steps</h2>
+
+<p>( open up the terminal and paste the following commands one by one )</p>
+
+<ol>
+<li><code>cd</code></li>
+<li><code>sudo apt-get install zlib1g-dev openssl libopenssl-ruby1.9.1 libssl-dev libruby1.9.1 libreadline-dev git-core</code></li>
+<li><code>cd /usr/local/</code></li>
+<li><code>sudo git clone git://github.com/paultsr/ns-allinone-2.35.git</code></li>
+<li><code>cd ns-allinone-2.35/</code></li>
+<li><code>sudo ./install</code></li>
+<li><code>source /etc/profile.d/ns2.sh</code></li>
+</ol>
+
+
+<p>Screen Shots</p>
+
+<p><img class="center" src="/images/mannasim/ns1.png" title="ns2.35 with mannasim installation on ubuntu13.04 image1" >
+<img class="center" src="/images/mannasim/ns2.png" title="ns2.35 with mannasim installation on ubuntu13.04 image2" >
+<img class="center" src="/images/mannasim/ns3.png" title="ns2.35 with mannasim installation on ubuntu13.04 image3" >
+<img class="center" src="/images/mannasim/ns4.png" title="ns2.35 with mannasim installation on ubuntu13.04 image4" >
+<img class="center" src="/images/mannasim/ns5.png" title="ns2.35 with mannasim installation on ubuntu13.04 image5" >
+<img class="center" src="/images/mannasim/ns6.png" title="ns2.35 with mannasim installation on ubuntu13.04 image6" >
+<img class="center" src="/images/mannasim/ns7.png" title="ns2.35 with mannasim installation on ubuntu13.04 image7" >
+<img class="center" src="/images/mannasim/ns8.png" title="ns2.35 with mannasim installation on ubuntu13.04 image8" >
+<img class="center" src="/images/mannasim/ns9.png" title="ns2.35 with mannasim installation on ubuntu13.04 image9" >
+<img class="center" src="/images/mannasim/ns10.png" title="ns2.35 with mannasim installation on ubuntu13.04 image10" ></p>
+
+<h2>License</h2>
+
+<p>Paul S
+<em>Free Software!</em></p>
+
+<p><em>Tested in Ubuntu 13.04 and JOSS Linux 1.10.3</em></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[JOSS Linux 1.10.3]]></title>
@@ -333,62 +375,6 @@ the commented out TODO line in the catch block with <em>out.println(“exception
 <p>It supports Linux, Solaris and Windows platforms.</p>
 
 <p><img class="center" src="/images/malayalam-firefox.png" title="malayalam Font installation on linux image1" ></p>
-
-<h2>License</h2>
-
-<p>Paul S</p>
-
-<p><em>Free Software Supporter!</em></p>
-
-<p><em>Tested in Ubuntu and JOSS Linux</em></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Run Windows applications in Linux]]></title>
-    <link href="http://paultsr.in/blog/2013/02/14/run-windows-applications-in-linux/"/>
-    <updated>2013-02-14T16:33:00+05:30</updated>
-    <id>http://paultsr.in/blog/2013/02/14/run-windows-applications-in-linux</id>
-    <content type="html"><![CDATA[<h2>Wine Doors 0.1 &amp; Wine in Ubuntu</h2>
-
-<p>Wine Doors is an application that allows easy installation and managing of Windows application on Linux desktop .</p>
-
-<p>This what Wine Doors Website has to say : -</p>
-
-<p>Wine-doors is an application designed to make installing windows software on Linux, Solaris or other Unix systems easier. Wine-doors is essentially a <em>package management tool</em> for windows software on Linux systems.</p>
-
-<p>Since Wine-Doors is basically to manage applications installed through wine and simplify their installation through wine so installing wine is a must.</p>
-
-<p><strong>To install Wine</strong></p>
-
-<p><code>sudo apt-get install wine</code></p>
-
-<p>After installing wine click <em>here</em> to download the latest version of Wine-Doors(<em>wine-doors_0.1.3rc1_all.deb</em>)</p>
-
-<p>Install the following packages from a terminal</p>
-
-<p><code>sudo apt-get install orange</code></p>
-
-<p><code>sudo apt-get install cabextract</code></p>
-
-<p><code>sudo dpkg -i wine-doors_0.1.3rc1_all.deb</code></p>
-
-<!-- more -->
-
-
-<p>I have used wine-doors release candidate 1 .</p>
-
-<p>After completing above steps launch Wine-Doors from <strong>Applications -> System-Tools -> Wine-Doors</strong></p>
-
-<p>Now Wine-Doors would download and install some necessary apps and when all this inital confiuguration is over you would find a dialog like this providing you a easy way of installing a number of popular windows application.</p>
-
-<p>I Was highly impressed by the ease with which it is possible to install many popular application using wine-doors.It was really impressive .There are a lot of windows applications that can be installed by wine.Check the <em>wine site</em> for the new windows applications which it supports.</p>
-
-<p><img class="center" src="/images/wine-doors1.png" title="wine installation on linux image1" ></p>
-
-<p><img class="center" src="/images/wine-doors3.png" title="wine installation on linux image2" ></p>
-
-<p><em>Wine-Doors in Action</em></p>
 
 <h2>License</h2>
 

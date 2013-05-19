@@ -9,7 +9,7 @@
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content="Windows 7 boasts a lot of great new shortcuts for switching between apps, moving windows around your screen, moving them to another monitor &hellip;">
+  <meta name="description" content="GO is a new programming language released by Google in November 2009. GO is a simple, concurrent, garbage-collected language with fast compilation. &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -75,6 +75,82 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/blog/2013/02/14/installing-google-go-on-ubuntu/">Installing Google GO in Ubuntu</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-14T11:49:00+05:30" pubdate data-updated="true">Feb 14<span>th</span>, 2013</time>
+        
+         | <a href="/blog/2013/02/14/installing-google-go-on-ubuntu/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>GO is a new programming language released by Google in November 2009. GO is a simple, concurrent, garbage-collected language with fast compilation. The language is still in development stage and there is no readymade package available for ubuntu. You can install it and try out the features from the version control repository of GO.</p>
+
+<h2>Installation Steps</h2>
+
+<p> <strong>Install Pre-requisites on ubuntu</strong></p>
+
+<p>You need gcc and some supporting software like bison to compile go. Install the following :</p>
+
+<p><code>sudo apt-get install mercurial bison libc6-dev python-setuptools python-dev</code></p>
+
+<p> <strong>Install GO</strong></p>
+
+<p>Download the go source package from <em>here</em>.Copy <em>go-path_syntax_build.tbz</em> file to the <em>/usr/local</em> directory.</p>
+
+<p><code>sudo cp go-path_syntax_build.tbz /usr/local/</code></p>
+
+<p>Then type the following commands in a terminal.</p>
+
+<p><code>cd /usr/local/</code></p>
+
+<p><code>sudo tar –jxvf go-path_syntax_build.tbz</code></p>
+
+<p>To change the default 386 architecture, edit the folowing file :</p>
+
+<p><code>sudo gedit /usr/local/go/.paulson/go.sh</code></p>
+
+<p>Replace the value of environmental variable <em>$GOARCH</em> to <em>amd64</em>
+Save the file and follow the steps below :</p>
+
+<p><code>cd /usr/local/go/src</code></p>
+
+<p><code>sudo ./all.bash</code></p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2013/02/14/installing-google-go-on-ubuntu/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
   
   
     <article>
@@ -648,7 +724,7 @@ It will create a Cygwin shortcut on your Desktop.</p>
 <aside class="sidebar">
   
     <section>
-  <h1>About Paul</h1>
+  <h1>About Paul S</h1>
  <img src="/about/shaiju_paul_me.jpg" title="Shaiju Paul" >
  <br>Presently Working as Asst. Professor in Department of CSE at Jyothi Engg. College, Thrissur.
  <br><a href="http://about.me/paulson">Know More..</a>
@@ -657,6 +733,10 @@ It will create a Cygwin shortcut on your Desktop.</p>
 <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/05/19/how-to-install-ns2-dot-35-with-mannasim-in-ubuntu-13-dot-04/">How to install NS2.35 with Mannasim in Ubuntu 13.04</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2013/02/24/how-to-unlock-idea-3g-netsetter/">How to Unlock Idea 3G Netsetter</a>
@@ -672,10 +752,6 @@ It will create a Cygwin shortcut on your Desktop.</p>
     
       <li class="post">
         <a href="/blog/2013/02/14/how-to-crack-slash-hack-passwords/">How to Crack/Hack Passwords</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/02/14/madeveloping-web-services-in-linux/">Developing Web Services in Linux</a>
       </li>
     
   </ul>

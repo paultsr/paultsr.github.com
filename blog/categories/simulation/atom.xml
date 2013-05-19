@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: simulation | Paul Shaiju]]></title>
+  <link href="http://paultsr.in/blog/categories/simulation/atom.xml" rel="self"/>
+  <link href="http://paultsr.in/"/>
+  <updated>2013-05-19T23:36:38+05:30</updated>
+  <id>http://paultsr.in/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[How to install NS2.35 with Mannasim in Ubuntu 13.04]]></title>
+    <link href="http://paultsr.in/blog/2013/05/19/how-to-install-ns2-dot-35-with-mannasim-in-ubuntu-13-dot-04/"/>
+    <updated>2013-05-19T23:20:00+05:30</updated>
+    <id>http://paultsr.in/blog/2013/05/19/how-to-install-ns2-dot-35-with-mannasim-in-ubuntu-13-dot-04</id>
+    <content type="html"><![CDATA[<h2>Installation Steps</h2>
+
+<p>( open up the terminal and paste the following commands one by one )</p>
+
+<ol>
+<li><code>cd</code></li>
+<li><code>sudo apt-get install zlib1g-dev openssl libopenssl-ruby1.9.1 libssl-dev libruby1.9.1 libreadline-dev git-core</code></li>
+<li><code>cd /usr/local/</code></li>
+<li><code>sudo git clone git://github.com/paultsr/ns-allinone-2.35.git</code></li>
+<li><code>cd ns-allinone-2.35/</code></li>
+<li><code>sudo ./install</code></li>
+<li><code>source /etc/profile.d/ns2.sh</code></li>
+</ol>
+
+
+<p>Screen Shots</p>
+
+<p><img class="center" src="/images/mannasim/ns1.png" title="ns2.35 with mannasim installation on ubuntu13.04 image1" >
+<img class="center" src="/images/mannasim/ns2.png" title="ns2.35 with mannasim installation on ubuntu13.04 image2" >
+<img class="center" src="/images/mannasim/ns3.png" title="ns2.35 with mannasim installation on ubuntu13.04 image3" >
+<img class="center" src="/images/mannasim/ns4.png" title="ns2.35 with mannasim installation on ubuntu13.04 image4" >
+<img class="center" src="/images/mannasim/ns5.png" title="ns2.35 with mannasim installation on ubuntu13.04 image5" >
+<img class="center" src="/images/mannasim/ns6.png" title="ns2.35 with mannasim installation on ubuntu13.04 image6" >
+<img class="center" src="/images/mannasim/ns7.png" title="ns2.35 with mannasim installation on ubuntu13.04 image7" >
+<img class="center" src="/images/mannasim/ns8.png" title="ns2.35 with mannasim installation on ubuntu13.04 image8" >
+<img class="center" src="/images/mannasim/ns9.png" title="ns2.35 with mannasim installation on ubuntu13.04 image9" >
+<img class="center" src="/images/mannasim/ns10.png" title="ns2.35 with mannasim installation on ubuntu13.04 image10" ></p>
+
+<h2>License</h2>
+
+<p>Paul S
+<em>Free Software!</em></p>
+
+<p><em>Tested in Ubuntu 13.04 and JOSS Linux 1.10.3</em></p>
+]]></content>
+  </entry>
+  
+</feed>
