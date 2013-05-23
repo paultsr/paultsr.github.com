@@ -4,7 +4,7 @@
   <title><![CDATA[Paul Shaiju]]></title>
   <link href="http://paultsr.in/atom.xml" rel="self"/>
   <link href="http://paultsr.in/"/>
-  <updated>2013-05-23T16:25:27+05:30</updated>
+  <updated>2013-05-23T17:39:44+05:30</updated>
   <id>http://paultsr.in/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -24,7 +24,7 @@
 
 <ol>
 <li><code>cd</code></li>
-<li><code>sudo apt-get install zlib1g-dev openssl libopenssl-ruby1.9.1 libssl-dev libruby1.9.1 libreadline-dev git-core</code></li>
+<li><code>sudo apt-get update &amp;&amp; sudo apt-get install build-essential autoconf automake libxmu-dev git openjdk-7-jre</code></li>
 <li><code>cd /usr/local/</code></li>
 <li><code>sudo git clone git://github.com/paultsr/ns-allinone-2.35.git</code></li>
 <li><code>cd ns-allinone-2.35/</code></li>
